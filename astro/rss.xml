@@ -2,10 +2,10 @@
 <rss version="2.0">
   <channel>
     <title>每日天文论文科普速递</title>
-    <link>https://123hurray.github.io/digest/</link>
+    <link>http://blog.rayxxzhang.com/digest/</link>
     <description>每天从 MNRAS 及主流天文期刊新论文中挑选 2 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 27 Sep 2026 16:14:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 16:16:40 +0000</lastBuildDate>
     <item>
       <title>星系"相撞"，并没有点燃宇宙早期的恒星诞生潮</title>
       <link>https://doi.org/10.1093/mnras/stag1698</link>
