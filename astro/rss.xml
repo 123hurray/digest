@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>每日天文论文科普速递</title>
+    <link>https://123hurray.github.io/digest/</link>
+    <description>每天从 MNRAS 及主流天文期刊新论文中挑选 2 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 27 Sep 2026 16:14:36 +0000</lastBuildDate>
+    <item>
+      <title>星系"相撞"，并没有点燃宇宙早期的恒星诞生潮</title>
+      <link>https://doi.org/10.1093/mnras/stag1698</link>
+      <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag1698</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 +0800</pubDate>
+      <description><![CDATA[<p>JWST/JADES 数据显示，宇宙早期（z=3–9）星系并合对比恒星形成率的提升仅约 10%，温和而非爆发；并合也未明显触发黑洞活动或增加莱曼α发射体比例。</p><p>论文：Mergers lighting the early Universe: modest star-formation enhancement without evidence for AGN or Lyα triggering<br/>作者：Dávid Puskás, Sandro Tacchella, Charlotte Simmonds, Gareth C. Jones, Ignas Juodžbalis, Jan Scholtz, William M. Baker, Andrew J. Bunker, Stefano Carniani, Emma Curtis-Lake, Qiao Duan, Daniel J. Eisenstein, Kevin Hainline, Benjamin D. Johnson, Roberto Maiolino, Marcia Rieke, Brant Robertson, Christina C. Williams, Joris Witstok<br/>期刊：MNRAS<br/>状态：Advance Article（已接收、在线优先出版）<br/>原文：<a href="https://doi.org/10.1093/mnras/stag1698">https://doi.org/10.1093/mnras/stag1698</a></p>]]></description>
+    </item>
+    <item>
+      <title>X 射线天空中的"隐形人"：为什么有些宇宙爆发现象"暗"得离谱</title>
+      <link>https://doi.org/10.1093/mnras/stag1743</link>
+      <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag1743</guid>
+      <pubDate>Mon, 28 Sep 2026 08:00:00 +0800</pubDate>
+      <description><![CDATA[<p>爱因斯坦探针发现的"暗"快速 X 射线暂现源，其"暗"主要源于软 X 射线被气体吸收而非尘埃遮挡；它们天然偏向 z≳2 的远古宇宙，与暗伽马暴的选择机制不同。</p><p>论文：Gas absorption of soft X-rays strongly impacts the redshift distribution of dark Fast X-ray Transients<br/>作者：Javier Sánchez-Sierras, Peter G. Jonker, Jonathan Quirola-Vásquez, Agnes P. C. van Hoof, Andrew J. Levan, Maria E. Ravasio, Joyce N. D. van Dalen, Franz E. Bauer, Jia-Ying Cao, Francesco Carotenuto, Jennifer A. Chacón, Ashley A. Chrimes, Laura Cotter, Gregory Corcoran, Rob A. J. Eyles-Ferris, Guoli Huang, Shuai-Qing Jiang, Zexi Li, Yifang Liang, He-Yang Liu, Daniele B. Malesani, Antonio Martin-Carrillo, Daniel Mata Sánchez, Nikhil Sarin, Manuel A. P. Torres, Qinyu Wu, Tong Zhao, Wen-Da Zhang<br/>期刊：MNRAS<br/>状态：Advance Article（已接收、在线优先出版）<br/>原文：<a href="https://doi.org/10.1093/mnras/stag1743">https://doi.org/10.1093/mnras/stag1743</a></p>]]></description>
+    </item>
+  </channel>
+</rss>
