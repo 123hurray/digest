@@ -5,13 +5,34 @@
     <link>https://123hurray.github.io/digest/</link>
     <description>每天从 MNRAS 及主流天文期刊新论文中挑选 2 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 28 Sep 2026 00:23:08 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:24:57 +0800</lastBuildDate>
     <item>
       <title>星系"相撞"，并没有点燃宇宙早期的恒星诞生潮</title>
       <link>https://doi.org/10.1093/mnras/stag1698</link>
       <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag1698</guid>
       <pubDate>Mon, 28 Sep 2026 00:02:00 +0800</pubDate>
-      <description><![CDATA[<p>JWST/JADES 数据显示，宇宙早期（z=3–9）星系并合对比恒星形成率的提升仅约 10%，温和而非爆发；并合也未明显触发黑洞活动或增加莱曼α发射体比例。</p><p>论文：Mergers lighting the early Universe: modest star-formation enhancement without evidence for AGN or Lyα triggering<br/>期刊：MNRAS<br/>状态：Advance Article（已接收、在线优先出版）<br/>原文：<a href="https://doi.org/10.1093/mnras/stag1698">https://doi.org/10.1093/mnras/stag1698</a></p>]]></description>
+      <description><![CDATA[<h1>星系"相撞"，并没有点燃宇宙早期的恒星诞生潮</h1>
+<p>提到星系并合，很多人脑海里会浮现触须星系（Antennae）那样壮观的画面：两个星系迎面撞上，激发出大规模的恒星诞生。长久以来，天文学家也倾向于认为，星系并合是点燃恒星形成、喂养中心黑洞的"导火索"。但这套剧本在宇宙早期还成立吗？</p>
+<h2>研究对象：宇宙最初 30 亿年里的星系对</h2>
+<p>这篇论文盯上的是红移 z = 3–9 的星系——也就是宇宙年龄还不到 30 亿年的"婴儿期"宇宙。研究团队用的是詹姆斯·韦布空间望远镜（JWST）的 JADES 深场巡天数据，这是目前观测早期宇宙最深的"眼睛"之一。</p>
+<p>团队先挑出了 1968 个星系，恒星质量都在 1 亿到 100 亿太阳质量之间。这是一个"质量完备"样本，意思是这个质量范围内的星系基本都被找齐了，不会因为漏掉暗弱星系而产生偏差。然后，他们用概率方法从中找出"并合对"：在天空中看起来靠得很近（投影距离 5–100 千秒差距，1 千秒差距约 3260 光年）、质量相当（质量比不小于 1:4）的星系对。更关键的是，他们还精心构造了一个"对照组"——一群在红移、质量、孤立程度和所处环境上都与并合对匹配、但并没有伴侣的星系。只有这样对比，才能看出并合本身到底带来了什么变化。</p>
+<h2>发现了什么：增强是有，但很"温和"</h2>
+<p>结果有点出人意料：</p>
+<ul>
+<li><strong>造星效率只提高了约一成。</strong> 距离在 20 千秒差距以内的并合对，它们的"比恒星形成率"（恒星形成率除以已有恒星质量，可以理解为星系的"造星效率"）只比对照组高了约 10%（1.10 ± 0.05 倍）。有增强，但远谈不上"爆发"。</li>
+<li><strong>增强是"慢工出细活"。</strong> 这种增强在 50–100 百万年的平均时间尺度上最明显；如果只看最近 5–10 百万年的"即时"造星活动，反而看不出增强——说明短时间尺度上的剧烈起伏，更多是星系内部过程（比如气体自身的坍缩与反馈）在驱动，而不是并合。</li>
+<li><strong>两类不同的"人生轨迹"。</strong> 把星系的恒星形成历史平均一下，能看到两个群体：一类恒星形成率一路爬升，另一类早就达到过峰值——可能对应并合的不同阶段（首次靠近前 vs 交会之后）。</li>
+<li><strong>黑洞没有被"点燃"。</strong> 并合对里，活动星系核（AGN，即中心超大质量黑洞正在大吃大喝、发出强烈辐射的星系）并没有明显变多；在"莱曼α发射体"（靠氢原子的一条特征谱线——莱曼α线发光的星系，常被用来在早期宇宙中寻找星系）的比例上，也没有看到增多。</li>
+</ul>
+<h2>为什么重要</h2>
+<p>这项工作给"并合驱动演化"的经典图像打了个补丁：在宇宙早期，星系并合对恒星形成的促进作用是温和的、渐进的，而不是一撞就爆。同样，在 5 千秒差距以上的距离尺度上，并合也没有明显点燃黑洞活动，或帮助莱曼α光子逃出来。这对理解早期星系是怎么长大的、第一批超大质量黑洞是怎么被"喂"大的，都有直接的参考意义。当然，作者也留了个口子：真正剧烈的变化，可能发生在距离更近（小于 5 千秒差距）的最终并合阶段——那是下一步要攻克的。</p>
+<hr />
+<p>📄 <strong>论文信息</strong>
+- 题目：Mergers lighting the early Universe: modest star-formation enhancement without evidence for AGN or Lyα triggering
+- 作者：Dávid Puskás, Sandro Tacchella, Charlotte Simmonds, Gareth C. Jones, Ignas Juodžbalis, Jan Scholtz, William M. Baker, Andrew J. Bunker, Stefano Carniani, Emma Curtis-Lake, Qiao Duan, Daniel J. Eisenstein, Kevin Hainline, Benjamin D. Johnson, Roberto Maiolino, Marcia Rieke, Brant Robertson, Christina C. Williams, Joris Witstok
+- 期刊：Monthly Notices of the Royal Astronomical Society (MNRAS)
+- 状态：Advance Article / Accepted manuscript（2026 年 9 月 9 日在线发布；已通过同行评审并被接收，尚未正式排版出版）
+- 原论文入口：https://doi.org/10.1093/mnras/stag1698</p>]]></description>
       <content:encoded><![CDATA[<h1>星系"相撞"，并没有点燃宇宙早期的恒星诞生潮</h1>
 <p>提到星系并合，很多人脑海里会浮现触须星系（Antennae）那样壮观的画面：两个星系迎面撞上，激发出大规模的恒星诞生。长久以来，天文学家也倾向于认为，星系并合是点燃恒星形成、喂养中心黑洞的"导火索"。但这套剧本在宇宙早期还成立吗？</p>
 <h2>研究对象：宇宙最初 30 亿年里的星系对</h2>
@@ -40,7 +61,30 @@
       <link>https://doi.org/10.1093/mnras/stag1743</link>
       <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag1743</guid>
       <pubDate>Mon, 28 Sep 2026 00:02:00 +0800</pubDate>
-      <description><![CDATA[<p>爱因斯坦探针发现的"暗"快速 X 射线暂现源，其"暗"主要源于软 X 射线被气体吸收而非尘埃遮挡；它们天然偏向 z≳2 的远古宇宙，与暗伽马暴的选择机制不同。</p><p>论文：Gas absorption of soft X-rays strongly impacts the redshift distribution of dark Fast X-ray Transients<br/>期刊：MNRAS<br/>状态：Advance Article（已接收、在线优先出版）<br/>原文：<a href="https://doi.org/10.1093/mnras/stag1743">https://doi.org/10.1093/mnras/stag1743</a></p>]]></description>
+      <description><![CDATA[<h1>X 射线天空中的"隐形人"：为什么有些宇宙爆发现象"暗"得离谱</h1>
+<h2>背景：先有"暗伽马暴"，再有"暗 X 射线暂现源"</h2>
+<p>天文学里有个词叫"暗暴"（dark burst）。故事要从伽马射线暴（GRB）说起：这类宇宙中最剧烈的爆炸，按理说爆发后应该能在可见光波段看到余辉，但有一些却怎么也找不到光学对应体——它们就是"暗伽马暴"。后来的研究发现，很多暗伽马暴其实是被宿主星系里的大量尘埃挡住了：光被尘埃吸收了，所以显得"暗"。</p>
+<p>这几年，中国的"爱因斯坦探针"卫星（Einstein Probe）在天上发现了一批新的爆发现象——快速 X 射线暂现源（Fast X-ray Transient，简称 FXT）。它们在 X 射线波段突然亮起，又在几小时到几天内暗下去，其中一些同样找不到光学对应体，被称为"暗 FXT"。很自然的问题是：暗 FXT 是不是也像暗伽马暴一样，只是被尘埃挡住了？</p>
+<h2>研究人员做了什么</h2>
+<p>这篇论文的第一作者 Javier Sánchez-Sierras（荷兰拉德堡德大学）带领的团队指出：不能直接照搬伽马暴的解释，因为 X 射线和伽马射线的"穿透力"不一样——软 X 射线（能量较低的 X 射线）很容易被星际气体吸收，而伽马射线几乎不受影响。</p>
+<p>他们的推理链条是这样的：爱因斯坦探针的宽视场 X 射线望远镜（EP-WXT）工作在软 X 射线波段。一个被气体包裹的暗 FXT 要想被 EP-WXT 看到，它发出的 X 射线在"静止系"（也就是它自己所在处的）能量必须高于 2–3 keV，这样即使被气体吸收掉一部分，剩下的还能被我们捕捉到。而宇宙膨胀会把光子的能量"拉低"（红移效应：红移 z 越大，我们看到的能量越低）。所以，要让静止系 2–3 keV 的光子落进 EP-WXT 的探测窗口，这个源的红移必须 z ≳ 2——也就是它至少来自宇宙年龄不到 33 亿年时的远古宇宙。</p>
+<p>为了验证这个想法，团队具体分析了两个暗 FXT：</p>
+<ul>
+<li><strong>EP241103a</strong>：光学波段完全没看到对应体，研究认为它的宿主星系消光（尘埃遮挡）非常严重；按可能的红移约 2.5 来算，它发出的 X 射线受气体吸收的影响并不大。</li>
+<li><strong>EP260409a</strong>：光学同样没看到，但在近红外波段找到了对应体——这本身就是一个"高红移"的信号（远古天体的光会被红移到红外波段）。团队认为它很可能位于 z ≳ 4。</li>
+</ul>
+<p>团队还做了模拟：对于被浓密气体包裹的爆发（气体柱密度 NH ≳ 10²² cm⁻²，可以理解为视线方向上的气体有多"厚"），在低红移处 EP-WXT 反而很难探测到它们——因为低红移时，严重的吸收会直接把信号"吃掉"。</p>
+<h2>发现了什么：暗 FXT 天然偏向远古宇宙</h2>
+<p>结论是：爱因斯坦探针看到的暗 FXT，很可能本来就来自中等到高红移的远古宇宙，这是一种"选择效应"——不是它们不存在于近处，而是近处的暗 FXT 会被气体吸收挡得严严实实，根本进不了我们的样本。这和暗伽马暴的情况不一样：暗伽马暴的"暗"主要归因于尘埃，而暗 FXT 的"暗"更多是气体吸收加上红移共同作用的结果。</p>
+<h2>为什么重要</h2>
+<p>这项工作帮天文学家理清了一个容易混淆的概念：同样是"看不到光学对应体"，背后的物理可以完全不同。它也给未来的观测指了路——想搞清楚暗 FXT 的真面目（它们到底是远古的伽马暴，还是某种全新的爆发现象），近红外后续观测比光学观测更关键，因为它们大概率就藏在宇宙深处。</p>
+<hr />
+<p>📄 <strong>论文信息</strong>
+- 题目：Gas absorption of soft X-rays strongly impacts the redshift distribution of dark Fast X-ray Transients
+- 作者：Javier Sánchez-Sierras, Peter G. Jonker, Jonathan Quirola-Vásquez, Agnes P. C. van Hoof, Andrew J. Levan, Maria E. Ravasio, Joyce N. D. van Dalen, Franz E. Bauer, Jia-Ying Cao, Francesco Carotenuto, Jennifer A. Chacón, Ashley A. Chrimes, Laura Cotter, Gregory Corcoran, Rob A. J. Eyles-Ferris, Guoli Huang, Shuai-Qing Jiang, Zexi Li, Yifang Liang, He-Yang Liu, Daniele B. Malesani, Antonio Martin-Carrillo, Daniel Mata Sánchez, Nikhil Sarin, Manuel A. P. Torres, Qinyu Wu, Tong Zhao, Wen-Da Zhang
+- 期刊：Monthly Notices of the Royal Astronomical Society (MNRAS)
+- 状态：Advance Article / Accepted manuscript（2026 年 9 月 17 日在线发布；已通过同行评审并被接收，尚未正式排版出版）
+- 原论文入口：https://doi.org/10.1093/mnras/stag1743</p>]]></description>
       <content:encoded><![CDATA[<h1>X 射线天空中的"隐形人"：为什么有些宇宙爆发现象"暗"得离谱</h1>
 <h2>背景：先有"暗伽马暴"，再有"暗 X 射线暂现源"</h2>
 <p>天文学里有个词叫"暗暴"（dark burst）。故事要从伽马射线暴（GRB）说起：这类宇宙中最剧烈的爆炸，按理说爆发后应该能在可见光波段看到余辉，但有一些却怎么也找不到光学对应体——它们就是"暗伽马暴"。后来的研究发现，很多暗伽马暴其实是被宿主星系里的大量尘埃挡住了：光被尘埃吸收了，所以显得"暗"。</p>
