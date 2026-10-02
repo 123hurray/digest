@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>你的海马体里，藏着一台小型的 GPT？</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>你的海马体里，藏着一台小型的 GPT？</h1>
+<p>实验场景本身就像科幻片。8 位正在做癫痫术前评估的患者，颅内电极植入了海马体，研究人员让他们戴着耳机听人讲故事，同时逐个神经元地记录放电。全程 356 个神经元被记录下来，其中 92 个的放电活动能被语义特征显著预测。</p>
+<p>研究团队来自贝勒医学院神经外科和莱斯大学，第一作者是 Melissa Franch。他们想问一个古老又新鲜的问题：大脑是怎么装下"词义"的？方法上则走了条捷径，直接借用大语言模型的词嵌入当参照物。分别来自 Word2Vec、BERT 第 13 层和 GPT-2 第 37 层的三份语义地图。用编码模型从语义特征预测神经元放电，再用降秩回归反过来从群体神经活动预测语言模型嵌入，两个方向互相印证。光是"神经距离和语义距离"的相关计算，就在 2600 多万个词对上跑了一遍。</p>
+<p>数字摆出来很有分量。GPT-2 第 37 层的语义距离和神经距离的相关系数是 0.0932，置信区间窄到小数点后四位，P 值小到 2.2×10⁻³⁰⁸。绝对值不大，但考虑到是 2600 万个词对上的统计，这个相关已经接近实验测量噪声允许的天花板，捕获了超过一半的可解释神经语义结构。BERT 表现相近，Word2Vec 则呈负相关，对齐得很差。更有说服力的是对照：语义特征解释神经活动方差的能力，显著高于语音特征（P=2.76e-27），说明神经元追踪的是词的意思，发音只是载体。还有一个细腻的发现叫"对比编码"：语义距离极短的近义词，神经表征反而被拉开，每个患者身上都成立。</p>
+<p>结论可以一句话说完：人类海马神经元用分布式、随上下文变化的群体活动模式编码听到的词语的含义，其几何结构和大语言模型的词向量有可测量的相似性。大脑和人工智能，在"怎么表示意义"这件事上殊途同归。数据和代码都已公开，有人想复现可以直接去拿。</p>
+<p class="meta">每日生命科学论文科普速递 · 2026-09-30</p>
+</main>
+</body>
+</html>
