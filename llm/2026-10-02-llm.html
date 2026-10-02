@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>给大模型装上"万能遥控器"？</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>给大模型装上"万能遥控器"？</h1>
+<p>"操控"（steering）是大语言模型研究里一条越来越热的路线。它不重新训练模型，而是直接干预模型内部的激活，让模型按指定概念生成：更诚实一点，或者带上某种风格。问题是现有的操控方法大多在激活空间里做线性、和上下文无关的干预。UNSW 悉尼分校和香港科技大学（广州）的三位研究者认为，这会把太多行为区分硬塞进一个固定表示，造成信息瓶颈。</p>
+<p>他们提出的 MetaSteer 换了一条路。它学习的是非线性、随上下文变化的干预，直接作用在注意力投影矩阵上，激活效果天然随输入的上下文而变化，也不再依赖"概念在几何上是线性的"这一假设。训练方式走偏好优化的框架，在一个混合偏好语料上只训练一次，之后就能零样本迁移到从未见过的新概念和分布外上下文。打个比方：以前每个概念都要单独配一个遥控器，MetaSteer 想做的是训练一次就适配所有新概念的万能遥控器。</p>
+<p>实验规模不小：3 个可控文本生成基准加上 3 个智能体场景，横跨多个模型家族和规模。尽管只用了低秩适配器，MetaSteer 在零样本设置下，大多数总体对比中和强任务专用操控基线持平或更优。附带发现也很有意思：文本生成操控越强，智能体操控也越强，两者相关。论文还讨论了隐状态轨迹的几何效应、能力保留，以及可迁移操控带来的安全考量。</p>
+<p>这项研究折射出的趋势值得留意：模型内部表示正越来越多地被当作直接操作的界面，可解释性研究和激活干预正在合流。而操控能力越强，潜在风险也越大，作者自己把安全讨论写进了论文。需要说明的是，这是 arXiv 预印本，未经同行评审，结论以作者自述为准，尚无第三方复现。</p>
+<p class="meta">每日大模型论文科普速递 · 2026-09-30</p>
+</main>
+</body>
+</html>
