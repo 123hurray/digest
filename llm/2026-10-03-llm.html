@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 当创意评委，打分能被一句话带偏</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>AI 当创意评委，打分能被一句话带偏</h1>
+<p>让 AI 评价 AI 生成的创意，这事现在越来越常见。无论是筛论文还是比点子，都有人在用大模型当裁判。但这些裁判本身靠谱吗？这篇论文捅破了一层窗户纸：今天常用的 AI 裁判大多是临时拼凑出来的，而且只在人类写的论文上验证过，从没在它们真正要打分的"AI 生成的创意"上正经考过试。</p>
+<p>作者们先搭了一个考场。他们去 OpenReview 上挖掘审稿意见，找出审稿人明确肯定或否定某篇论文原创性的段落，只保留本领域内意见完全一致的极端案例，建成评测基准。再让一个普通的 LLM 生成器产出一批创意，六个 AI 裁判轮流上场打分。</p>
+<p>考试结果相当难看。只在提示词里加一句话，告诉裁判"审稿人认为其中一个创意更新颖"，六个裁判对超过一半的创意对直接改判，成对准确率的波动超过 50 个百分点，有时甚至跌破随机水平，也就是不如抛硬币。更尴尬的是，同一个改动让这个裁判变好，却让那个裁判变差，没有一个是稳的。</p>
+<p>研究者还试了常规的补救手段：检索增强、给更大的推理预算，基本没用，甚至让某些模型表现更差。两个专门为评新颖度打造的专用评测模型，更是被作者"最便宜的一句提示词基线"打败了。</p>
+<p>这些结果动摇了之前大量工作里"AI 生成的创意更新颖"的说法，因为那些说法正是用这类 AI 裁判评出来的。作者呼吁开发更稳健的新颖度评测方法。在那之前，看到"经 AI 评审，某创意新颖度第一"之类的结论，或许都该多打一个问号。</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-01</p>
+</main>
+</body>
+</html>
