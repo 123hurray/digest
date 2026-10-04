@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 记住了所有对话，却搞不懂现在是什么情况</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>AI 记住了所有对话，却搞不懂现在是什么情况</h1>
+<p>用过 AI 助手处理长任务的人，大概都见过它原地打转的样子：翻来覆去问同一个问题，或者在一个死胡同里来回试探。这篇来自南开大学、阿里巴巴集团和清华大学团队的预印本，给这个通病起了个名字，叫"信念陷阱"（Belief Trapping）。</p>
+<p>这个名字很形象。智能体一直在行动，看起来很忙，却没有真正推进目标。论文把陷阱分成停滞、打转或跑偏三种样子：停滞是卡住了不动，打转是同一圈里重复试错，跑偏是离任务越走越远。作者的诊断一针见血：智能体的决策上下文是聊天记录，而聊天记录记的是"发生过什么"，不是"现在是什么情况"。"记住了交互历史"不等于"理解了当前世界"，这句话就是全文的题眼。</p>
+<p>解法也顺着这个诊断来。团队提出的 PoS（Progression of States）框架，让智能体在推理时显式维护一份"信念状态"：对当前世界状态的估计，加上尚未解决的任务需求。好比一个人做事时心里有张清单，左边是现在什么情况，右边是还差什么没办。框架不需要额外训练，是个推理时的外挂；它持续检查智能体有没有掉进信念陷阱，一旦发现，就按陷阱的类型对症"抢救"。</p>
+<p>实验数据很扎实。论文报告，在四个基准上用三个不同的大模型做基座，这个方法都是总分最高。这四个基准是 ALFWorld 和 LOCA-Bench、RCA-100 与 ClinDiag，覆盖家务操作、定位、故障诊断和临床诊断任务。据媒体对论文摘要的转述，ALFWorld 上相对最强同基座基线的提升是 22.68%，故障诊断基准 RCA-100 上的联合准确率提升 37.89%。代码已经开源，地址是 github.com/luoyu100/PoS。</p>
+<p>这篇工作的核心观点可以单独拎出来。长期任务管理要抓的，是显式维护"现在世界是什么样"。聊天记录是流水账，信念状态才是台账。当然，这是 arXiv 上的预印本，还没经过同行评审，数字和方法都还要等学界检验。</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-01</p>
+</main>
+</body>
+</html>
