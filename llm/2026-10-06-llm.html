@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 代购也认"出身"：同样的要求，不同的网站，命运不同</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>AI 代购也认"出身"：同样的要求，不同的网站，命运不同</h1>
+<p>让 AI 智能体替你买东西、订酒店、挑论文引用，听起来很省心。但一篇新预印本发现，这些智能体有个很人性的毛病：认"出身"。同样满足你的要求，来自它偏爱的网站的选项，和来自它不待见的网站的选项，命运完全不同。</p>
+<p>研究团队做了个干净的对照实验。12 个智能体模型，三个场景：买商品、订酒店、选引用论文。每个场景里，候选项满足的要求数量和展示位置都一样，唯一的区别是来源。结果是，每个模型在每个领域都有自己偏爱的来源和回避的来源，而且模型之间偏好的来源大体重合。偏好强到能压过要求本身：一个少满足一条要求的弱项商品，如果来自偏爱来源，而更符合要求的对手来自被回避的来源，这个弱项商品约三分之二的时间会被选中。反过来，如果弱项来自被回避的来源，强项来自偏爱来源，弱项几乎从不被选中。</p>
+<p>来源这个标签本身就有魔力。把商品的来源信息藏起来，偏好就减弱了；把一个弱项商品重新标注成偏爱来源，它的被选率立刻上升。团队还追了两条成因。第一条是训练走的捷径：训练时奖励的是"选到更好的东西"，模型学到的是"这个来源的东西通常不错"，把来源当成了质量的替代信号。第二条是信息缺失时的先入之见：候选项信息不全时，模型就用对来源的刻板印象来脑补。两条都有对应的解法：把缺失的信息补齐，或者在提示词里明确要求对冲这种先入之见，偏好都能缓解。</p>
+<p>这件事的麻烦在于隐蔽。智能体不会告诉你"因为它是某网站的所以我选了它"，它给出的理由听起来都和要求有关。等 AI 真的开始替我们花钱、替我们筛选信息，这种来源偏好会悄悄决定我们看到什么、买到什么。好消息是，知道病因就有药方，信息补全和提示词对冲都不需要重新训练模型。</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-02</p>
+</main>
+</body>
+</html>
