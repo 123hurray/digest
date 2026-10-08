@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>会解题不等于会讲题：教 AI 因材施教</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>会解题不等于会讲题：教 AI 因材施教</h1>
+<p>大模型越来越会解题，但会解题和会教人是两回事。课堂上同一个老师面对几十个学生，讲法得因人而异；AI 家教想真正教人，也得先学会"因材施教"。一篇 10 月 6 日挂上 arXiv 的预印本提出了训练框架 Sherpa，目标就是把"会解题"的模型变成"会教人"的老师。</p>
+<p>现有教 AI 当老师的方法，多半依赖演示、偏好数据或预先定好的教学标准。这些信号的问题在于，它们没有扎根在学生的学习成果上。不同学习者需要的教学策略差别很大，一套标准讲法走天下，注定有人跟不上。</p>
+<p>Sherpa 的做法是多轮强化学习。先准备多个"学生原型"，也就是设置成不同学习偏好的语言模型；再训练一个老师模型，让它直接最大化这些学生的学习成果来自适应调整教学策略。奖励信号直接连着学生的学习成果：学生到底学会了没有。</p>
+<p>效果用数字说话。用 Sherpa 训练出的老师模型，让所有学生原型的课后表现平均提升 20.5 个百分点。在数学辅导评估基准 MathTutorBench 上，总体教学质量得分从 52.5% 涨到 79.2%。人类评估者做两两对比，训练后的老师在 79.6% 的对比中更受欢迎，赢过基座模型。</p>
+<p>作者认为，这让 AI 老师学会了适应多样化的模拟学生，离人类教师近了一步，也为 AI 家教真正去教现实中的学生铺了路。这篇是尚未经过同行评审的预印本，结论还要等学界检验。</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-06</p>
+</main>
+</body>
+</html>
