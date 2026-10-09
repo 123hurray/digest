@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 说谎要想得更久：光看'想了多久'，能识破它吗</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>AI 说谎要想得更久：光看"想了多久"，能识破它吗</h1>
+<p>人说谎比说真话费脑子。要编细节、压住真相，还要观察对方信没信，心理学里这叫认知负荷理论。Uri Maoz 团队把这个想法套到了大语言模型上：当模型被要求说谎时，它的"思考"会不会也变长？这里的"思考"有明确度量，就是推理型模型作答前生成的推理 token 数量。</p>
+<p>实验设计干净利落。210 道选择题，覆盖分析性、描述性和规范性三种推理类型，再分道德与非道德两个领域。三个推理型模型上阵：谷歌的 Gemma-4-e4b、Qwen-3.5-9b、OpenAI 的 GPT-OSS-120B。每个模型分别接到三种系统提示：说真话、说谎、真假无所谓，然后比较三种条件下的推理 token 用量。</p>
+<p>三个模型一致地表现出"真话最省脑"。Gemma 说真话时的推理 token 比说谎少 10.3%（p&lt;.001）；GPT-OSS 说真话比说谎少 50.9%，比"无所谓"条件少 51.8%；Qwen 分得最干净，说真话的推理链比说谎短 75.3%。分析性题目里，Gemma 说谎比说真话多用 22.7% 的 token。注意这里看的只是 token 数量，不看推理链写了什么。看的是你"想了多久"，而不是"想了什么"。</p>
+<p>作者的提法很克制。这只是一个概念验证：在原始推理链不可见或不可信的时候，推理 token 数量可以作为一个内容无关、低带宽的谎言信号候选。但它还没被证明能检测自发的欺骗或普遍的失齐行为，更不能拿来做个案级检测。不能因为某次回答"想得久"，就断定模型在撒谎。</p>
+<p>有意思的地方恰恰在这个边界上。AI 安全讨论里，人们总想着读模型的"心"来判断它诚不诚实，这篇提醒我们，也许不用读心，数一数它"想了多久"就够了。当然，前提是这个信号在更真实的场景里也成立，而这正是作者留给下一步的问题。</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-07</p>
+</main>
+</body>
+</html>
