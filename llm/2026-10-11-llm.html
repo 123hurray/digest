@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>让 AI"别想了"，它还在偷偷想</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>让 AI"别想了"，它还在偷偷想</h1>
+<p>现在的大语言模型流行带一个"思考模式"开关。但开关有两面：怎么让人好好想，研究得很多；怎么让人干脆别想，却没人系统问过。这项新研究就盯着后者：你对模型说"不许思考，直接给答案"，它真的听话吗？</p>
+<p>先解决怎么测量"没想"。过去的做法很糙，要么看思考模式开关关没关，要么看推理链有多长。这篇工作指出两个指标都不可靠：关掉思考模式的模型照样可能输出推理过程，而很长的痕迹里也可能塞的是废话。团队把每个回答切成两段，"前置思考片段"加"最终答案"，再用三层指标分别打分：Empty-Thinking Rate 看它是不是严格只给答案；指令感知的问答相关性看思考片段跟问题有多贴；LLM 当裁判的显式推理率看里面到底有没有看得见的推理。三层分开，才能区分"只给了答案""写了话但没推理"和"真的在推理"这三种状态。</p>
+<p>实验覆盖了 6 种提示词干预和 6 个大语言模型，题型分是非题、多选题和开放题三种。结果是，即使上了最严格的"不许思考"控制，模型还是会输出看得见的显式推理。作者把这个现象命名为 Thinking Inertia，思维惯性。答案空间越开放，惯性越明显，开放题比选择题严重，选择题又比是非题严重。</p>
+<p>代价倒是分情况。是非题和多选题上，压住思考不影响准确率；开放题上，"只给答案的合规"和任务准确率之间出现了权衡，想合规就要丢分。实验还给了一个缓解线索：把同一个问题改写成"提供候选答案"的形式，模型就更容易做到只给答案、不加思考。</p>
+<p>作者的结论值得写进模型评估手册：停止显式推理不能从模型设置或一条指令里默认成立。"不思考"和"会思考"一样，是需要系统评估的非平凡能力。下次你关掉某个 AI 的思考模式，发现它回答还是长篇大论，你知道它不是没听懂，它只是有惯性。</p>
+<p>需要说明的是，这篇论文目前是 arXiv 预印本，未经同行评审。实验设计是清晰的，但不同模型家族的行为差异还需更多复现。</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-09</p>
+</main>
+</body>
+</html>
