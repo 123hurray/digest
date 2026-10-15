@@ -5,11 +5,11 @@
     <link>https://123hurray.github.io/digest/astro/</link>
     <description>每天从主流天文期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Oct 2026 09:07:09 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:12:43 +0800</lastBuildDate>
     <item>
       <title>这颗行星的黄昏比清晨热 650 度：韦布画出热木星的第一张“立体肖像”</title>
       <link>https://123hurray.github.io/digest/astro/2026-10-15-astro.html</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2610.18806v1</guid>
+      <guid isPermaLink="true">https://doi.org/10.1038/s41550-026-02986-4</guid>
       <pubDate>Thu, 15 Oct 2026 09:06:16 +0800</pubDate>
       <description><![CDATA[<h1>这颗行星的黄昏比清晨热 650 度：韦布画出热木星的第一张"立体肖像"</h1>
 <p>行星凌星是天文学里最常用的系外行星观测手段。行星从恒星前面经过，恒星光有一小部分穿过行星边缘的大气，分子在光谱上留下吸收的指纹。传统做法把整圈大气当成均匀的一环，算出一条平均光谱。可一颗真实的行星不是均匀的圆环，它有白天和黑夜，有赤道和两极，有风和喷流。</p>
@@ -23,7 +23,7 @@
 发表日期：2026-10-14
 期刊：Nature Astronomy
 状态：正式出版
-原论文入口：https://arxiv.org/abs/2610.18806v1（arXiv 全文与期刊版本为同一论文）</p>]]></description>
+原论文入口：https://doi.org/10.1038/s41550-026-02986-4</p>]]></description>
       <content:encoded><![CDATA[<h1>这颗行星的黄昏比清晨热 650 度：韦布画出热木星的第一张"立体肖像"</h1>
 <p>行星凌星是天文学里最常用的系外行星观测手段。行星从恒星前面经过，恒星光有一小部分穿过行星边缘的大气，分子在光谱上留下吸收的指纹。传统做法把整圈大气当成均匀的一环，算出一条平均光谱。可一颗真实的行星不是均匀的圆环，它有白天和黑夜，有赤道和两极，有风和喷流。</p>
 <p>康奈尔和布里斯托大学的团队这次用的新方法叫 transmission strings，中文可以叫"透射弦"或者"凌星成像"。它的思路是把凌星过程中的光变曲线按角度拆开，像拉一根根弦一样，分别解出大气边缘不同位置的透射光谱。这样不再是整圈平均，而是绕着行星的昼夜分界线一圈圈地看：从东到西的半球不对称能解出来，从赤道到两极的变化也能解出来，波长覆盖 0.6 到 12 微米，几乎是韦布红外能力的全程。</p>
@@ -36,7 +36,7 @@
 发表日期：2026-10-14
 期刊：Nature Astronomy
 状态：正式出版
-原论文入口：https://arxiv.org/abs/2610.18806v1（arXiv 全文与期刊版本为同一论文）</p>]]></content:encoded>
+原论文入口：https://doi.org/10.1038/s41550-026-02986-4</p>]]></content:encoded>
     </item>
     <item>
       <title>太阳风的混沌里，藏着一套有秩序的“麻花”</title>
