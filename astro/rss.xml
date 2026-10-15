@@ -5,7 +5,39 @@
     <link>https://123hurray.github.io/digest/astro/</link>
     <description>每天从主流天文期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 14 Oct 2026 08:56:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:07:09 +0800</lastBuildDate>
+    <item>
+      <title>这颗行星的黄昏比清晨热 650 度：韦布画出热木星的第一张“立体肖像”</title>
+      <link>https://123hurray.github.io/digest/astro/2026-10-15-astro.html</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.18806v1</guid>
+      <pubDate>Thu, 15 Oct 2026 09:06:16 +0800</pubDate>
+      <description><![CDATA[<h1>这颗行星的黄昏比清晨热 650 度：韦布画出热木星的第一张"立体肖像"</h1>
+<p>行星凌星是天文学里最常用的系外行星观测手段。行星从恒星前面经过，恒星光有一小部分穿过行星边缘的大气，分子在光谱上留下吸收的指纹。传统做法把整圈大气当成均匀的一环，算出一条平均光谱。可一颗真实的行星不是均匀的圆环，它有白天和黑夜，有赤道和两极，有风和喷流。</p>
+<p>康奈尔和布里斯托大学的团队这次用的新方法叫 transmission strings，中文可以叫"透射弦"或者"凌星成像"。它的思路是把凌星过程中的光变曲线按角度拆开，像拉一根根弦一样，分别解出大气边缘不同位置的透射光谱。这样不再是整圈平均，而是绕着行星的昼夜分界线一圈圈地看：从东到西的半球不对称能解出来，从赤道到两极的变化也能解出来，波长覆盖 0.6 到 12 微米，几乎是韦布红外能力的全程。</p>
+<p>观测对象是热木星 WASP-17b，距离地球约 1300 光年，是一颗被恒星烤得滚烫的巨行星。数据来自韦布的 TST DREAMS 保障时间观测项目。结果相当漂亮：大气的热标高沿着昼夜分界线有一道清晰的过渡，早晨一侧的温度只有 858 开尔文，傍晚一侧高达 1522 开尔文，相差约 650 度。早晨和傍晚在这里指的是行星自转的两个方向：一侧的大气正从漫长的黑夜转出来，已经冷透了；另一侧的大气刚被白昼烘烤过，余热未散。</p>
+<p>温度差之外，形状也不再是正圆。大气在一侧更蓬松，整颗行星的轮廓微微拉长，像被风吹偏的气球。布里斯托团队用图像还原出的形状显示，赤道附近有一条宽阔的带状急流，把热量和物质从永远朝向恒星的白昼面一路搬运到永恒黑夜，再从早晨一侧折返。这种风和热的搬运正是理论预言过的，这次是第一次直接看到它在大气轮廓上留下的痕迹。</p>
+<p>还有一个细节值得注意。水和二氧化碳的丰度绕着整圈大气基本恒定，没有随温度剧烈起伏。这对全球环流模型是个有用的约束：动力学可以把成分搅匀，温度却依然分化。整套结果和此前的夜侧辐射测量、白昼面掩星成像都对得上，WASP-17b 由此成为凌星系外行星里观测最完备的一颗，也成了检验模型的基准。</p>
+<p>这项工作的意义更像打开了一扇门。凌星成像补上了掩星成像看不到的那一半：掩星看的是白昼面，凌星看的是昼夜分界线和夜侧结构。两者拼起来，系外行星大气才第一次有了真正的三维模样。团队表示，接下来会把这套方法用到更多凌星行星上，目标是画出喷流、热点和云层的分布，把"外星天气预报"从概念变成观测。</p>
+<p>论文题目：A Spatial Map of the Atmospheric Limb of a Hot Jupiter
+作者：Lili Alderson、Hannah R. Wakeford、David Grant、Nikole K. Lewis、Avinash Verma、Jayesh Goyal、Mark Hammond、Daniel Valentine、Natalie H. Allen、Ana Glidden、Amélie Gressier、Jingcheng Huang、Maura Lally、Dana R. Louie、Jacob Lustig-Yaeger、Cathal Maguire、Elijah Mullens、Kristen S. Sotzen、Jeff A. Valenti、Roeland P. van der Marel、Tiffany Kataria
+发表日期：2026-10-14
+期刊：Nature Astronomy
+状态：正式出版
+原论文入口：https://arxiv.org/abs/2610.18806v1（arXiv 全文与期刊版本为同一论文）</p>]]></description>
+      <content:encoded><![CDATA[<h1>这颗行星的黄昏比清晨热 650 度：韦布画出热木星的第一张"立体肖像"</h1>
+<p>行星凌星是天文学里最常用的系外行星观测手段。行星从恒星前面经过，恒星光有一小部分穿过行星边缘的大气，分子在光谱上留下吸收的指纹。传统做法把整圈大气当成均匀的一环，算出一条平均光谱。可一颗真实的行星不是均匀的圆环，它有白天和黑夜，有赤道和两极，有风和喷流。</p>
+<p>康奈尔和布里斯托大学的团队这次用的新方法叫 transmission strings，中文可以叫"透射弦"或者"凌星成像"。它的思路是把凌星过程中的光变曲线按角度拆开，像拉一根根弦一样，分别解出大气边缘不同位置的透射光谱。这样不再是整圈平均，而是绕着行星的昼夜分界线一圈圈地看：从东到西的半球不对称能解出来，从赤道到两极的变化也能解出来，波长覆盖 0.6 到 12 微米，几乎是韦布红外能力的全程。</p>
+<p>观测对象是热木星 WASP-17b，距离地球约 1300 光年，是一颗被恒星烤得滚烫的巨行星。数据来自韦布的 TST DREAMS 保障时间观测项目。结果相当漂亮：大气的热标高沿着昼夜分界线有一道清晰的过渡，早晨一侧的温度只有 858 开尔文，傍晚一侧高达 1522 开尔文，相差约 650 度。早晨和傍晚在这里指的是行星自转的两个方向：一侧的大气正从漫长的黑夜转出来，已经冷透了；另一侧的大气刚被白昼烘烤过，余热未散。</p>
+<p>温度差之外，形状也不再是正圆。大气在一侧更蓬松，整颗行星的轮廓微微拉长，像被风吹偏的气球。布里斯托团队用图像还原出的形状显示，赤道附近有一条宽阔的带状急流，把热量和物质从永远朝向恒星的白昼面一路搬运到永恒黑夜，再从早晨一侧折返。这种风和热的搬运正是理论预言过的，这次是第一次直接看到它在大气轮廓上留下的痕迹。</p>
+<p>还有一个细节值得注意。水和二氧化碳的丰度绕着整圈大气基本恒定，没有随温度剧烈起伏。这对全球环流模型是个有用的约束：动力学可以把成分搅匀，温度却依然分化。整套结果和此前的夜侧辐射测量、白昼面掩星成像都对得上，WASP-17b 由此成为凌星系外行星里观测最完备的一颗，也成了检验模型的基准。</p>
+<p>这项工作的意义更像打开了一扇门。凌星成像补上了掩星成像看不到的那一半：掩星看的是白昼面，凌星看的是昼夜分界线和夜侧结构。两者拼起来，系外行星大气才第一次有了真正的三维模样。团队表示，接下来会把这套方法用到更多凌星行星上，目标是画出喷流、热点和云层的分布，把"外星天气预报"从概念变成观测。</p>
+<p>论文题目：A Spatial Map of the Atmospheric Limb of a Hot Jupiter
+作者：Lili Alderson、Hannah R. Wakeford、David Grant、Nikole K. Lewis、Avinash Verma、Jayesh Goyal、Mark Hammond、Daniel Valentine、Natalie H. Allen、Ana Glidden、Amélie Gressier、Jingcheng Huang、Maura Lally、Dana R. Louie、Jacob Lustig-Yaeger、Cathal Maguire、Elijah Mullens、Kristen S. Sotzen、Jeff A. Valenti、Roeland P. van der Marel、Tiffany Kataria
+发表日期：2026-10-14
+期刊：Nature Astronomy
+状态：正式出版
+原论文入口：https://arxiv.org/abs/2610.18806v1（arXiv 全文与期刊版本为同一论文）</p>]]></content:encoded>
+    </item>
     <item>
       <title>太阳风的混沌里，藏着一套有秩序的“麻花”</title>
       <link>https://123hurray.github.io/digest/astro/2026-10-14-astro.html</link>
