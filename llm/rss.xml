@@ -5,7 +5,23 @@
     <link>https://123hurray.github.io/digest/llm/</link>
     <description>每天从大模型领域新论文 / 预印本中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:00:08 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:28:52 +0800</lastBuildDate>
+    <item>
+      <title>给视觉语言模型装上“快思考”：空间问题，看一眼就答</title>
+      <link>https://123hurray.github.io/digest/llm/2026-10-19-llm.html</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.22276</guid>
+      <pubDate>Mon, 19 Oct 2026 09:27:54 +0800</pubDate>
+      <description><![CDATA[<h1>给视觉语言模型装上"快思考"：空间问题，看一眼就答</h1>
+<p>视觉语言模型回答空间问题时有个笨办法。它要先逐词生成一段文字答案，再从文字里把答案解析出来。"左边那个杯子离桌子多远"这样的问题，本来一眼就有数，模型却要走一遍慢吞吞的自回归生成。</p>
+<p>新工作 MJev-Spatial 给模型加了一套"系统一"式的快思考。做法是把空间问答统一成一次前向传播里的分类问题：直接用骨干网络里已有的注意力 query 和 key 投影，给候选答案打分。整个过程中不增加任何参数，也不生成一个答案 token。空间判断变成了一次打分，而不是一段生成。</p>
+<p>团队基于 Qwen3.5-4B，用 1,230 万条空间问答对训练了这个快思考模块。成绩很亮眼：在 8 个被测模型中总分第一，达到 65.64%；12 项基准里拿下 7 项第一，12 项全部超过了没改过的自回归基座模型。速度方面，比最快的自回归基线快 2.5 倍，比原基座快 5.6 倍。训练也没拖后腿，靠长度感知的全局 batching 和跨 GPU 负载均衡，训练吞吐提升了 30.8%。</p>
+<p>论文题目：MJev-Spatial: System One Spatial Intelligence via Native Attention Matching。作者：Luozheng Qin 等 12 人。arXiv 预印本（cs.CL / cs.AI / cs.LG），2026 年 10 月 15 日提交，未经同行评审。原文链接：https://arxiv.org/abs/2610.22276</p>]]></description>
+      <content:encoded><![CDATA[<h1>给视觉语言模型装上"快思考"：空间问题，看一眼就答</h1>
+<p>视觉语言模型回答空间问题时有个笨办法。它要先逐词生成一段文字答案，再从文字里把答案解析出来。"左边那个杯子离桌子多远"这样的问题，本来一眼就有数，模型却要走一遍慢吞吞的自回归生成。</p>
+<p>新工作 MJev-Spatial 给模型加了一套"系统一"式的快思考。做法是把空间问答统一成一次前向传播里的分类问题：直接用骨干网络里已有的注意力 query 和 key 投影，给候选答案打分。整个过程中不增加任何参数，也不生成一个答案 token。空间判断变成了一次打分，而不是一段生成。</p>
+<p>团队基于 Qwen3.5-4B，用 1,230 万条空间问答对训练了这个快思考模块。成绩很亮眼：在 8 个被测模型中总分第一，达到 65.64%；12 项基准里拿下 7 项第一，12 项全部超过了没改过的自回归基座模型。速度方面，比最快的自回归基线快 2.5 倍，比原基座快 5.6 倍。训练也没拖后腿，靠长度感知的全局 batching 和跨 GPU 负载均衡，训练吞吐提升了 30.8%。</p>
+<p>论文题目：MJev-Spatial: System One Spatial Intelligence via Native Attention Matching。作者：Luozheng Qin 等 12 人。arXiv 预印本（cs.CL / cs.AI / cs.LG），2026 年 10 月 15 日提交，未经同行评审。原文链接：https://arxiv.org/abs/2610.22276</p>]]></content:encoded>
+    </item>
     <item>
       <title>AI 也会"考试装乖"：知道被测试，它在印度语言里更守规矩</title>
       <link>https://123hurray.github.io/digest/llm/2026-10-18-llm.html</link>
