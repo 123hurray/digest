@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/astro/</link>
     <description>每天从主流天文期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:01:06 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 10:21:44 +0800</lastBuildDate>
+    <item>
+      <title>火星臭氧的"亏空账"，问题可能出在化学反应速率本身</title>
+      <link>https://123hurray.github.io/digest/astro/2026-10-22-astro.html</link>
+      <guid isPermaLink="true">https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stag1984/8965448</guid>
+      <pubDate>Thu, 22 Oct 2026 10:21:21 +0800</pubDate>
+      <description><![CDATA[<h1>火星臭氧的"亏空账"，问题可能出在化学反应速率本身</h1>
+<p>火星也有臭氧层，只是比地球的稀薄得多。几十年观测下来，模型算出来的臭氧总是比实际测到的少，这笔对不上的亏空叫"臭氧赤字"。惯常的解释是模型漏掉了什么：也许是没写全的化学反应，也许是尘埃表面发生的非均相反应的某种机制。爱丁堡大学和法国团队这次换了个思路，先问一个更朴素的问题——模型里用的化学反应速率，本身的误差到底有多大。</p>
+<p>臭氧的生死由几百个光化学反应的速率共同决定，每个速率的实验测定都有误差范围。过去大家习惯取中间值往里填，很少系统地看这些误差叠加起来会把臭氧算偏多少。研究团队用火星行星气候模型的一维版本做了全局敏感性分析，把所有光化学反应的速率都在误差范围内抖一抖，再用秩相关系数找出哪些反应对臭氧结果的控制力最强。</p>
+<p>结果指向了羟基自由基。控制羟基生成和臭氧直接损耗的反应，与臭氧浓度呈现最强的反相关：这些反应的速率往误差范围的一端挪一点，臭氧就差很多。造氧的反应通道则呈现正相关。另外几个涉及氢过氧自由基和过氧化氢、但不产生羟基的反应，也在推高臭氧的名单上。这份"关键不确定性反应清单"是研究最直接的产出：哪些反应的速率误差最要命，一目了然。</p>
+<p>团队没有停在纸面上。他们把调整后的速率装进模型的三维版本重新跑，得到的是全季节、全纬度的臭氧柱浓度和垂直混合比系统性上升，而且模拟的水循环没有被打乱。新的臭氧分布和 ACS 中红外通道的垂直观测剖面吻合得更好了。结论相当干脆：反应动力学的不确定性本身就能解释臭氧赤字里相当大的一部分，不一定需要再往模型里塞新机制，比如尘埃上的非均相吸收。论文最后附上的那份反应清单，是给实验室的待办事项：在火星条件下的速率测定，先从这些反应补起。</p>
+<hr />
+<p>论文题目：New insights into the Martian ozone deficit problem from an uncertainty propagation study</p>
+<p>作者：Benjamin Benne、Paul I Palmer、Franck Lefèvre、Ehouarn Millour、Kevin S Olsen（爱丁堡大学地球科学学院与系外行星科学中心、LATMOS/CNRS/索邦大学、LMD/IPSL、牛津大学物理系）</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society（MNRAS）</p>
+<p>上线日期：2026-10-21</p>
+<p>发表状态：Advance Article（Accepted Manuscript，作者最终稿，尚未排版，内容可能微调；开放获取，非预印本）</p>
+<p>原文链接：https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stag1984/8965448</p>]]></description>
+      <content:encoded><![CDATA[<h1>火星臭氧的"亏空账"，问题可能出在化学反应速率本身</h1>
+<p>火星也有臭氧层，只是比地球的稀薄得多。几十年观测下来，模型算出来的臭氧总是比实际测到的少，这笔对不上的亏空叫"臭氧赤字"。惯常的解释是模型漏掉了什么：也许是没写全的化学反应，也许是尘埃表面发生的非均相反应的某种机制。爱丁堡大学和法国团队这次换了个思路，先问一个更朴素的问题——模型里用的化学反应速率，本身的误差到底有多大。</p>
+<p>臭氧的生死由几百个光化学反应的速率共同决定，每个速率的实验测定都有误差范围。过去大家习惯取中间值往里填，很少系统地看这些误差叠加起来会把臭氧算偏多少。研究团队用火星行星气候模型的一维版本做了全局敏感性分析，把所有光化学反应的速率都在误差范围内抖一抖，再用秩相关系数找出哪些反应对臭氧结果的控制力最强。</p>
+<p>结果指向了羟基自由基。控制羟基生成和臭氧直接损耗的反应，与臭氧浓度呈现最强的反相关：这些反应的速率往误差范围的一端挪一点，臭氧就差很多。造氧的反应通道则呈现正相关。另外几个涉及氢过氧自由基和过氧化氢、但不产生羟基的反应，也在推高臭氧的名单上。这份"关键不确定性反应清单"是研究最直接的产出：哪些反应的速率误差最要命，一目了然。</p>
+<p>团队没有停在纸面上。他们把调整后的速率装进模型的三维版本重新跑，得到的是全季节、全纬度的臭氧柱浓度和垂直混合比系统性上升，而且模拟的水循环没有被打乱。新的臭氧分布和 ACS 中红外通道的垂直观测剖面吻合得更好了。结论相当干脆：反应动力学的不确定性本身就能解释臭氧赤字里相当大的一部分，不一定需要再往模型里塞新机制，比如尘埃上的非均相吸收。论文最后附上的那份反应清单，是给实验室的待办事项：在火星条件下的速率测定，先从这些反应补起。</p>
+<hr />
+<p>论文题目：New insights into the Martian ozone deficit problem from an uncertainty propagation study</p>
+<p>作者：Benjamin Benne、Paul I Palmer、Franck Lefèvre、Ehouarn Millour、Kevin S Olsen（爱丁堡大学地球科学学院与系外行星科学中心、LATMOS/CNRS/索邦大学、LMD/IPSL、牛津大学物理系）</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society（MNRAS）</p>
+<p>上线日期：2026-10-21</p>
+<p>发表状态：Advance Article（Accepted Manuscript，作者最终稿，尚未排版，内容可能微调；开放获取，非预印本）</p>
+<p>原文链接：https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stag1984/8965448</p>]]></content:encoded>
+    </item>
     <item>
       <title>黑洞吃得很饱，喷流却照样猛——秘诀藏在被“截断”的吸积盘里</title>
       <link>https://123hurray.github.io/digest/astro/2026-10-21-astro.html</link>
