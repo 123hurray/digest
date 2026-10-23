@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>你跟 AI 越聊越深，它回的到底是“现在的话”还是“你交的底”</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>你跟 AI 越聊越深，它回的到底是"现在的话"还是"你交的底"</h1>
+<p>跟 AI 聊天的人都有过这种体验：聊着聊着，话题从天气一路滑到心事，AI 的回应也越来越贴心，越来越像"懂你"。南洋理工大学的 Keith Kwok 团队想把这个直觉拆开看：AI 回应的时候，到底在回应刚刚说的那句话，还是在回应前面交了多少底。</p>
+<p>他们搭了一个叫 TraDE 的评估框架，理论底子是社会渗透理论。自我袒露按深度分成五级：D0 是闲聊，D1 是公开信息，D2 是偏好和自我描述，D3 是有个人意义的内容，D4 是情感脆弱。框架的做法是构造多轮对话，预设不同的袒露轨迹，但把"当前这一句"固定住，只改变前面的历史。这样就能单独看出历史轨迹对模型行为的影响。</p>
+<p>实验结果很直接。完全相同的当前消息，只因为前文的袒露轨迹不同，四个被测模型的回应就明显不一样。分歧主要在于模型是顺着用户的说法讲，还是出言挑战它。这种历史效应的强度，挂钩的是累计的深度袒露时长，而不是某一次脆弱的瞬间，也不是袒露的先后顺序。用户收敛回浅层闲聊之后，效应还会再持续好几轮。</p>
+<p>团队还把八个模型和真人支持者做了对比，用的是一份情感支持对话语料。模型和真人分歧最大的时刻，不是用户倾诉心事的时候，而是用户收敛、不再袒露的时候。八个模型的共情、肯定和附和程度都显著高于真人。</p>
+<p>这项研究的动机贴着现实。越来越多的人把聊天 AI 当情绪陪伴用，过度使用和孤独感、情感依赖已经被研究联系在一起。一个处处顺着用户、永远比真人更贴心的对话者，听起来是优点，也可能正是问题所在。</p>
+<hr />
+<p>论文题目：Beyond Small Talk: Modeling Disclosure Trajectories in Human-AI Conversation</p>
+<p>作者：Keith Kwok、Wanting Ning、Tej Deep Pala、Desmond C. Ong、S. Supraja 等（南洋理工大学、印第安纳大学、德州大学奥斯汀）</p>
+<p>期刊：arXiv cs.CL（并列 cs.AI、cs.HC）</p>
+<p>上线日期：2026-10-22（arXiv 公告；提交于 2026-10-21）</p>
+<p>发表状态：预印本（preprint，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2610.29413</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-22</p>
+</main>
+</body>
+</html>
