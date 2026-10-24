@@ -5,7 +5,39 @@
     <link>https://123hurray.github.io/digest/life/</link>
     <description>每天从主流生命科学 / 脑神经科学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 08:57:45 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:00:09 +0800</lastBuildDate>
+    <item>
+      <title>一吃饭胃就分泌胃酸，迷走神经内部有套分工表</title>
+      <link>https://123hurray.github.io/digest/life/2026-10-24-life.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1016/j.neuron.2026.09.033</guid>
+      <pubDate>Sat, 24 Oct 2026 08:59:51 +0800</pubDate>
+      <description><![CDATA[<h1>一吃饭胃就分泌胃酸，迷走神经内部有套分工表</h1>
+<p>一吃饭，胃就开始分泌胃酸和消化酶，这是人人都有的体验。信号从胃传到脑、再从脑传回胃，走的是迷走神经，这条路大家早就知道。但具体是哪些神经元在干活，一直是糊涂账。</p>
+<p>Zhuang Wang 团队在 Neuron 发表的新论文，把这条回路拆到了细胞亚型的精度。实验对象是小鼠。团队发现，支配胃的迷走感觉神经元里，Glp1r⁺ 和 Sst⁺ 这两个亚群是触发分泌的必要且充分条件，胃酸、胃蛋白酶和胃泌素全在它们的管辖之下。机械感受通道 Piezo2 负责感知胃被食物撑开，是这条链路的起点。</p>
+<p>回路往下走，进了脑干的迷走背侧运动核。那里的运动神经元也分工明确：Cck⁺ 亚群全面推高三种分泌物，Grp⁺ 亚群只管胃酸。</p>
+<p>最有意思的一组对比在肠神经系统里。Calb2⁺ 亚群的肠神经元只管分泌，几乎不带动肠道蠕动。分泌和蠕动这两件事，看似总是一起发生，实际上是两套可以分开操控的程序。</p>
+<p>这套分工表不只是解剖学上的漂亮结果。胃酸分泌失调背后是胃食管反流和消化性溃疡这类常见病，知道了分泌由哪些细胞亚群专管，未来的干预就有了更精确的靶点。当然，从小鼠到人还有很长的路要走。</p>
+<hr />
+<p>论文题目：A vagal gut-brain axis for feeding-induced gastric secretion in mice</p>
+<p>作者：Zhuang Wang、Jinfei D. Ni、Bailong Xiao、Shumin Duan 等</p>
+<p>期刊：Neuron</p>
+<p>上线日期：2026-10-22</p>
+<p>发表状态：Advance Article（在线首发，尚未分配卷期页码）</p>
+<p>原文链接：https://doi.org/10.1016/j.neuron.2026.09.033</p>]]></description>
+      <content:encoded><![CDATA[<h1>一吃饭胃就分泌胃酸，迷走神经内部有套分工表</h1>
+<p>一吃饭，胃就开始分泌胃酸和消化酶，这是人人都有的体验。信号从胃传到脑、再从脑传回胃，走的是迷走神经，这条路大家早就知道。但具体是哪些神经元在干活，一直是糊涂账。</p>
+<p>Zhuang Wang 团队在 Neuron 发表的新论文，把这条回路拆到了细胞亚型的精度。实验对象是小鼠。团队发现，支配胃的迷走感觉神经元里，Glp1r⁺ 和 Sst⁺ 这两个亚群是触发分泌的必要且充分条件，胃酸、胃蛋白酶和胃泌素全在它们的管辖之下。机械感受通道 Piezo2 负责感知胃被食物撑开，是这条链路的起点。</p>
+<p>回路往下走，进了脑干的迷走背侧运动核。那里的运动神经元也分工明确：Cck⁺ 亚群全面推高三种分泌物，Grp⁺ 亚群只管胃酸。</p>
+<p>最有意思的一组对比在肠神经系统里。Calb2⁺ 亚群的肠神经元只管分泌，几乎不带动肠道蠕动。分泌和蠕动这两件事，看似总是一起发生，实际上是两套可以分开操控的程序。</p>
+<p>这套分工表不只是解剖学上的漂亮结果。胃酸分泌失调背后是胃食管反流和消化性溃疡这类常见病，知道了分泌由哪些细胞亚群专管，未来的干预就有了更精确的靶点。当然，从小鼠到人还有很长的路要走。</p>
+<hr />
+<p>论文题目：A vagal gut-brain axis for feeding-induced gastric secretion in mice</p>
+<p>作者：Zhuang Wang、Jinfei D. Ni、Bailong Xiao、Shumin Duan 等</p>
+<p>期刊：Neuron</p>
+<p>上线日期：2026-10-22</p>
+<p>发表状态：Advance Article（在线首发，尚未分配卷期页码）</p>
+<p>原文链接：https://doi.org/10.1016/j.neuron.2026.09.033</p>]]></content:encoded>
+    </item>
     <item>
       <title>大脑“后勤员”也有分工：一群星形胶质细胞专管搭突触</title>
       <link>https://123hurray.github.io/digest/life/2026-10-23-life.html</link>
