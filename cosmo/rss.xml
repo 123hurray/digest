@@ -5,7 +5,41 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:00:09 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 08:52:06 +0800</lastBuildDate>
+    <item>
+      <title>韦布看到的婴儿星系，大多没能活到今天</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-10-25-cosmo.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag2039</guid>
+      <pubDate>Sun, 25 Oct 2026 08:51:57 +0800</pubDate>
+      <description><![CDATA[<h1>韦布看到的婴儿星系，大多没能活到今天</h1>
+<p>韦布望远镜这几年不断刷新纪录，在红移 10 以上的宇宙深处找到了一批紫外波段格外明亮的星系。那个时候宇宙还不到 5 亿岁，这些星系是人类能看到的最早一批星系。一个很自然的问题随之而来：这些婴儿星系后来怎么样了，它们今天变成了什么？</p>
+<p>一篇发表在英国皇家天文学会月刊上的新论文，用新一代 COLIBRE 宇宙学流体动力学模拟回答了这个问题。研究团队在模拟里挑出红移 10 处一批明亮的星系，然后一路追踪它们的后代，直到今天的红移 0。结果并不符合直觉里那种一颗星系长大成一颗星系的画面。大多数早期星系没能以独立而自束缚的天体身份活到今天，它们在并合或瓦解中被并入了更大的系统，成了别的星系的一部分。</p>
+<p>活到今天的后代，恒星质量分布很广，但最常见的是中等偏大的星系，恒星质量大约在 100 亿到 1000 亿个太阳质量之间。它们典型地栖身在星系群和星系团里，宿主暗物质晕的质量大约在 1 万亿到 10 万亿个太阳质量之间。也就是说，早期亮星系的后代今天大多住在宇宙里比较热闹的街区，而不是孤零零地待在荒野。</p>
+<p>更有意思的是后代结局和祖先出身之间的关系。模拟显示，今天的结局和早期祖先的恒星质量只有弱相关，同一批早期星系的后代在今天的质量可以散布得很开。扩展 Press-Schechter 理论在中位增长和大弥散两方面都和模拟对得上，它也证实了一点：今天的大质量星系通常并不来自早期最庞大的天体。最大的婴儿不一定长成最大的成人，婴儿时期的个头并不能预言成年后的归宿。</p>
+<p>论文的结论值得划一下重点。红移 10 以上的星系不能被简单地解读为某一类今天星系的直接祖先，看到一个早期亮星系，不能顺手给它指定一个今天的对应物。要讲清楚早期星系和今天星系之间的关系，得把并合、瓦解和质量弥散都算进去，单条血统线讲不通这段历史。</p>
+<p>需要说明一点，这是一项模拟研究，不是直接观测到了这些早期星系的后代。模拟的价值在于给出了一张完整的演化地图，让观测者知道该在今天的什么地方、按什么样的统计规律去检验这张地图。</p>
+<hr />
+<p>论文题目：The descendants of z ≳ 10 JWST galaxies in the COLIBRE simulations</p>
+<p>作者：Xu Zhao、Carlos S. Frenk、Andrew Pontzen、Kyle A. Oman、Evgenii Chaikin、Isabel Santos-Santos、Shengdong Lu、Joop Schaye、Alejandro Benítez-Llambay、Filip Huško、Alexander J. Richings、Matthieu Schaller</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society（MNRAS）</p>
+<p>上线日期：2026-10-24</p>
+<p>发表状态：Accepted Manuscript / Advance Article（已接收，作者终稿，尚未排版）</p>
+<p>原文链接：https://doi.org/10.1093/mnras/stag2039</p>]]></description>
+      <content:encoded><![CDATA[<h1>韦布看到的婴儿星系，大多没能活到今天</h1>
+<p>韦布望远镜这几年不断刷新纪录，在红移 10 以上的宇宙深处找到了一批紫外波段格外明亮的星系。那个时候宇宙还不到 5 亿岁，这些星系是人类能看到的最早一批星系。一个很自然的问题随之而来：这些婴儿星系后来怎么样了，它们今天变成了什么？</p>
+<p>一篇发表在英国皇家天文学会月刊上的新论文，用新一代 COLIBRE 宇宙学流体动力学模拟回答了这个问题。研究团队在模拟里挑出红移 10 处一批明亮的星系，然后一路追踪它们的后代，直到今天的红移 0。结果并不符合直觉里那种一颗星系长大成一颗星系的画面。大多数早期星系没能以独立而自束缚的天体身份活到今天，它们在并合或瓦解中被并入了更大的系统，成了别的星系的一部分。</p>
+<p>活到今天的后代，恒星质量分布很广，但最常见的是中等偏大的星系，恒星质量大约在 100 亿到 1000 亿个太阳质量之间。它们典型地栖身在星系群和星系团里，宿主暗物质晕的质量大约在 1 万亿到 10 万亿个太阳质量之间。也就是说，早期亮星系的后代今天大多住在宇宙里比较热闹的街区，而不是孤零零地待在荒野。</p>
+<p>更有意思的是后代结局和祖先出身之间的关系。模拟显示，今天的结局和早期祖先的恒星质量只有弱相关，同一批早期星系的后代在今天的质量可以散布得很开。扩展 Press-Schechter 理论在中位增长和大弥散两方面都和模拟对得上，它也证实了一点：今天的大质量星系通常并不来自早期最庞大的天体。最大的婴儿不一定长成最大的成人，婴儿时期的个头并不能预言成年后的归宿。</p>
+<p>论文的结论值得划一下重点。红移 10 以上的星系不能被简单地解读为某一类今天星系的直接祖先，看到一个早期亮星系，不能顺手给它指定一个今天的对应物。要讲清楚早期星系和今天星系之间的关系，得把并合、瓦解和质量弥散都算进去，单条血统线讲不通这段历史。</p>
+<p>需要说明一点，这是一项模拟研究，不是直接观测到了这些早期星系的后代。模拟的价值在于给出了一张完整的演化地图，让观测者知道该在今天的什么地方、按什么样的统计规律去检验这张地图。</p>
+<hr />
+<p>论文题目：The descendants of z ≳ 10 JWST galaxies in the COLIBRE simulations</p>
+<p>作者：Xu Zhao、Carlos S. Frenk、Andrew Pontzen、Kyle A. Oman、Evgenii Chaikin、Isabel Santos-Santos、Shengdong Lu、Joop Schaye、Alejandro Benítez-Llambay、Filip Huško、Alexander J. Richings、Matthieu Schaller</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society（MNRAS）</p>
+<p>上线日期：2026-10-24</p>
+<p>发表状态：Accepted Manuscript / Advance Article（已接收，作者终稿，尚未排版）</p>
+<p>原文链接：https://doi.org/10.1093/mnras/stag2039</p>]]></content:encoded>
+    </item>
     <item>
       <title>把小尺度切掉之后，宇宙的结团程度对得上</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-10-24-cosmo.html</link>
