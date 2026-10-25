@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>网上查无此物时，聊天机器人最容易被一张网页带偏</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>网上查无此物时，聊天机器人最容易被一张网页带偏</h1>
+<p>向聊天机器人问一个冷门话题时，最危险的情况不是网上谣言太多，而是网上几乎什么都没有。当某个话题缺乏可靠资料，搜索结果里只有寥寥几页时，一张精心炮制的网页就可能成为唯一的证据来源，聊天机器人会把它体面地引用进回答，看起来有理有据，实际上源头只有一个。研究者把这种局面叫数据空白。</p>
+<p>一篇已被网络与分布式系统安全研讨会 NDSS 2027 接收的论文，把这个漏洞做成了可测量的实验。研究团队人工构造了 56 个数据空白，覆盖 5 个话题领域，用 5 种空白策略、3 档页面可见度来组合，每个空白只发布一张攻击者控制的网页，然后去问 ChatGPT、Gemini 和 Sonar Pro 这三个带联网搜索的模型。结果是，攻击者内容出现在回答中的比例达到 31%，其中被引用 28.6%，被改写进回答但没给链接 1.0%，只被列出链接 1.4%。在页面可见度中等和较高的条件下，成功率升到 42.3%。</p>
+<p>用户这边能想到的自救办法，实验里基本都不管用。换模型没有带来成功率的大幅下降，把提示语气换成怀疑、兴奋或中性三档也没有，怀疑的语气只让成功率略降，同时让警告略增。警告本身也很弱，被引用或使用的攻击者内容里只有 26.8% 收到了警告。也就是说，靠问得怀疑一点来防住这种攻击，实验里并不成立。</p>
+<p>论文里有个示意性的例子能讲清整条链条。先有人在线下怂恿你去搜一个虚构的保健品，再由聊天机器人把网上唯一的证据端给你，线下的怂恿和线上的唯一来源互相印证，可信度就这样被抬起来了。问题不在模型笨，而在资料本身稀缺，稀缺让一张网页取得了不成比例的话语权。</p>
+<p>对普通使用者来说，这篇论文给出的提醒很具体。问生僻名词、偏方或新产品时，回答里哪怕附了引用，也值得多问一句，这个引用背后是不是只有一个来源，有没有第二家独立的资料能对得上。资料越稀缺的地方，越要把引用当成待核查的线索，而不是结论的背书。</p>
+<hr />
+<p>论文题目：Data-Void Exploits in Web-Searching LLMs</p>
+<p>作者：Michele Guerra、Wuyeh Jobe、Sanjana Nambiar、Christina Pöpper、Azza Abouzied</p>
+<p>期刊：arXiv（NDSS 2027 已接收论文的扩展版）</p>
+<p>上线日期：2026-10-21（arXiv 提交，10 月 23 日进入公众视野）</p>
+<p>发表状态：Accepted Manuscript（NDSS 2027 已接收，arXiv 版本为该接收论文的扩展版）</p>
+<p>原文链接：https://arxiv.org/abs/2610.30365</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-21</p>
+</main>
+</body>
+</html>
