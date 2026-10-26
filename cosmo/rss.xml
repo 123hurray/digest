@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 08:52:06 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 08:53:05 +0800</lastBuildDate>
+    <item>
+      <title>造一个 5 亿秒差距的宇宙，看它怎么从黑暗里亮起来</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-10-26-cosmo.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag1469</guid>
+      <pubDate>Mon, 26 Oct 2026 08:55:00 +0800</pubDate>
+      <description><![CDATA[<h1>造一个 5 亿秒差距的宇宙，看它怎么从黑暗里亮起来</h1>
+<p>宇宙大爆炸后约 38 万年，电子和原子核结合成中性原子，光子第一次得以自由穿行，宇宙进入一段漫长的黑暗时期。之后第一批恒星和星系点亮，它们的紫外辐射像气泡一样把周围的中性氢一点点电离开，这个过程叫再电离。等到气泡连成一片，星系之间的气体基本都被电离，宇宙才重新变得透明。想把这段历史算清楚并不容易，模拟要同时管好星系怎么形成、黑洞怎么发光、辐射怎么在星系际气体里传播，还要在足够大的体积里算，才能装下稀有的大质量星系和大尺度的环境差异。</p>
+<p>新上线的 Lumina 模拟就是为这个难题准备的。它用移动网格代码 arepo，结合 IllustrisTNG 的星系形成模型和图形处理器加速的辐射输运求解器，在边长 5 亿秒差距的宇宙立方体里追踪星系、活动星系核和星系际介质的共同演化，分辨率达到 2 乘 6000 的 3 次方个粒子元，重子质量分辨率约 360 万太阳质量，暗物质约 1900 万太阳质量。模拟一路算到红移 3，也就是宇宙年龄约 20 亿年的时候，覆盖了氢和氦的两次再电离。初始条件里还单独处理了重子和暗物质的扰动，并计入了两者之间的相对流动速度。</p>
+<p>算出来的历史是一部偏晚的再电离史。氢的再电离主要由恒星驱动，典型的小体积区域在红移约 5.2 时完全电离，残留的中性氢斑块一直持续到红移约 4.75 才消失。氦的二次电离需要能量更高的光子，恒星给不出来，主要由活动星系核驱动，到红移 3 时基本完成。模拟给出的汤姆孙散射光学深度与普朗克卫星的测量符合得很好，星系际介质的温度演化和电离背景也大体对得上观测，氦二次电离还在晚期给星系际气体带来一次明显的升温。</p>
+<p>这个结果的意义不在于宣布再电离的时间表已经定案，而在于给观测提供了一个可以正面对照的完整模型。韦布望远镜看到的早期星系、类星体光谱里的莱曼阿尔法森林、宇宙微波背景的光学深度，这些观测各自约束再电离的不同侧面，Lumina 把它们放进同一个模拟里算出来，哪里对得上、哪里对不上，都能指到具体的物理环节上。体积够大，还让研究者能统计稀有天体和大尺度环境的影响，这是小盒子模拟做不到的。接下来这类模拟要回答的，是再电离的气泡形状和星系分布之间的对应关系，以及氦再电离的升温信号能不能在未来的观测里被更干净地找出来。</p>
+<hr />
+<p>论文题目：Introducing the lumina project: large-volume radiation-hydrodynamic simulations of the epochs of hydrogen and helium reionization</p>
+<p>作者：Oliver Zier、Aaron Smith、Xuejian Shen、Rongrong Liu、Rahul Kannan、Sonja M. Koehler、Volker Springel、Rüdiger Pakmor、Mark Vogelsberger、Teodora-Elena Bulichi、Lars Hernquist</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society（MNRAS）</p>
+<p>上线日期：2026-10-26</p>
+<p>发表状态：published（正式出版）</p>
+<p>原文链接：https://doi.org/10.1093/mnras/stag1469</p>]]></description>
+      <content:encoded><![CDATA[<h1>造一个 5 亿秒差距的宇宙，看它怎么从黑暗里亮起来</h1>
+<p>宇宙大爆炸后约 38 万年，电子和原子核结合成中性原子，光子第一次得以自由穿行，宇宙进入一段漫长的黑暗时期。之后第一批恒星和星系点亮，它们的紫外辐射像气泡一样把周围的中性氢一点点电离开，这个过程叫再电离。等到气泡连成一片，星系之间的气体基本都被电离，宇宙才重新变得透明。想把这段历史算清楚并不容易，模拟要同时管好星系怎么形成、黑洞怎么发光、辐射怎么在星系际气体里传播，还要在足够大的体积里算，才能装下稀有的大质量星系和大尺度的环境差异。</p>
+<p>新上线的 Lumina 模拟就是为这个难题准备的。它用移动网格代码 arepo，结合 IllustrisTNG 的星系形成模型和图形处理器加速的辐射输运求解器，在边长 5 亿秒差距的宇宙立方体里追踪星系、活动星系核和星系际介质的共同演化，分辨率达到 2 乘 6000 的 3 次方个粒子元，重子质量分辨率约 360 万太阳质量，暗物质约 1900 万太阳质量。模拟一路算到红移 3，也就是宇宙年龄约 20 亿年的时候，覆盖了氢和氦的两次再电离。初始条件里还单独处理了重子和暗物质的扰动，并计入了两者之间的相对流动速度。</p>
+<p>算出来的历史是一部偏晚的再电离史。氢的再电离主要由恒星驱动，典型的小体积区域在红移约 5.2 时完全电离，残留的中性氢斑块一直持续到红移约 4.75 才消失。氦的二次电离需要能量更高的光子，恒星给不出来，主要由活动星系核驱动，到红移 3 时基本完成。模拟给出的汤姆孙散射光学深度与普朗克卫星的测量符合得很好，星系际介质的温度演化和电离背景也大体对得上观测，氦二次电离还在晚期给星系际气体带来一次明显的升温。</p>
+<p>这个结果的意义不在于宣布再电离的时间表已经定案，而在于给观测提供了一个可以正面对照的完整模型。韦布望远镜看到的早期星系、类星体光谱里的莱曼阿尔法森林、宇宙微波背景的光学深度，这些观测各自约束再电离的不同侧面，Lumina 把它们放进同一个模拟里算出来，哪里对得上、哪里对不上，都能指到具体的物理环节上。体积够大，还让研究者能统计稀有天体和大尺度环境的影响，这是小盒子模拟做不到的。接下来这类模拟要回答的，是再电离的气泡形状和星系分布之间的对应关系，以及氦再电离的升温信号能不能在未来的观测里被更干净地找出来。</p>
+<hr />
+<p>论文题目：Introducing the lumina project: large-volume radiation-hydrodynamic simulations of the epochs of hydrogen and helium reionization</p>
+<p>作者：Oliver Zier、Aaron Smith、Xuejian Shen、Rongrong Liu、Rahul Kannan、Sonja M. Koehler、Volker Springel、Rüdiger Pakmor、Mark Vogelsberger、Teodora-Elena Bulichi、Lars Hernquist</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society（MNRAS）</p>
+<p>上线日期：2026-10-26</p>
+<p>发表状态：published（正式出版）</p>
+<p>原文链接：https://doi.org/10.1093/mnras/stag1469</p>]]></content:encoded>
+    </item>
     <item>
       <title>韦布看到的婴儿星系，大多没能活到今天</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-10-25-cosmo.html</link>
