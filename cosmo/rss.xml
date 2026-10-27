@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 08:53:05 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:02:20 +0800</lastBuildDate>
+    <item>
+      <title>在银河系中心守了这么久，暗物质还是没有露面</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-10-27-cosmo.html</link>
+      <guid isPermaLink="true">https://journals.aps.org/prd/abstract/10.1103/dr62-483r</guid>
+      <pubDate>Tue, 27 Oct 2026 09:01:49 +0800</pubDate>
+      <description><![CDATA[<h1>在银河系中心守了这么久，暗物质还是没有露面</h1>
+<p>银河系中心是暗物质最可能密集的地方，也是地面伽马射线望远镜最想盯住的方向。如果暗物质粒子会两两湮灭，湮灭产物里就该有伽马射线。VERITAS 望远镜做的正是这件事，它把视线对准银河系中心周围 2 度以内的天区，寻找超出已知天体物理背景的伽马射线信号。</p>
+<p>这项分析用了一种基于模板的方法来估计背景。它的好处是让分析对弥漫源更敏感，弥漫源的尺度可以和 VERITAS 约 3.5 度的视场相当。数据全部取自大天顶角观测，这种观测方式在能量高于约 1 TeV 时有效面积更大，正好适合寻找质量在 TeV 量级的暗物质粒子。结果是搜索区域里没有看到显著的伽马射线信号。</p>
+<p>没有看到信号，本身就是一个可以量化的结果。在暗物质全部湮灭为正反 tau 轻子、暗物质密度分布采用 Einasto 轮廓、暗物质质量为 1 TeV 的条件下，研究给出的上限是 1.77×10^-25 cm^3/s，置信度 95%。读这个数字要加上它的条件。它排掉的是高于这条线的湮灭截面，而且只针对这一种湮灭末态和这一种密度分布假设。换一种末态或者换一种分布，上限的数值也会跟着变。它没有排除所有暗物质，也没有证明暗物质不存在。</p>
+<p>这种“没看到”对暗物质模型仍然有约束力。理论上湮灭越容易发生，银心方向就该越亮。亮度迟迟没有出现，说明在 TeV 能段、tau 轻子这个通道里，暗物质的湮灭效率不能太高。下一轮更灵敏的观测要么在同样的通道里把上限继续往下压，要么在别的通道和别的质量区间找到信号。无论哪种结果，这次空手而归都已经把可行的参数空间收窄了一圈。</p>
+<hr />
+<p>论文题目：VERITAS limits on dark matter annihilation in the Galactic Center halo</p>
+<p>作者：VERITAS Collaboration</p>
+<p>期刊：Physical Review D（114, 083044）</p>
+<p>上线日期：2026-10-26</p>
+<p>发表状态：published（正式出版）</p>
+<p>原文链接：https://journals.aps.org/prd/abstract/10.1103/dr62-483r</p>]]></description>
+      <content:encoded><![CDATA[<h1>在银河系中心守了这么久，暗物质还是没有露面</h1>
+<p>银河系中心是暗物质最可能密集的地方，也是地面伽马射线望远镜最想盯住的方向。如果暗物质粒子会两两湮灭，湮灭产物里就该有伽马射线。VERITAS 望远镜做的正是这件事，它把视线对准银河系中心周围 2 度以内的天区，寻找超出已知天体物理背景的伽马射线信号。</p>
+<p>这项分析用了一种基于模板的方法来估计背景。它的好处是让分析对弥漫源更敏感，弥漫源的尺度可以和 VERITAS 约 3.5 度的视场相当。数据全部取自大天顶角观测，这种观测方式在能量高于约 1 TeV 时有效面积更大，正好适合寻找质量在 TeV 量级的暗物质粒子。结果是搜索区域里没有看到显著的伽马射线信号。</p>
+<p>没有看到信号，本身就是一个可以量化的结果。在暗物质全部湮灭为正反 tau 轻子、暗物质密度分布采用 Einasto 轮廓、暗物质质量为 1 TeV 的条件下，研究给出的上限是 1.77×10^-25 cm^3/s，置信度 95%。读这个数字要加上它的条件。它排掉的是高于这条线的湮灭截面，而且只针对这一种湮灭末态和这一种密度分布假设。换一种末态或者换一种分布，上限的数值也会跟着变。它没有排除所有暗物质，也没有证明暗物质不存在。</p>
+<p>这种“没看到”对暗物质模型仍然有约束力。理论上湮灭越容易发生，银心方向就该越亮。亮度迟迟没有出现，说明在 TeV 能段、tau 轻子这个通道里，暗物质的湮灭效率不能太高。下一轮更灵敏的观测要么在同样的通道里把上限继续往下压，要么在别的通道和别的质量区间找到信号。无论哪种结果，这次空手而归都已经把可行的参数空间收窄了一圈。</p>
+<hr />
+<p>论文题目：VERITAS limits on dark matter annihilation in the Galactic Center halo</p>
+<p>作者：VERITAS Collaboration</p>
+<p>期刊：Physical Review D（114, 083044）</p>
+<p>上线日期：2026-10-26</p>
+<p>发表状态：published（正式出版）</p>
+<p>原文链接：https://journals.aps.org/prd/abstract/10.1103/dr62-483r</p>]]></content:encoded>
+    </item>
     <item>
       <title>造一个 5 亿秒差距的宇宙，看它怎么从黑暗里亮起来</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-10-26-cosmo.html</link>
