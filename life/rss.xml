@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/life/</link>
     <description>每天从主流生命科学 / 脑神经科学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 08:56:49 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:02:20 +0800</lastBuildDate>
+    <item>
+      <title>一次基因编辑治好了小鼠的肌肉，却在人体试验里撞上了免疫的墙</title>
+      <link>https://123hurray.github.io/digest/life/2026-10-27-life.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1016/j.cell.2026.09.059</guid>
+      <pubDate>Tue, 27 Oct 2026 09:01:49 +0800</pubDate>
+      <description><![CDATA[<h1>一次基因编辑治好了小鼠的肌肉，却在人体试验里撞上了免疫的墙</h1>
+<p>杜氏肌营养不良是一种进行性肌肉疾病，根源是肌营养不良蛋白缺失，肌肉在反复损伤中逐渐衰弱。一种思路是直接在体内改写基因，让肌肉细胞重新生产出这种蛋白。新发表在《细胞》上的一项研究沿着这条路走完了从动物到人体的第一段，动物实验的结果令人鼓舞，人体试验的第一步却暴露出一道安全上的窄门。</p>
+<p>研究用的是单个 AAV9 载体递送的基因编辑系统，编辑工具是 hfCas12Max。在人源化杜氏肌营养不良小鼠身上，全身给药后实现了有针对性的基因组编辑，肌营养不良蛋白得到部分恢复，肌肉功能也有所改善。在非人灵长类身上，编辑在目标位点上高效完成，在测试的条件下没有发现剂量限制性毒性。动物阶段的故事到这里为止是完整的，编辑能进肌肉，能恢复一部分蛋白，安全性在测试条件里没有触线。</p>
+<p>人体试验是一项开放标签的剂量递增试验，注册号为 NCT06594094。治疗后取下的肌肉活检样本提供了早期的分子证据，编辑确实在人体肌肉里发生，肌营养不良蛋白也能被检测到。这是肌肉基因编辑在人体里的初步概念验证。但在较高的剂量水平，也就是每千克体重 1.0×10^14 个病毒基因组拷贝的剂量下，一名受试者出现了与治疗相关的致死性严重不良事件，事件发生后不久就出现了明显的补体激活和全身细胞因子反应。</p>
+<p>这件事把全身性 AAV 基因编辑治疗的核心难题摆到了台面上。载体要够多才能到达全身肌肉，剂量一高，免疫系统就可能被强烈触发。治疗窗口因此变得很窄，低了可能不够，高了就可能出事。论文的结论也落在这一点上，未来需要更安全的给药方案和免疫调节策略，编辑效率本身不再是唯一要推的指标。动物实验能证明编辑本身可行，人体试验则提醒人们，载体剂量和免疫反应同样是治疗的一部分，而且在目前的条件下，这一部分还没有被完全驯服。</p>
+<hr />
+<p>论文题目：In vivo genome-editing therapy for Duchenne muscular dystrophy: Preclinical studies and first-in-human trial</p>
+<p>作者：Guoling Li、Feng Han、Cuijin Wang、Ming Jin、Jiajia Lin、Hainan Zhang、Xiudong Yan、Xing Wang、Xinyan Sun、Yiqun Yuan、Siyuan Zhang、Shuaishuai Zhang、Jingyan Zhu、Yichao Xu、Yingyan Wang、Yujiao Deng、Fangxin Li、Linyu Shi、Alvin Luk、Ning Wang、Hui Yang、Jiwen Wang</p>
+<p>期刊：Cell</p>
+<p>上线日期：2026-10-26</p>
+<p>发表状态：advance_article（在线首发，尚未归入最终期次）</p>
+<p>原文链接：https://doi.org/10.1016/j.cell.2026.09.059</p>]]></description>
+      <content:encoded><![CDATA[<h1>一次基因编辑治好了小鼠的肌肉，却在人体试验里撞上了免疫的墙</h1>
+<p>杜氏肌营养不良是一种进行性肌肉疾病，根源是肌营养不良蛋白缺失，肌肉在反复损伤中逐渐衰弱。一种思路是直接在体内改写基因，让肌肉细胞重新生产出这种蛋白。新发表在《细胞》上的一项研究沿着这条路走完了从动物到人体的第一段，动物实验的结果令人鼓舞，人体试验的第一步却暴露出一道安全上的窄门。</p>
+<p>研究用的是单个 AAV9 载体递送的基因编辑系统，编辑工具是 hfCas12Max。在人源化杜氏肌营养不良小鼠身上，全身给药后实现了有针对性的基因组编辑，肌营养不良蛋白得到部分恢复，肌肉功能也有所改善。在非人灵长类身上，编辑在目标位点上高效完成，在测试的条件下没有发现剂量限制性毒性。动物阶段的故事到这里为止是完整的，编辑能进肌肉，能恢复一部分蛋白，安全性在测试条件里没有触线。</p>
+<p>人体试验是一项开放标签的剂量递增试验，注册号为 NCT06594094。治疗后取下的肌肉活检样本提供了早期的分子证据，编辑确实在人体肌肉里发生，肌营养不良蛋白也能被检测到。这是肌肉基因编辑在人体里的初步概念验证。但在较高的剂量水平，也就是每千克体重 1.0×10^14 个病毒基因组拷贝的剂量下，一名受试者出现了与治疗相关的致死性严重不良事件，事件发生后不久就出现了明显的补体激活和全身细胞因子反应。</p>
+<p>这件事把全身性 AAV 基因编辑治疗的核心难题摆到了台面上。载体要够多才能到达全身肌肉，剂量一高，免疫系统就可能被强烈触发。治疗窗口因此变得很窄，低了可能不够，高了就可能出事。论文的结论也落在这一点上，未来需要更安全的给药方案和免疫调节策略，编辑效率本身不再是唯一要推的指标。动物实验能证明编辑本身可行，人体试验则提醒人们，载体剂量和免疫反应同样是治疗的一部分，而且在目前的条件下，这一部分还没有被完全驯服。</p>
+<hr />
+<p>论文题目：In vivo genome-editing therapy for Duchenne muscular dystrophy: Preclinical studies and first-in-human trial</p>
+<p>作者：Guoling Li、Feng Han、Cuijin Wang、Ming Jin、Jiajia Lin、Hainan Zhang、Xiudong Yan、Xing Wang、Xinyan Sun、Yiqun Yuan、Siyuan Zhang、Shuaishuai Zhang、Jingyan Zhu、Yichao Xu、Yingyan Wang、Yujiao Deng、Fangxin Li、Linyu Shi、Alvin Luk、Ning Wang、Hui Yang、Jiwen Wang</p>
+<p>期刊：Cell</p>
+<p>上线日期：2026-10-26</p>
+<p>发表状态：advance_article（在线首发，尚未归入最终期次）</p>
+<p>原文链接：https://doi.org/10.1016/j.cell.2026.09.059</p>]]></content:encoded>
+    </item>
     <item>
       <title>血液里查不到肿瘤 DNA 的肺癌病人，之后的日子明显更平稳</title>
       <link>https://123hurray.github.io/digest/life/2026-10-26-life.html</link>
