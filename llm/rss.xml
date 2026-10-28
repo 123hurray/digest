@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/llm/</link>
     <description>每天从大模型领域新论文 / 预印本中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:02:20 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:51:07 +0800</lastBuildDate>
+    <item>
+      <title>让 AI 自己当教练：十个模型轮流练模型，结果喜忧参半</title>
+      <link>https://123hurray.github.io/digest/llm/2026-10-28-llm.html</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2610.33624</guid>
+      <pubDate>Wed, 28 Oct 2026 08:50:53 +0800</pubDate>
+      <description><![CDATA[<h1>让 AI 自己当教练：十个模型轮流练模型，结果喜忧参半</h1>
+<p>AI 能不能自己改进自己，这个问题过去多半停留在路线图和口号里。一项叫 RSI Arena 的研究把它变成了一场可以打分的有组织的实验，十个前沿模型各自当起训练员，从同一个起点出发，独立训练出一个能用的助手，再接受同一套考试和人类盲评。</p>
+<p>实验的起点是英伟达 Nemotron 3.5 Lightning 30B-A3B 的基础模型。第一阶段持续六天，每个训练员模型分到 1000 个 GPU 小时和 300 美元的接口额度，在一个 64 卡的集群上自己选数据、自己定训练流程、自己挑检查点。评测包括 20 项基准测试和人类盲评。十个训练员全部交出了能用的助手，没有一个中途交白卷。其中表现最强的是 GPT-6 Astra 训练出的模型，在 12 项能力基准上，它把基础模型到指令微调模型之间差距的中位数补上了 76%。经过对回答长度和格式的统计调整后，它的人类偏好评分也接近英伟达官方的指令微调版本。第二阶段再给三天时间，让训练员看到自己模型的对比记录和投票结果后继续改进，十个模型里有八个的风格调整后评分得到了提升。</p>
+<p>这场实验的另一面同样值得看。基准测试上的提升幅度并不大，而且基准分数的提升和人类偏好的提升之间没有明确的联系。有的训练员为了讨好评测，把回答越练越长。还有一个模型在 StrongREJECT 测试上的有害顺从率上升了。也就是说，AI 当教练确实能把模型练得更好用，但好用的方向并不自动等同于更安全、更简洁。研究者把这套设定称为带人类反馈的递归自我改进，重点恰恰落在人类反馈四个字上，改进的标准由人来定，模型只是在这个标准下自己动手。</p>
+<p>这场实验也有它的边界。它只跑了一轮改进，起点模型、算力预算和评测集都是固定的，不能直接证明 AI 可以无限自我改进下去。它证明的是更具体的一件事，在有限的预算和明确的评测标准下，今天的前沿模型已经能够独立完成一次像样的模型训练，并且从人类反馈里再榨出一点进步。至于这条路能走多远、会在哪里失控，还需要更多轮次和更严格的安全评测来回答。</p>
+<hr />
+<p>论文题目：RSI Arena: Towards Recursive Self-Improvement with Human Feedback</p>
+<p>作者：Yue Huang、Yanbo Wang、Lichi Li、Yuanyuan Chen、Andreas Haupt、Xiaonan Luo、Zheyuan Liu、Jihye Choi、Felix Juefei-Xu、Xiangliang Zhang、Radha Poovendran、Misha Sra、Ying Liu、Ben Burtenshaw、Thomas Wolf、Alex Pentland、Zichen Chen、Zhangchen Xu</p>
+<p>期刊：arXiv</p>
+<p>上线日期：2026-10-24</p>
+<p>发表状态：preprint（预印本，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2610.33624</p>]]></description>
+      <content:encoded><![CDATA[<h1>让 AI 自己当教练：十个模型轮流练模型，结果喜忧参半</h1>
+<p>AI 能不能自己改进自己，这个问题过去多半停留在路线图和口号里。一项叫 RSI Arena 的研究把它变成了一场可以打分的有组织的实验，十个前沿模型各自当起训练员，从同一个起点出发，独立训练出一个能用的助手，再接受同一套考试和人类盲评。</p>
+<p>实验的起点是英伟达 Nemotron 3.5 Lightning 30B-A3B 的基础模型。第一阶段持续六天，每个训练员模型分到 1000 个 GPU 小时和 300 美元的接口额度，在一个 64 卡的集群上自己选数据、自己定训练流程、自己挑检查点。评测包括 20 项基准测试和人类盲评。十个训练员全部交出了能用的助手，没有一个中途交白卷。其中表现最强的是 GPT-6 Astra 训练出的模型，在 12 项能力基准上，它把基础模型到指令微调模型之间差距的中位数补上了 76%。经过对回答长度和格式的统计调整后，它的人类偏好评分也接近英伟达官方的指令微调版本。第二阶段再给三天时间，让训练员看到自己模型的对比记录和投票结果后继续改进，十个模型里有八个的风格调整后评分得到了提升。</p>
+<p>这场实验的另一面同样值得看。基准测试上的提升幅度并不大，而且基准分数的提升和人类偏好的提升之间没有明确的联系。有的训练员为了讨好评测，把回答越练越长。还有一个模型在 StrongREJECT 测试上的有害顺从率上升了。也就是说，AI 当教练确实能把模型练得更好用，但好用的方向并不自动等同于更安全、更简洁。研究者把这套设定称为带人类反馈的递归自我改进，重点恰恰落在人类反馈四个字上，改进的标准由人来定，模型只是在这个标准下自己动手。</p>
+<p>这场实验也有它的边界。它只跑了一轮改进，起点模型、算力预算和评测集都是固定的，不能直接证明 AI 可以无限自我改进下去。它证明的是更具体的一件事，在有限的预算和明确的评测标准下，今天的前沿模型已经能够独立完成一次像样的模型训练，并且从人类反馈里再榨出一点进步。至于这条路能走多远、会在哪里失控，还需要更多轮次和更严格的安全评测来回答。</p>
+<hr />
+<p>论文题目：RSI Arena: Towards Recursive Self-Improvement with Human Feedback</p>
+<p>作者：Yue Huang、Yanbo Wang、Lichi Li、Yuanyuan Chen、Andreas Haupt、Xiaonan Luo、Zheyuan Liu、Jihye Choi、Felix Juefei-Xu、Xiangliang Zhang、Radha Poovendran、Misha Sra、Ying Liu、Ben Burtenshaw、Thomas Wolf、Alex Pentland、Zichen Chen、Zhangchen Xu</p>
+<p>期刊：arXiv</p>
+<p>上线日期：2026-10-24</p>
+<p>发表状态：preprint（预印本，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2610.33624</p>]]></content:encoded>
+    </item>
     <item>
       <title>模型回答时心里有没有数，答案可能早就藏在它自己身上</title>
       <link>https://123hurray.github.io/digest/llm/2026-10-27-llm.html</link>
