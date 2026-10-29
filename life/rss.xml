@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/life/</link>
     <description>每天从主流生命科学 / 脑神经科学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 08:51:07 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 08:55:39 +0800</lastBuildDate>
+    <item>
+      <title>亨廷顿病里，同一段 DNA 在不同神经元身上走了不同的路</title>
+      <link>https://123hurray.github.io/digest/life/2026-10-29-life.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1016/j.cell.2026.09.064</guid>
+      <pubDate>Thu, 29 Oct 2026 08:55:36 +0800</pubDate>
+      <description><![CDATA[<h1>亨廷顿病里，同一段 DNA 在不同神经元身上走了不同的路</h1>
+<p>亨廷顿病由 HTT 基因里一段 CAG 重复序列过长引起，健康人这段重复大约是 15 到 35 次，患者生来就有 40 次以上。三十年来一个关键问题悬而未决，患者出生时全身细胞带着同样的突变，为什么几十年后死掉的只是大脑里特定的几类神经元。加州大学圣地亚哥分校的索尼娅·巴斯克斯-桑切斯等人换了一种问法，他们不再只看某个细胞此刻的基因出了什么错，而是把同一张脑组织切片里的每个细胞同时测了三样东西，这个细胞的基因表达谱、它体内 CAG 重复序列已经扩增到了多长、以及亨廷顿蛋白有没有在核内聚集成团。</p>
+<p>这套多模态空间转录组技术一共拍下了亨廷顿病患者皮层里的 428173 个细胞。结果呈现出一条清晰的分化路线。皮层深层的两类兴奋性神经元，也就是第 5 到 6 层的 NP 型神经元和第 6b 层神经元，损失超过一半，而它们的 CAG 重复序列往往已经扩增到 380 次上下，误差 55 次，是所有细胞里扩增最厉害的。另一组细胞走了不同的路径，核内亨廷顿蛋白聚集体最常见于重复序列扩增到 220 到 300 次的中段，而且这些细胞的基因表达变化比单纯重复扩增的细胞更广泛。重复序列变长和蛋白聚团这两件事并不总是在同一个细胞里同步发生，它们像是同一条病程里的不同站点。</p>
+<p>更耐人寻味的是两类抑制性中间神经元，烛台细胞和生长抑素阳性中间神经元。它们同样出现了选择性丢失，可它们的重复扩增幅度不大，核内聚集体也不多。按“重复越长死得越快”的简单逻辑，这两类细胞本该相对安全，它们的丢失说明亨廷顿病皮层的损伤不止一条因果链，某些细胞可能死于周围环境的连锁反应，或者死于目前这套测量还没抓到的机制。研究者也给出了一个更深的数据集，185721 个细胞里同时测了 1128 个基因的表达和另外 6 种病理标记，留给后续研究去追问这些例外。</p>
+<p>这项工作离新药还有距离，它没有测试任何治疗手段，也没有证明挡住某一步就能救下神经元。它的意义在于把“谁先死、为什么是它”从一张笼统的病变地图变成了按细胞类型和重复长度分层的路线图。如果将来有药物想在重复序列扩增到致命阈值之前干预，这张图至少告诉了干预该瞄准哪类细胞、在病程的哪一段动手。</p>
+<hr />
+<p>论文题目：Multimodal spatial transcriptomics redefines cortical pathology in Huntington’s disease</p>
+<p>作者：Sonia Vazquez-Sanchez、Olatz Arnold-Garcia、Carlos Chillon-Marinas、Roy Maimon、Jie Cui、Katelyn McNair、Yuanyi Dai、Natalia L. Jimenez、Daniel D. Child、Leslie M. Thompson、Jone Lopez-Erauskin、Bogdan Bintu、Don W. Cleveland</p>
+<p>期刊：Cell</p>
+<p>上线日期：2026-10-28</p>
+<p>状态：Advance Article（网络首发，正式卷期未出）</p>
+<p>原文链接：https://doi.org/10.1016/j.cell.2026.09.064</p>]]></description>
+      <content:encoded><![CDATA[<h1>亨廷顿病里，同一段 DNA 在不同神经元身上走了不同的路</h1>
+<p>亨廷顿病由 HTT 基因里一段 CAG 重复序列过长引起，健康人这段重复大约是 15 到 35 次，患者生来就有 40 次以上。三十年来一个关键问题悬而未决，患者出生时全身细胞带着同样的突变，为什么几十年后死掉的只是大脑里特定的几类神经元。加州大学圣地亚哥分校的索尼娅·巴斯克斯-桑切斯等人换了一种问法，他们不再只看某个细胞此刻的基因出了什么错，而是把同一张脑组织切片里的每个细胞同时测了三样东西，这个细胞的基因表达谱、它体内 CAG 重复序列已经扩增到了多长、以及亨廷顿蛋白有没有在核内聚集成团。</p>
+<p>这套多模态空间转录组技术一共拍下了亨廷顿病患者皮层里的 428173 个细胞。结果呈现出一条清晰的分化路线。皮层深层的两类兴奋性神经元，也就是第 5 到 6 层的 NP 型神经元和第 6b 层神经元，损失超过一半，而它们的 CAG 重复序列往往已经扩增到 380 次上下，误差 55 次，是所有细胞里扩增最厉害的。另一组细胞走了不同的路径，核内亨廷顿蛋白聚集体最常见于重复序列扩增到 220 到 300 次的中段，而且这些细胞的基因表达变化比单纯重复扩增的细胞更广泛。重复序列变长和蛋白聚团这两件事并不总是在同一个细胞里同步发生，它们像是同一条病程里的不同站点。</p>
+<p>更耐人寻味的是两类抑制性中间神经元，烛台细胞和生长抑素阳性中间神经元。它们同样出现了选择性丢失，可它们的重复扩增幅度不大，核内聚集体也不多。按“重复越长死得越快”的简单逻辑，这两类细胞本该相对安全，它们的丢失说明亨廷顿病皮层的损伤不止一条因果链，某些细胞可能死于周围环境的连锁反应，或者死于目前这套测量还没抓到的机制。研究者也给出了一个更深的数据集，185721 个细胞里同时测了 1128 个基因的表达和另外 6 种病理标记，留给后续研究去追问这些例外。</p>
+<p>这项工作离新药还有距离，它没有测试任何治疗手段，也没有证明挡住某一步就能救下神经元。它的意义在于把“谁先死、为什么是它”从一张笼统的病变地图变成了按细胞类型和重复长度分层的路线图。如果将来有药物想在重复序列扩增到致命阈值之前干预，这张图至少告诉了干预该瞄准哪类细胞、在病程的哪一段动手。</p>
+<hr />
+<p>论文题目：Multimodal spatial transcriptomics redefines cortical pathology in Huntington’s disease</p>
+<p>作者：Sonia Vazquez-Sanchez、Olatz Arnold-Garcia、Carlos Chillon-Marinas、Roy Maimon、Jie Cui、Katelyn McNair、Yuanyi Dai、Natalia L. Jimenez、Daniel D. Child、Leslie M. Thompson、Jone Lopez-Erauskin、Bogdan Bintu、Don W. Cleveland</p>
+<p>期刊：Cell</p>
+<p>上线日期：2026-10-28</p>
+<p>状态：Advance Article（网络首发，正式卷期未出）</p>
+<p>原文链接：https://doi.org/10.1016/j.cell.2026.09.064</p>]]></content:encoded>
+    </item>
     <item>
       <title>哪段经历会被记住，杏仁核在看到它的那一刻就投了票</title>
       <link>https://123hurray.github.io/digest/life/2026-10-28-life.html</link>
