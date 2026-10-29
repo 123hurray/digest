@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>给模型喂长文章时，先问一句这段跟问题有关吗</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>给模型喂长文章时，先问一句这段跟问题有关吗</h1>
+<p>大模型读长文章时有个老毛病，文章越长，真正有用的那几句越容易被淹没。测试时训练是一种应对办法，模型在回答问题之前先把眼前的长文章当成一次临时教材，自己快速学一遍，把文章内容写进一小部分可以临时改写的参数里，而不是只靠注意力机制临场翻找。最近一种叫原位测试时训练的做法让这件事变得可行，它直接复用模型里现成的下投影矩阵当临时笔记本，不用改架构。但吴越等人发现，这个办法一碰到真实的网页长问答就失灵了，原因出在记笔记的方式上，文章被切成一段一段，每段都以同样的力度写进临时记忆，无关内容和关键证据平起平坐，关键信息反而被稀释了。</p>
+<p>他们的改进叫 Select-TTT，思路可以一句话讲清，写笔记之前先按问题给每段打分，相关的段多写几笔，不相关的段轻轻带过。打分用的信号不需要额外训练，也不需要新增参数，直接读模型自己那个冻结的输出头，看每段的隐藏状态会给问题里的词分配多少概率，再用一个带温度系数的 softmax 把这些分数转成每段的学习率倍数。整个过程仍然保持分段并行计算，原位测试时训练省算力的优点没有丢。实验覆盖了两个长问答基准和两个不同的基座模型，Select-TTT 在这些测试里都稳定地改进了长问答成绩，摘要里没有给出具体的提升百分点，所以这里不展开数字。</p>
+<p>这个结果的适用范围需要讲清楚，它针对的是长文章问答，也就是问题明确、证据藏在长文本里的任务，不是所有长文本任务的通用解药。作者也提到，这套按问题筛选写入强度的做法将来可能用在更长的智能体任务里，那种任务里用户会连续提多个问题，上下文本身还在不断变化。但眼下能站得住的结论只有一个，测试时训练的效果不只取决于训练了什么，还取决于训练时有没有挑着记。把无关内容挡在笔记本门外，模型对长文章的回答就更稳。</p>
+<hr />
+<p>论文题目：Select-TTT: Query-Conditioned Selective Fast Weight Updates for In-Place Test-Time Training</p>
+<p>作者：Yue Wu、Yang Zhang、Weinan Gan、Chongming Gao、Xinsen Guo、Xiaoyuan Li、Fuli Feng</p>
+<p>期刊：arXiv</p>
+<p>上线日期：2026-10-27</p>
+<p>状态：预印本（未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2610.36794</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-27</p>
+</main>
+</body>
+</html>
