@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>对撞机的数据洪流，也需要一个“先学会看，再学着找”的通用模型</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>对撞机的数据洪流，也需要一个“先学会看，再学着找”的通用模型</h1>
+<p>大型强子对撞机每年产生数十亿次质子对撞，每次对撞记录下来的是一团长短不一的末态粒子，物理学家要从中分辨这是什么过程、有没有新粒子、某个粒子又衰变成什么。过去的做法是每个分析单独设计模型、单独训练、单独验证，换一个问题就得从头再来。随着高亮度升级临近，数据量和对稀有过程的灵敏度要求还会继续上升，这种一事一模型的路子只会越来越吃力。发表在 Nature Machine Intelligence 上的 EVENET 想把语言模型和视觉模型里已经跑通的范式搬进粒子物理，先让一个模型看够足够多的对撞，再带着学到的通用表示去接各种具体任务。</p>
+<p>EVENET 把每次对撞看作一团无序的粒子云，用一个共享的点边 Transformer 主干处理，任务头可以互换，分别负责物理过程分类、把重建对象匹配到母共振态、末态分割，以及用扩散方法重建被遮挡或未探测到的粒子。预训练分两个阶段，先是自监督掩码重建，让模型学会对撞事件的通用表示，再把自监督和物理信息监督联合优化，预训练一共用了 5 亿个模拟对撞事件。这个设计有一个关键前提，预训练语料里刻意没有按截面加权，让稀有过程不至于被常见过程淹没。</p>
+<p>检验分两头，一头看它能不能找到没见过的新物理。团队用重粒子 X 衰变成轻粒子 Y 加标准模型希格斯玻色子的质量网格做扫描，这是一种预训练里没有出现过的产生拓扑。完整预训练版 EVENET 在大部分网格点上灵敏度最高，平均最大显著性提升指标比从零训练高约 50%，比 XGBoost 高约 20%，比 TabPFN 高约 10%，而且收敛大约只要 1000 步，从零训练则需要约 3000 步。另一头看它能不能从模拟跨到真实数据。团队在 2016 年 CMS 开放数据里搜寻反孤立的 ϒ 粒子衰变成一对缪子的信号，这类信号藏在大量强子活动里，常规的孤立判据很难抓到。校准后的完整预训练版给出的中位局部显著性是 7.6σ，超过已发表基准的 6.4σ，而从零训练的版本只有 1.5σ。</p>
+<p>需要说明一点，EVENET 是粒子物理的基础模型，处理的是对撞事件，不是语言。它借用的是预训练再迁移这套范式，而不是把聊天模型直接搬到对撞机上。作者也没有宣称它已经可以取代真实分析，不确定性的显式建模和传播仍是后续工作。它的价值在于证明了一件事，一个模型先看 5 亿次模拟对撞，学到的表示真的能在没见过的信号和真实探测器数据上复用。以后对撞机分析的起点，或许不再是一张白纸，而是一个已经见过世面的底座。</p>
+<hr />
+<p>论文题目：Foundation model for particle collision data analysis</p>
+<p>作者：T.-H. Hsu、B. Zhou、Q. Liu、Y. Xu、S. Li、G. W.-S. Hou、B. Nachman、S.-C. Hsu、V. Mikuni、Y.-T. Chou、Y. Zhang 等</p>
+<p>期刊：Nature Machine Intelligence</p>
+<p>上线日期：2026-10-29</p>
+<p>状态：正式出版</p>
+<p>原文链接：https://www.nature.com/articles/s42256-026-01322-9</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-29</p>
+</main>
+</body>
+</html>
