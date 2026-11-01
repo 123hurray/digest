@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>指令和资料混在一起，是 AI 被注入攻击的根源</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>指令和资料混在一起，是 AI 被注入攻击的根源</h1>
+<p>大语言模型读到的上下文里，指令和资料是混在一起的同一串文字。用户说的话、系统给的规则、网页抓回来的内容、工具返回的结果，全都以同样的 token 形式排队进入模型。模型没有一个内置的办法区分哪一句是该执行的命令，哪一句只是供参考的资料。攻击者正是钻了这个空子，在网页或文档里埋一句伪装成指令的话，模型读到之后就可能照办，这就是提示词注入。</p>
+<p>IBM 等机构的研究者提出了一个叫 LLMON 的后训练框架，做法是给模型立一套显式的执行语义。训练数据被改写成结构化的对象记号，指令和资料分开存放，指令只有被显式标识引用时才会被执行，资料段落即使混进了竞争性指令也不会被当成命令。团队用 46 亿 token 的结构化语料做了这套训练，语料覆盖通用文本、检索增强生成和工具调用数据，其中还特意掺入了干扰样本，也就是上下文里放着竞争指令和无关资料，但没有被引用。训练对象是 Granite-4.1 的 30 亿和 80 亿参数基座模型，先做监督微调，再做强化学习，模型结构本身没有改动。</p>
+<p>效果在间接提示词注入基准上很明显。攻击成功率在原来从 53% 到 100% 不等的基准上，训练后降到了 0.02% 到 5.6%，同时通用能力得到了保留。研究者还引入了一套基于注意力的可解释性指标，可以按 Transformer 的层去诊断结构化输入在哪些层出了问题，从而看到新训练方式怎样重塑了模型内部的注意力模式。</p>
+<p>这个思路的吸引力在于它没有要求重新设计模型，也没有依赖外部过滤器，而是把执行语义写进训练本身。当然，这篇论文还是预印本，未经同行评审，测试用的是特定的注入基准，真实世界里的攻击花样更多。把它理解成一个有力的概念验证更合适，指令和资料分开存放，能不能成为未来模型的默认做法，还要看更多模型和更多攻击手段上的复现。</p>
+<hr />
+<p>论文题目：Post-Training Large Language Models with LLMON</p>
+<p>作者：Basel Shbita、Michael Hind、Chad DeLuca、Nathan Fulton、Shubhi Asthana、Farhan Ahmed、Anisa Halimi、Yada Zhu、Mauro Martino、David Cox、Dan Gutfreund</p>
+<p>期刊：arXiv（cs.AI）</p>
+<p>上线日期：2026-10-28</p>
+<p>状态：预印本（未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2610.38120</p>
+<p class="meta">每日大模型论文科普速递 · 2026-10-28</p>
+</main>
+</body>
+</html>
