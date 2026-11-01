@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 08:56:30 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 08:52:16 +0800</lastBuildDate>
+    <item>
+      <title>给星系量身高，分类方法会改写结果</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-11-01-cosmo.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag2074</guid>
+      <pubDate>Sun, 01 Nov 2026 08:51:57 +0800</pubDate>
+      <description><![CDATA[<h1>给星系量身高，分类方法会改写结果</h1>
+<p>星系有多大，通常要放在两个关系里看。一个是星系的质量越大，个头是不是也越大，另一个是同样的星系放在宇宙更早的时候，个头是不是不一样。这两条关系是星系形成理论的重要检验，但剑桥大学团队的新研究提醒了一件事，先把星系按什么标准分组，会直接改写量出来的关系。</p>
+<p>研究用的是 COSMOS-Web 的空间成像，加上 pop-cosmos 生成模型给出的恒星质量和恒星形成率估计，一共覆盖了 99369 个星系。团队把同一批星系按两种标准各分了一次，一次按恒星形成活动分，看星系是在积极造星还是已经停产，一次按形态分，看星系是圆盘主导还是核球主导。核球是星系中心隆起的老年恒星聚集区，恒星形成活动则用单位质量恒星形成率来衡量，也就是每年每单位恒星质量新生的恒星质量。两种分法量出的个头与质量关系，在斜率、截距和内在离散程度上都对不上。</p>
+<p>离散程度的差别尤其有信息量。星系个头的内在离散只跟着形态走，不跟着恒星形成活动走，这给星系和暗物质晕之间的联系加了一条约束。更耐人寻味的是两条折点。已经停产的星系和核球主导的星系，它们的个头与质量关系都出现了一次双幂律转折，也就是关系在某个质量处换了一套斜率，但两处转折的质量并不相同。停产星系的转折在大约 10 的 10.7 次方倍太阳质量处，这个质量恰好也是活动星系核红外辐射占比在过渡星系里达到峰值的地方。核球主导星系的转折在大约 10 的 11.1 次方倍太阳质量处，对应的是活动星系核驱动的重子再分布效应最强的暗物质晕质量。两处转折错开，暗示星系停止造星和星系结构变形是两件发生在不同时标上的事，中间隔着一段活动星系核反馈从启动到完成结构改造的时间。</p>
+<p>研究还指出，按形态分的趋势只有空间成像才能恢复，地面观测的模糊会把这些信号抹掉。对普通读者来说，这篇论文的启示很直接，星系演化没有一张唯一的曲线图，分类标准本身就是结论的一部分。下次看到某项星系演化研究，先问一句它按什么分的，答案可能比曲线本身更重要。</p>
+<hr />
+<p>论文题目：pop-cosmos: Galaxy size evolution across structural and star-formation classifications in COSMOS-Web</p>
+<p>作者：Madalina N Tudorache、Hiranya V Peiris、Stephen Thorp、Sinan Deger、Daniel J Mortlock、Gurjeet Jagwani、Anik Halder、Boris Leistedt、Benedict Van den Bussche、Joel Leja</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society (MNRAS)</p>
+<p>上线日期：2026-10-30</p>
+<p>状态：Accepted Manuscript（已接收手稿，尚未完成排版）</p>
+<p>原文链接：https://doi.org/10.1093/mnras/stag2074</p>]]></description>
+      <content:encoded><![CDATA[<h1>给星系量身高，分类方法会改写结果</h1>
+<p>星系有多大，通常要放在两个关系里看。一个是星系的质量越大，个头是不是也越大，另一个是同样的星系放在宇宙更早的时候，个头是不是不一样。这两条关系是星系形成理论的重要检验，但剑桥大学团队的新研究提醒了一件事，先把星系按什么标准分组，会直接改写量出来的关系。</p>
+<p>研究用的是 COSMOS-Web 的空间成像，加上 pop-cosmos 生成模型给出的恒星质量和恒星形成率估计，一共覆盖了 99369 个星系。团队把同一批星系按两种标准各分了一次，一次按恒星形成活动分，看星系是在积极造星还是已经停产，一次按形态分，看星系是圆盘主导还是核球主导。核球是星系中心隆起的老年恒星聚集区，恒星形成活动则用单位质量恒星形成率来衡量，也就是每年每单位恒星质量新生的恒星质量。两种分法量出的个头与质量关系，在斜率、截距和内在离散程度上都对不上。</p>
+<p>离散程度的差别尤其有信息量。星系个头的内在离散只跟着形态走，不跟着恒星形成活动走，这给星系和暗物质晕之间的联系加了一条约束。更耐人寻味的是两条折点。已经停产的星系和核球主导的星系，它们的个头与质量关系都出现了一次双幂律转折，也就是关系在某个质量处换了一套斜率，但两处转折的质量并不相同。停产星系的转折在大约 10 的 10.7 次方倍太阳质量处，这个质量恰好也是活动星系核红外辐射占比在过渡星系里达到峰值的地方。核球主导星系的转折在大约 10 的 11.1 次方倍太阳质量处，对应的是活动星系核驱动的重子再分布效应最强的暗物质晕质量。两处转折错开，暗示星系停止造星和星系结构变形是两件发生在不同时标上的事，中间隔着一段活动星系核反馈从启动到完成结构改造的时间。</p>
+<p>研究还指出，按形态分的趋势只有空间成像才能恢复，地面观测的模糊会把这些信号抹掉。对普通读者来说，这篇论文的启示很直接，星系演化没有一张唯一的曲线图，分类标准本身就是结论的一部分。下次看到某项星系演化研究，先问一句它按什么分的，答案可能比曲线本身更重要。</p>
+<hr />
+<p>论文题目：pop-cosmos: Galaxy size evolution across structural and star-formation classifications in COSMOS-Web</p>
+<p>作者：Madalina N Tudorache、Hiranya V Peiris、Stephen Thorp、Sinan Deger、Daniel J Mortlock、Gurjeet Jagwani、Anik Halder、Boris Leistedt、Benedict Van den Bussche、Joel Leja</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society (MNRAS)</p>
+<p>上线日期：2026-10-30</p>
+<p>状态：Accepted Manuscript（已接收手稿，尚未完成排版）</p>
+<p>原文链接：https://doi.org/10.1093/mnras/stag2074</p>]]></content:encoded>
+    </item>
     <item>
       <title>同一批宇宙气体，换一批星系再测一次，年轻星系留住的气体更多</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-10-31-cosmo.html</link>
