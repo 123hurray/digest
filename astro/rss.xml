@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/astro/</link>
     <description>每天从主流天文期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 08:52:16 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 08:56:06 +0800</lastBuildDate>
+    <item>
+      <title>一场看着不起眼的爆炸，余晖却亮到了纪录级别</title>
+      <link>https://123hurray.github.io/digest/astro/2026-11-02-astro.html</link>
+      <guid isPermaLink="true">https://doi.org/10.3847/2041-8213/aea990</guid>
+      <pubDate>Mon, 02 Nov 2026 08:55:51 +0800</pubDate>
+      <description><![CDATA[<h1>一场看着不起眼的爆炸，余晖却亮到了纪录级别</h1>
+<p>2026 年 3 月 10 日，费米伽马射线空间望远镜捕捉到一次伽马暴，编号 GRB 260310A。它的伽马射线只持续了大约 53 秒，能量按各向同性折算大约是 3.5×10⁵⁰ 尔格，在长暴里算不上出众。按常理，故事到这里就该平淡收场了。可是接下来的几个小时，它的可见光余晖一路变亮，峰值出现在大约 0.1 天之后，最终在 X 射线、可见光和射电三个波段都挤进了有史以来最亮余晖的行列。这次爆炸的红移大约是 0.153，附近还伴随着一颗宽线 Ic 型超新星，说明它源于一颗大质量恒星的坍缩。</p>
+<p>研究团队用偏轴喷流解释了这种反差。伽马暴的喷流并不是一根均匀的光柱，更像一束中心极亮、外围渐暗的光。地球这次没有正对喷流中心，而是从侧面看过去，于是最开始只收到了外围较弱的辐射，伽马暴本身显得平平无奇。随着喷流减速，它的辐射束逐渐展宽，更亮的部分才慢慢转入我们的视线，余晖因此迟到了几个小时才达到峰值。射电能谱同时显示出正向激波和反向激波的成分，这是偏轴几何下反向激波模型的第一次检验。</p>
+<p>更耐人寻味的是大约三周之后发生的事。X 射线余晖在变暗之后又重新亮了起来，团队一直追踪到大约 68 天，期间光谱形态没有变化。钱德拉望远镜的高分辨率成像确认这次增亮确实来自爆源本身。一种解释是喷流里还藏着一个更窄、能量更高的核心，它比外层晚一步转入视线，于是形成了第二个峰。在 55 天时测到的 15 吉赫射电偏振只有大约 1.7%，说明到了晚期，正向激波已经主导了从射电到 X 射线的辐射。按最极端的模型推算，如果那个窄核心正对着地球，观测者推断出的能量可能超过 10⁵⁵ 尔格，足以和迄今最极端的 GRB 221009A 比肩，不过这只是模型外推，不是实测结论。</p>
+<p>这件事的实际意义在于搜寻方式。有些真正强大的爆炸可能因为喷流没有对准地球，伽马射线弱到触发不了探测器，却留下了明亮的光学或 X 射线余晖。未来的广域巡天，比如薇拉·鲁宾天文台，有可能直接从余晖里把这类被错过的爆炸捞出来。判断一次爆炸的真实威力，不能只看它第一分钟的伽马射线有多亮，还得看它之后几个星期讲了什么故事。</p>
+<hr />
+<p>论文题目：An Extremely Bright Slow-rising Afterglow from an Off-axis Jet in GRB 260310A</p>
+<p>作者：Yu-Han Yang、Roberto Ricci、Eleonora Troja、Muskan Yadav、Yi-Han Iris Yin、Rubén Sánchez-Ramírez、Brendan O'Connor、Niccolò Passaleva、Alberto J. Castro-Tirado、Hendrik van Eerten、Simone Dichiara、Vincenzo Galluzzi、Narjes Shahamat Dehsorkh、Iván Agudo、Jesús Aceituno、Malte Busmann、Maria D. Caballero-García、Emilio Fernández-García、Daniel Gruen、Maria Gritsevich、Sergiy Guziy、David Hiriart、You-Dong Hu、Martin Jelínek、Alexander Kutyrev、Alzbeta Malenakova、Filip Novotny、Ignacio Pérez-García、Shashi B. Pandey、Jorma Ryske、Alfredo Sota、Jan Strobl、Hira Waseem、Siyu Wu</p>
+<p>期刊：The Astrophysical Journal Letters</p>
+<p>上线日期：2026-10-28</p>
+<p>状态：正式出版</p>
+<p>原文链接：https://doi.org/10.3847/2041-8213/aea990</p>]]></description>
+      <content:encoded><![CDATA[<h1>一场看着不起眼的爆炸，余晖却亮到了纪录级别</h1>
+<p>2026 年 3 月 10 日，费米伽马射线空间望远镜捕捉到一次伽马暴，编号 GRB 260310A。它的伽马射线只持续了大约 53 秒，能量按各向同性折算大约是 3.5×10⁵⁰ 尔格，在长暴里算不上出众。按常理，故事到这里就该平淡收场了。可是接下来的几个小时，它的可见光余晖一路变亮，峰值出现在大约 0.1 天之后，最终在 X 射线、可见光和射电三个波段都挤进了有史以来最亮余晖的行列。这次爆炸的红移大约是 0.153，附近还伴随着一颗宽线 Ic 型超新星，说明它源于一颗大质量恒星的坍缩。</p>
+<p>研究团队用偏轴喷流解释了这种反差。伽马暴的喷流并不是一根均匀的光柱，更像一束中心极亮、外围渐暗的光。地球这次没有正对喷流中心，而是从侧面看过去，于是最开始只收到了外围较弱的辐射，伽马暴本身显得平平无奇。随着喷流减速，它的辐射束逐渐展宽，更亮的部分才慢慢转入我们的视线，余晖因此迟到了几个小时才达到峰值。射电能谱同时显示出正向激波和反向激波的成分，这是偏轴几何下反向激波模型的第一次检验。</p>
+<p>更耐人寻味的是大约三周之后发生的事。X 射线余晖在变暗之后又重新亮了起来，团队一直追踪到大约 68 天，期间光谱形态没有变化。钱德拉望远镜的高分辨率成像确认这次增亮确实来自爆源本身。一种解释是喷流里还藏着一个更窄、能量更高的核心，它比外层晚一步转入视线，于是形成了第二个峰。在 55 天时测到的 15 吉赫射电偏振只有大约 1.7%，说明到了晚期，正向激波已经主导了从射电到 X 射线的辐射。按最极端的模型推算，如果那个窄核心正对着地球，观测者推断出的能量可能超过 10⁵⁵ 尔格，足以和迄今最极端的 GRB 221009A 比肩，不过这只是模型外推，不是实测结论。</p>
+<p>这件事的实际意义在于搜寻方式。有些真正强大的爆炸可能因为喷流没有对准地球，伽马射线弱到触发不了探测器，却留下了明亮的光学或 X 射线余晖。未来的广域巡天，比如薇拉·鲁宾天文台，有可能直接从余晖里把这类被错过的爆炸捞出来。判断一次爆炸的真实威力，不能只看它第一分钟的伽马射线有多亮，还得看它之后几个星期讲了什么故事。</p>
+<hr />
+<p>论文题目：An Extremely Bright Slow-rising Afterglow from an Off-axis Jet in GRB 260310A</p>
+<p>作者：Yu-Han Yang、Roberto Ricci、Eleonora Troja、Muskan Yadav、Yi-Han Iris Yin、Rubén Sánchez-Ramírez、Brendan O'Connor、Niccolò Passaleva、Alberto J. Castro-Tirado、Hendrik van Eerten、Simone Dichiara、Vincenzo Galluzzi、Narjes Shahamat Dehsorkh、Iván Agudo、Jesús Aceituno、Malte Busmann、Maria D. Caballero-García、Emilio Fernández-García、Daniel Gruen、Maria Gritsevich、Sergiy Guziy、David Hiriart、You-Dong Hu、Martin Jelínek、Alexander Kutyrev、Alzbeta Malenakova、Filip Novotny、Ignacio Pérez-García、Shashi B. Pandey、Jorma Ryske、Alfredo Sota、Jan Strobl、Hira Waseem、Siyu Wu</p>
+<p>期刊：The Astrophysical Journal Letters</p>
+<p>上线日期：2026-10-28</p>
+<p>状态：正式出版</p>
+<p>原文链接：https://doi.org/10.3847/2041-8213/aea990</p>]]></content:encoded>
+    </item>
     <item>
       <title>行星相撞，反而帮它保住了大气</title>
       <link>https://123hurray.github.io/digest/astro/2026-11-01-astro.html</link>
