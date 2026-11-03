@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一个 4B 小模型，学会了自己在电脑上“动手”</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>一个 4B 小模型，学会了自己在电脑上“动手”</h1>
+<p>电脑操作智能体要干的活其实有两种。一种是看着屏幕点鼠标、敲键盘，另一种是打开终端写代码跑命令。过去的系统往往把这两件事交给不同的模块，或者靠一个外部编排器在中间调度。微软 Mage 团队的新工作想把它们装进同一个 4B 参数的模型里，让模型自己判断眼下该点屏幕还是该写代码。这个模型叫 Mage-VL-Cowork，训练起点是一个通用的多模态对齐模型，之后经历了五个阶段的递进课程，覆盖中期训练、有监督微调和强化学习。先练纯图形界面操作，再练代码和终端操作，然后练两种模式混合，最后用在线强化学习把混合策略打磨成型。</p>
+<p>训练数据是这套方法的另一个关键。团队用 Mage-CUA-Forge 系统把过去那种每个任务单独搭建智能体的做法，换成了可复用的技能条件生成流程。同一套技能模板可以批量产出任务，再配上针对不同应用的准备程序，最终合成了 293806 个桌面和网页任务，覆盖 6915 种技能。批量化带来的直接好处是成本。每个任务的重复开销降低了 82.6%。教师模型的搭建方式也变了。团队没有直接蒸馏一个默认教师，而是不断演化教师的执行框架，再从中实例化出针对特定阶段的专用框架，用来产出高质量的训练轨迹。</p>
+<p>成绩单放在 OSWorld-Verified 这个电脑操作基准上，步数预算 50 步。只练完图形界面微调时，模型得分 45.56%。加上混合微调后涨到 55.84%。走完最后的强化学习阶段，得分来到 66.0%。项目页给出的对比显示，这个分数超过了几个参数量大得多的开源智能体。作者把这个结果定位为同参数量下的最好水平，并指向了一个更实际的目标。参数量小到可以装进本地设备，意味着电脑操作智能体不一定非要依赖云端大模型。</p>
+<p>需要提醒的是，这是一篇预印本，基准分数是作者自己报告的，还没有经过独立复现。66% 这个数字也不等于日常办公里三分之二的任务都能放心交给它，基准任务和真实工作环境之间还有距离。但这条路本身值得注意。把点屏幕和写代码练进同一个策略，再用可复用的任务生成把训练成本压下来，小模型在电脑操作这件事上正在逼近大模型的表现。</p>
+<hr />
+<p>论文题目：Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses</p>
+<p>作者：Xiaoyi Zhang、Haoqing Wang、Xinjie Zhang、Xiang Ming、Xing Wang、Senqiao Yang、Kaichen Zhang、Zhaoyang Jia、Andong Tan、Xinjiang Wang、Jinghao Guo、Yifei Shen、Xiao Li、Peng Zhang、Xun Guo、Jiahao Li、Shicheng Zheng、Jinglu Wang、Zongyu Guo、Wenxuan Xie、Bin Li、Yan Lu</p>
+<p>期刊：arXiv</p>
+<p>上线日期：2026-11-02</p>
+<p>状态：预印本（未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2610.40747</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-02</p>
+</main>
+</body>
+</html>
