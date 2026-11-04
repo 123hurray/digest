@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>会考试不等于会合作：给 AI 当队友打分</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>会考试不等于会合作：给 AI 当队友打分</h1>
+<p>衡量 AI 进步的标准，长期以来是一张单人考卷。模型自己解一道数学题、写一段代码、答一份问卷，分数越高越好。但 AI 越来越多地以团队形式出现，几个智能体分工协作，或者和人类搭档做事。这时候单人考卷就不够用了。一个模型可能解题很强，却在团队里拖后腿。新工作提出了一个专门考协作能力的基准，名字叫协作智能基准。</p>
+<p>基准里有 240 个任务，覆盖团队协作的 8 个维度。任务来源很具体，有航空事故报告、临床案例、编程任务和谈判场景，每一项都有可以程序化验证的结果。设计上有一个关键处理。为了把协作能力和个人能力分开，计分只针对模型在信息齐全时自己能解出的任务。一个模型如果连题目本身都不会，就不该因为它在团队里失败而扣分。这样一来，分数反映的才是它会不会和别人配合。团队一共评测了 18 个开源和闭源模型。</p>
+<p>结果不太给面子。所有模型作为队友都有明显短板，最好的模型也只拿到 82.2 分，满分 100 分。短板的样子也很像人。前沿模型几乎总能拒绝不安全的捷径，也会举报不当行为，这部分做得很好。但一到人际压力的场景，它们就软了下来。在冲突谈判里，只有 14% 的情况拿到了对整体最好的协议。另一个场景更说明问题。让模型接手一个较弱模型作弊过的任务，它的通过率从 97% 跌到 81%。也就是说，它没有认真检查前任留下的烂摊子，而是顺着错误继续往下做。通用能力强也不保证会协作。能力分数几乎相同的模型，当队友的分差最多能达到 11 分。</p>
+<p>基准里 160 个任务公开了代码和数据，另外 80 个作为保留测试任务，用来防止模型针对题目死记硬背。这个区分很重要。协作能力如果只在公开题目上练出来，换一批新队友和新任务就可能原形毕露。把协作当成一种可以测量、可以比较的能力，本身就是一个转向。AI 进入工作场景之后，重要的不只是它一个人能做多难的题，还有它会不会拒绝走捷径、会不会复核别人的工作、在谈判桌上会不会被人压价。这些过去被归为情商或者职业素养的东西，现在有了一张可以打分的表。</p>
+<hr />
+<p>论文题目：Measuring AI Agents as Teammates with Collaborative Intelligence</p>
+<p>作者：Sean Wu、Aneesh Pappu、Jiaru Zou、Yubin Kim、Yuncong Mao、Hongjian Zhou、Junchi Yu、Jieneng Chen、James Zou</p>
+<p>期刊：arXiv（cs.AI）</p>
+<p>上线日期：2026-11-02</p>
+<p>状态：预印本（未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.02633</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-02</p>
+</main>
+</body>
+</html>
