@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/astro/</link>
     <description>每天从主流天文期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Nov 2026 09:04:56 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 08:53:24 +0800</lastBuildDate>
+    <item>
+      <title>韦布看到的早期黑洞为什么偏大？模拟说，可能是我们只看到了最显眼的那一批</title>
+      <link>https://123hurray.github.io/digest/astro/2026-11-05-astro.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag2090</guid>
+      <pubDate>Thu, 05 Nov 2026 08:53:21 +0800</pubDate>
+      <description><![CDATA[<h1>韦布看到的早期黑洞为什么偏大？模拟说，可能是我们只看到了最显眼的那一批</h1>
+<p>韦布望远镜在宇宙早期发现了一批正在活跃吸积的黑洞，数量多得超出预期，质量看起来也比同等大小星系里的黑洞要大。放在今天宇宙里的黑洞和宿主星系质量关系旁边，这批早期黑洞显得格外超重。这个反常引出了三种不同的解释。一种是早期黑洞确实长得特别快，走了一条高效生长通道。一种是我们看到的只是整个黑洞群体里最显眼的尾巴，普通黑洞还藏在视线之外。还有一种是黑洞质量的估计本身有系统误差，把它们算大了。</p>
+<p>剑桥团队领衔的 AESOPICA 计划用一整套宇宙学模拟来分辨这几种可能。模拟一共做了十二个，盒子边长 60 兆秒差距，基于 FABLE 星系形成模型。团队在模拟里轮换了几个关键设定。黑洞种子质量从 100 倍太阳质量一路放到 10 万倍太阳质量，覆盖了理论上主要的几种种子形成通道。吸积效率也分了档次，包括超过爱丁顿极限的爆发式吸积，同时还调节了超新星反馈的强度。模拟跑完还不够，团队又写了一个叫 BALMERSOPICA 的模拟观测流程，把每个模拟黑洞放进虚拟的韦布宽线巡天里，按光栅和曝光时间逐个判断它能不能被探测到。这样一来，模拟结果和真实巡天放在了同一把尺子上比较。</p>
+<p>结果先给种子问题松了绑。只要吸积效率够高，不管种子起步是轻是重，大部分韦布黑洞群体都能长出来。轻种子也不是不行，只是需要用到模拟里最有利的那套吸积条件。更有意思的是选择效应那一部分。把宽线选择条件套上去之后，模拟里自然就冒出了一批看起来超重的黑洞。在吸积效率不高的模型里，被选中的黑洞恰恰是偏离本征黑洞质量和恒星质量关系最远的那一批。也就是说，超重有一部分是挑出来的结果，巡天先看到了最容易被看到的黑洞。同时，被选中的黑洞落在另一条关系上，就是黑洞质量和宿主星系速度弥散的关系，而且这条关系随时间演化很弱。这个细节支持一种图景，黑洞先于恒星组分长起来，星系里的恒星后来才慢慢跟上。</p>
+<p>这个结论也划出了一条界线。高效吸积会很快抹掉种子质量留下的印记，单看一批明亮黑洞的质量，分辨不出它们当初是轻种子还是重种子起家。团队指出，真正有希望区分种子通道的线索在别处，一处是黑洞质量函数的低质量端，另一处是宿主星系气体的金属丰度。早期黑洞的身世之谜没有就此解开，但这项工作把争论从猜测推向了可以逐项检验的清单。</p>
+<hr />
+<p>论文题目：How to raise a supermassive black hole: interpreting early JWST AGN with the AESOPICA simulations</p>
+<p>作者：Sophie Koudmani、Jan Scholtz、Anthony J. Taylor、Ignas Juodžbalis、Debora Sijacki、Rachel S. Somerville、Roberto Maiolino、Emma Curtis-Lake、Steven L. Finkelstein、Martin A. Bourne、Francesco D'Eugenio、Sophia Geris、Lucy R. Ivey、Hannah Übler</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society (MNRAS)</p>
+<p>上线日期：2026-11-03</p>
+<p>状态：Advance Article（已接收手稿在线发表）</p>
+<p>原文链接：https://doi.org/10.1093/mnras/stag2090</p>]]></description>
+      <content:encoded><![CDATA[<h1>韦布看到的早期黑洞为什么偏大？模拟说，可能是我们只看到了最显眼的那一批</h1>
+<p>韦布望远镜在宇宙早期发现了一批正在活跃吸积的黑洞，数量多得超出预期，质量看起来也比同等大小星系里的黑洞要大。放在今天宇宙里的黑洞和宿主星系质量关系旁边，这批早期黑洞显得格外超重。这个反常引出了三种不同的解释。一种是早期黑洞确实长得特别快，走了一条高效生长通道。一种是我们看到的只是整个黑洞群体里最显眼的尾巴，普通黑洞还藏在视线之外。还有一种是黑洞质量的估计本身有系统误差，把它们算大了。</p>
+<p>剑桥团队领衔的 AESOPICA 计划用一整套宇宙学模拟来分辨这几种可能。模拟一共做了十二个，盒子边长 60 兆秒差距，基于 FABLE 星系形成模型。团队在模拟里轮换了几个关键设定。黑洞种子质量从 100 倍太阳质量一路放到 10 万倍太阳质量，覆盖了理论上主要的几种种子形成通道。吸积效率也分了档次，包括超过爱丁顿极限的爆发式吸积，同时还调节了超新星反馈的强度。模拟跑完还不够，团队又写了一个叫 BALMERSOPICA 的模拟观测流程，把每个模拟黑洞放进虚拟的韦布宽线巡天里，按光栅和曝光时间逐个判断它能不能被探测到。这样一来，模拟结果和真实巡天放在了同一把尺子上比较。</p>
+<p>结果先给种子问题松了绑。只要吸积效率够高，不管种子起步是轻是重，大部分韦布黑洞群体都能长出来。轻种子也不是不行，只是需要用到模拟里最有利的那套吸积条件。更有意思的是选择效应那一部分。把宽线选择条件套上去之后，模拟里自然就冒出了一批看起来超重的黑洞。在吸积效率不高的模型里，被选中的黑洞恰恰是偏离本征黑洞质量和恒星质量关系最远的那一批。也就是说，超重有一部分是挑出来的结果，巡天先看到了最容易被看到的黑洞。同时，被选中的黑洞落在另一条关系上，就是黑洞质量和宿主星系速度弥散的关系，而且这条关系随时间演化很弱。这个细节支持一种图景，黑洞先于恒星组分长起来，星系里的恒星后来才慢慢跟上。</p>
+<p>这个结论也划出了一条界线。高效吸积会很快抹掉种子质量留下的印记，单看一批明亮黑洞的质量，分辨不出它们当初是轻种子还是重种子起家。团队指出，真正有希望区分种子通道的线索在别处，一处是黑洞质量函数的低质量端，另一处是宿主星系气体的金属丰度。早期黑洞的身世之谜没有就此解开，但这项工作把争论从猜测推向了可以逐项检验的清单。</p>
+<hr />
+<p>论文题目：How to raise a supermassive black hole: interpreting early JWST AGN with the AESOPICA simulations</p>
+<p>作者：Sophie Koudmani、Jan Scholtz、Anthony J. Taylor、Ignas Juodžbalis、Debora Sijacki、Rachel S. Somerville、Roberto Maiolino、Emma Curtis-Lake、Steven L. Finkelstein、Martin A. Bourne、Francesco D'Eugenio、Sophia Geris、Lucy R. Ivey、Hannah Übler</p>
+<p>期刊：Monthly Notices of the Royal Astronomical Society (MNRAS)</p>
+<p>上线日期：2026-11-03</p>
+<p>状态：Advance Article（已接收手稿在线发表）</p>
+<p>原文链接：https://doi.org/10.1093/mnras/stag2090</p>]]></content:encoded>
+    </item>
     <item>
       <title>一颗今年才现身的磁星，X 射线偏振画出了它的磁场模样</title>
       <link>https://123hurray.github.io/digest/astro/2026-11-04-astro.html</link>
