@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 05 Nov 2026 08:53:24 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:55:13 +0800</lastBuildDate>
+    <item>
+      <title>韦布画出暗物质立体地图，一直看到红移 2 的宇宙深处</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-11-06-cosmo.html</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.03786</guid>
+      <pubDate>Fri, 06 Nov 2026 08:54:59 +0800</pubDate>
+      <description><![CDATA[<h1>韦布画出暗物质立体地图，一直看到红移 2 的宇宙深处</h1>
+<p>暗物质看不见，但它会弯曲经过的光线。背景星系的形状被前景暗物质轻轻拉扯，量出这种拉扯就能反推暗物质在哪里。这叫弱引力透镜成图，哈勃时代已经做过一张三维版本，红移只到大约 1。现在韦布望远镜的 COSMOS-Web 深场数据把这张地图推进了一大截。杜克大学的 Diana Scognamiglio 团队用韦布 COSMOS-Web 深场画出了一张覆盖 0.54 平方度天区的三维暗物质地图，红移从 0.13 一直延伸到 1.92，差不多是哈勃那张图的两倍，逼近恒星形成最旺盛的宇宙正午时期。</p>
+<p>能做到这一步，靠的是韦布看得更深更密。背景星系的有效面密度达到每平方角分 121 个星系，数量多了，透镜信号的统计就更扎实。方法上团队把物理弱透镜前向模型和一个从宇宙学模拟里学到的扩散模型先验结合起来，对物质场的后验分布做采样，后验均值由 1024 个样本平均得到。简单说，模型先知道宇宙里物质大概该长什么样，再用韦布实际看到的星系形状去约束具体这一块天区的物质分布。</p>
+<p>地图画出来之后要过两道检验。重建出的超密度区和独立证认的星系团在位置和红移上对得上，其中包括哈勃弱透镜图里没探测到的更高红移星系团。另一道检验用了三个红移约 0.9 到 1.0 的独立 X 射线星系群，韦布重建的超密度信号比随机打乱星系形状后的零假设显著得多，而哈勃重建在同样位置的响应弱得多。两套重建的零假设散布比值中位数是 0.98、1.00、1.04，说明韦布的优势不是噪声水平不同造成的。整张地图也与标准宇宙学模型 ΛCDM 的预期一致。</p>
+<p>作者也坦白了这张图的限度。它不能精确锁定单个结构的三维位置，宽透镜核与源星系红移的不确定性会让相邻透镜平面耦合，单个结构在不同后验样本里的径向位置会漂移。进步在于能把二维图上重叠的结构按红移分开，并且把不确定性量化出来。这篇论文目前是预印本，还未经同行评审。</p>
+<hr />
+<p>论文题目：3D dark matter map of the JWST COSMOS-Web field using diffusion-based generative priors</p>
+<p>作者：Diana Scognamiglio、Brandon Zhao、Katherine L. Bouman、Olivier Doré、Caitlin M. Casey、Maximilien Franco、Ghassem Gozaliasl、David Harvey、Olivier Ilbert、Jeffrey B. Jewell、Jeyhan S. Kartaltepe、Anton M. Koekemoer、Gavin Leroy、Richard Massey、Jason Rhodes、Brant E. Robertson、Marko Shuntov、Sune Toft、Greta Toni、Michael A. Troxel</p>
+<p>期刊：arXiv（astro-ph.CO）</p>
+<p>上线日期：2026-11-04</p>
+<p>状态：预印本（未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.03786</p>]]></description>
+      <content:encoded><![CDATA[<h1>韦布画出暗物质立体地图，一直看到红移 2 的宇宙深处</h1>
+<p>暗物质看不见，但它会弯曲经过的光线。背景星系的形状被前景暗物质轻轻拉扯，量出这种拉扯就能反推暗物质在哪里。这叫弱引力透镜成图，哈勃时代已经做过一张三维版本，红移只到大约 1。现在韦布望远镜的 COSMOS-Web 深场数据把这张地图推进了一大截。杜克大学的 Diana Scognamiglio 团队用韦布 COSMOS-Web 深场画出了一张覆盖 0.54 平方度天区的三维暗物质地图，红移从 0.13 一直延伸到 1.92，差不多是哈勃那张图的两倍，逼近恒星形成最旺盛的宇宙正午时期。</p>
+<p>能做到这一步，靠的是韦布看得更深更密。背景星系的有效面密度达到每平方角分 121 个星系，数量多了，透镜信号的统计就更扎实。方法上团队把物理弱透镜前向模型和一个从宇宙学模拟里学到的扩散模型先验结合起来，对物质场的后验分布做采样，后验均值由 1024 个样本平均得到。简单说，模型先知道宇宙里物质大概该长什么样，再用韦布实际看到的星系形状去约束具体这一块天区的物质分布。</p>
+<p>地图画出来之后要过两道检验。重建出的超密度区和独立证认的星系团在位置和红移上对得上，其中包括哈勃弱透镜图里没探测到的更高红移星系团。另一道检验用了三个红移约 0.9 到 1.0 的独立 X 射线星系群，韦布重建的超密度信号比随机打乱星系形状后的零假设显著得多，而哈勃重建在同样位置的响应弱得多。两套重建的零假设散布比值中位数是 0.98、1.00、1.04，说明韦布的优势不是噪声水平不同造成的。整张地图也与标准宇宙学模型 ΛCDM 的预期一致。</p>
+<p>作者也坦白了这张图的限度。它不能精确锁定单个结构的三维位置，宽透镜核与源星系红移的不确定性会让相邻透镜平面耦合，单个结构在不同后验样本里的径向位置会漂移。进步在于能把二维图上重叠的结构按红移分开，并且把不确定性量化出来。这篇论文目前是预印本，还未经同行评审。</p>
+<hr />
+<p>论文题目：3D dark matter map of the JWST COSMOS-Web field using diffusion-based generative priors</p>
+<p>作者：Diana Scognamiglio、Brandon Zhao、Katherine L. Bouman、Olivier Doré、Caitlin M. Casey、Maximilien Franco、Ghassem Gozaliasl、David Harvey、Olivier Ilbert、Jeffrey B. Jewell、Jeyhan S. Kartaltepe、Anton M. Koekemoer、Gavin Leroy、Richard Massey、Jason Rhodes、Brant E. Robertson、Marko Shuntov、Sune Toft、Greta Toni、Michael A. Troxel</p>
+<p>期刊：arXiv（astro-ph.CO）</p>
+<p>上线日期：2026-11-04</p>
+<p>状态：预印本（未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.03786</p>]]></content:encoded>
+    </item>
     <item>
       <title>暗物质会不会慢慢消失？宇宙微波背景的透镜效应先给这个想法踩了刹车</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-11-05-cosmo.html</link>
