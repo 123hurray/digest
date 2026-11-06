@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>喂给模型的数据，会在意想不到的地方变样</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>喂给模型的数据，会在意想不到的地方变样</h1>
+<p>给大模型喂训练数据，效果不一定只留在训练的领域里。已经有过两个出名的例子，不安全的代码数据能让模型在很多方面变得不对齐，过时的鸟类名称能让模型带上十九世纪人设。这类例子此前只有几十个孤立个案，每个都是手工构造或偶然发现的，难以系统研究。</p>
+<p>Yaowen Ye、Jacob Steinhardt、Sarah Schwettmann 和 Cassidy Laidlaw 想把这种偶然变成可批量生产的研究对象。他们先给有惊人副作用的数据集定了三条标准，能诱发目标行为，读起来像普通的训练后数据，让人工审核者读了也觉得意外，三条标准都用大模型评判器来量化。然后用三种方法去搜索高分数据集，演化算法、强化学习和一种叫潜意识学习（subliminal learning）的方法。经留出指标重打分与过滤后，他们得到了 6575 个这样的数据集，覆盖八种行为。</p>
+<p>这些数据集的价值在泛化性上。其中许多在一个模型上发现的副作用，在别的模型家族和别的模型尺寸上也成立。自动化指标与机器学习研究者的判断一致，而且在预测副作用这件事上，前沿模型表现优于人类。作者把这些数据集做成一个测试平台，用来研究泛化现象，目标是在模型部署之前就能预测训练数据会带来什么副作用。</p>
+<p>这项工作的提醒很实际。训练数据的影响很难只圈在预想的范围里，一份读起来普通的训练数据也可能在毫不相关的地方让模型变样。系统地发现这些副作用，是管住它们的第一步。这篇论文目前是预印本，还未经同行评审。</p>
+<hr />
+<p>论文题目：Mass Producing Training Data with Surprising Side Effects</p>
+<p>作者：Yaowen Ye、Jacob Steinhardt、Sarah Schwettmann、Cassidy Laidlaw</p>
+<p>期刊：arXiv（cs.CL）</p>
+<p>上线日期：2026-11-05</p>
+<p>状态：预印本（未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.06324</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-05</p>
+</main>
+</body>
+</html>
