@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 科学家进了"论文世界"：从头想新点子，七成以上赢过原作者</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>AI 科学家进了"论文世界"：从头想新点子，七成以上赢过原作者</h1>
+<p>怎么判断一个 AI 是不是真的会做研究？让它读论文、答问题、写代码都不够，做研究是从一个没人解过的问题出发，想出新办法，再动手验证。普林斯顿大学的三位研究者给 AI 科学家造了一个考场，名字叫 Scientist World。他们从 2025 年初到 2026 年初的十二万多篇 AI 论文里筛出 1000 篇，每篇变成一个可执行的研究环境。环境里有论文提出的开放式研究问题，还有原作者方法的复现版本当作基线。AI 科学家进入环境后有两种任务，改进已有方法，或者从头设计新方法，分数按它能不能超过人类作者的成果来算。</p>
+<p>结果出人意料。前沿模型在改进已有方法时，84% 的尝试超过了复现后的人类方法。从头设计新方法更难，但仍有 74% 的尝试超过原论文作者的成果。整个评测覆盖了七家厂商的模型，包括 Anthropic、OpenAI、智谱、Moonshot、MiniMax、小米和 DeepSeek 的模型，全部以最高推理强度运行。改进模式下最强的是 Fable 5，从头创新前两名是 Fable 5.1 和 Fable 5。开源模型里智谱的 GLM-5.2 最接近前沿，创新模式排第三。</p>
+<p>这个考场不只用来排名，还攒下了一份研究过程的记录。整个语料记录了大约 6400 小时的研究轨迹，保存了每一次想法、实验、失败和成功。研究团队用这些轨迹训练了一个只有 80 亿参数的小模型 Qwen3-8B，分成监督微调和离线强化学习两阶段。训练之后，小模型在十篇没见过的论文上做创意测试，分数中位数从 41.2 升到 106.3，提高了 158%，达到了前沿模型的水平。测试时创意和实现是分开的，小模型只负责出主意，由固定的前沿模型统一执行，这样测到的就是创意本身的质量。</p>
+<p>数字好看，但要看清它的边界。环境里的基线是研究团队自己复现的原作者方法，复现质量决定了超越的含金量。评分用的是一套叫作前沿归一化改进的指标，得分大于零就算超过基线，分数高低还以同期模型群体的典型表现为尺度。这篇论文是 arXiv 预印本，没有经过同行评审。它真正有意思的地方不在排名，而在它把"会做研究"变成了一件可以反复测量、可以拿来训练的事。研究团队发布了首批 1000 个经核实的研究环境，AI 科学家的能力从此有了一套可以公开复现的标尺。</p>
+<hr />
+<p>论文题目：Scientist World: Grow a Research World for AI-Scientists</p>
+<p>作者：Taiming Lu、Sachin Konan、Zhuang Liu</p>
+<p>期刊：arXiv (cs.AI)</p>
+<p>上线日期：2026-11-06（2026-11-05 提交）</p>
+<p>状态：preprint（预印本，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.08478</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-06</p>
+</main>
+</body>
+</html>
