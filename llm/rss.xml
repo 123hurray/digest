@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/llm/</link>
     <description>每天从大模型领域新论文 / 预印本中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 08:56:44 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 08:53:58 +0800</lastBuildDate>
+    <item>
+      <title>打开 AI 黑箱，真的能让它更安全吗？</title>
+      <link>https://123hurray.github.io/digest/llm/2026-11-08-llm.html</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.08438</guid>
+      <pubDate>Sun, 08 Nov 2026 08:53:22 +0800</pubDate>
+      <description><![CDATA[<h1>打开 AI 黑箱，真的能让它更安全吗？</h1>
+<p>机制可解释性是 AI 安全领域里一个很具体的赌注：只要弄清模型内部到底怎么算，安全问题就能跟着解决。图灵奖得主约书亚·本吉奥领衔的 27 位研究者在 arXiv 上发布了一篇综述，把这个赌注拆开来认真算了一遍账。综述的标题直接点出核心问题，弄清模型内部如何运作，是否真的能让模型更安全？</p>
+<p>综述先把这个领域的基础概念铺开。模型内部的计算被拆成一个个特征，也就是模型内部表示的含义单元。同一个神经元常常同时参与多个特征，这叫多义性。特征之间连成的计算路径叫回路。方法部分覆盖了特征提取与分析、回路发现与因果验证、用自然语言解释中间表征，还有学习动力学和训练数据归因。读者对象是想动手的人，作者随文发布了代码笔记本，里面有可复现关键结论的实例。</p>
+<p>综述不止于整理已有方法。作者提出了一个统一框架，用来评估机制可解释性相关的各种主张，并按目标、假设与权衡刻画了六种研究取向。不同取向追求的东西不一样，有的要找模型内部的因果机制，有的只要能用的干预手段，框架把这些取向之间的差别摆到了明面上。</p>
+<p>文章的落点在安全应用上。机制理解被考察的具体用途包括知识编辑、操控和监控：改掉模型内部的错误知识、在运行时引导模型行为、盯着内部表征发现异常。同时作者也评估了这些做法的局限和失效模式，以及它们和行为层面安全措施的关系。看完这篇综述，读者能明白一件事：打开黑箱是一条路，但它能走多远、什么时候会失灵，本身就是需要研究的问题。</p>
+<hr />
+<p>论文题目：Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety</p>
+<p>作者：Fazl Barez、Tung-Yu Wu、Hunar Batra 等 27 位作者（包括 Yoshua Bengio、Sara Hooker、Stella Biderman、Mor Geva、Shay B. Cohen）</p>
+<p>期刊：arXiv（cs.CL）</p>
+<p>上线日期：2026-11-06（2026 年 11 月 5 日提交，11 月 6 日上线公布）</p>
+<p>状态：preprint（预印本，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.08438</p>]]></description>
+      <content:encoded><![CDATA[<h1>打开 AI 黑箱，真的能让它更安全吗？</h1>
+<p>机制可解释性是 AI 安全领域里一个很具体的赌注：只要弄清模型内部到底怎么算，安全问题就能跟着解决。图灵奖得主约书亚·本吉奥领衔的 27 位研究者在 arXiv 上发布了一篇综述，把这个赌注拆开来认真算了一遍账。综述的标题直接点出核心问题，弄清模型内部如何运作，是否真的能让模型更安全？</p>
+<p>综述先把这个领域的基础概念铺开。模型内部的计算被拆成一个个特征，也就是模型内部表示的含义单元。同一个神经元常常同时参与多个特征，这叫多义性。特征之间连成的计算路径叫回路。方法部分覆盖了特征提取与分析、回路发现与因果验证、用自然语言解释中间表征，还有学习动力学和训练数据归因。读者对象是想动手的人，作者随文发布了代码笔记本，里面有可复现关键结论的实例。</p>
+<p>综述不止于整理已有方法。作者提出了一个统一框架，用来评估机制可解释性相关的各种主张，并按目标、假设与权衡刻画了六种研究取向。不同取向追求的东西不一样，有的要找模型内部的因果机制，有的只要能用的干预手段，框架把这些取向之间的差别摆到了明面上。</p>
+<p>文章的落点在安全应用上。机制理解被考察的具体用途包括知识编辑、操控和监控：改掉模型内部的错误知识、在运行时引导模型行为、盯着内部表征发现异常。同时作者也评估了这些做法的局限和失效模式，以及它们和行为层面安全措施的关系。看完这篇综述，读者能明白一件事：打开黑箱是一条路，但它能走多远、什么时候会失灵，本身就是需要研究的问题。</p>
+<hr />
+<p>论文题目：Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety</p>
+<p>作者：Fazl Barez、Tung-Yu Wu、Hunar Batra 等 27 位作者（包括 Yoshua Bengio、Sara Hooker、Stella Biderman、Mor Geva、Shay B. Cohen）</p>
+<p>期刊：arXiv（cs.CL）</p>
+<p>上线日期：2026-11-06（2026 年 11 月 5 日提交，11 月 6 日上线公布）</p>
+<p>状态：preprint（预印本，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.08438</p>]]></content:encoded>
+    </item>
     <item>
       <title>AI 科学家进了"论文世界"：从头想新点子，七成以上赢过原作者</title>
       <link>https://123hurray.github.io/digest/llm/2026-11-07-llm.html</link>
