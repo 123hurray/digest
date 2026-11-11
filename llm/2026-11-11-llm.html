@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>给 AI 审稿人出考题：100 个错误里，最强的也只抓出 71 个</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>给 AI 审稿人出考题：100 个错误里，最强的也只抓出 71 个</h1>
+<p>AI 已经开始替人审稿了，期刊和会议越来越多地用大模型做初筛。可一个问题始终没有答案，AI 审稿到底靠不靠谱。Paul Litvak 设计了一个很直接的考法，往 10 篇开放获取的心理学论文里人工植入 100 个已知错误，然后把改过的论文交给前沿大模型和两个商业 AI 审稿工具去审，看它们能抓出多少。错误是"已知"的，所以每一次漏网和误判都能算得清清楚楚。</p>
+<p>结果是，表现最好的单个系统只抓出 71 个错误，最差的只抓出 30 个。没有哪个系统接近满分。把所有系统的输出汇总起来，能抓出 93 个，因为不同模型找到的错误只有部分重合，各自漏掉的并不一样，"多模型合议"成了最大的杠杆。商业工具 refine.ink 贡献的独家发现比任何其他单个系统都多，但按每个错误折算的成本也是最高的。真正耐人寻味的是那 7 个没有任何系统能抓出的错误，它们全是"删掉信息"型错误，也就是论文里缺了东西，而不是写错了东西。AI 擅长挑写错的地方，却对"该写而没写"的东西毫无察觉。</p>
+<p>这项研究的作者也把局限写得很坦白。实验没有测量误报率，也就是 AI 会不会把没错的地方错判成错误，这在真实审稿里同样要命。人工植入的错误分布和真实论文里的错误分布是否可比，也还不清楚。100 个错误、10 篇心理学论文的规模不算大，结论能不能推广到其他学科，需要更多人接着做。好在论文、植入的错误、模型输出和完整实验日志全部公开，别人可以直接拿来扩展成跨学科的评估基准。</p>
+<p>对普通读者来说，这项研究的意义不只在数字本身。AI 审稿已经进了真实的工作流，期刊用它筛稿，作者用它自查，可它的能力边界现在才第一次被这样量化出来。它能帮人多看几遍稿子，凑在一起能发现九成以上的问题，但"缺了什么"这类错误，它一个都看不见。审稿这件事，至少在今天，还不能完全交给机器。</p>
+<hr />
+<p>论文题目：How Well Does AI Peer Review Work? A Benchmark Built from 100 Planted Errors</p>
+<p>作者：Paul Litvak</p>
+<p>期刊：arXiv（cs.CL）</p>
+<p>上线日期：2026-11-10（2026 年 11 月 9 日提交，11 月 10 日上线公布）</p>
+<p>状态：preprint（预印本，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.12820</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-10</p>
+</main>
+</body>
+</html>
