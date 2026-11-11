@@ -5,7 +5,33 @@
     <link>https://123hurray.github.io/digest/astro/</link>
     <description>每天从主流天文期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 10 Nov 2026 09:01:17 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 08:54:26 +0800</lastBuildDate>
+    <item>
+      <title>黑洞给星云"充电"：最硬的光只沿喷流方向漏出来</title>
+      <link>https://123hurray.github.io/digest/astro/2026-11-11-astro.html</link>
+      <guid isPermaLink="true">https://doi.org/10.3847/2041-8213/aeb423</guid>
+      <pubDate>Wed, 11 Nov 2026 08:52:40 +0800</pubDate>
+      <description><![CDATA[<h1>黑洞给星云"充电"：最硬的光只沿喷流方向漏出来</h1>
+<p>有些星系里的气体会被电离到极端程度，氖原子丢掉四五个电子，留下 [Ne V] 和 [Ne VI] 这样的高电离谱线。造出这种谱线需要 97 到 126 电子伏特的能量，普通恒星的光根本够不着，过去天文学家怀疑是超亮 X 射线源在背后供能，却一直拿不出单个天体与整片星云直接对应的证据。韦布望远镜现在给出了第一例。目标是贫金属矮星系 Holmberg II 里的模板超亮 X 射线源 Ho II X-1，它坐落在形状像一只脚的"足部星云"边缘，距离地球约 340 万光年，宿主星系的金属丰度只有太阳的十分之一，恒星形成率每年约 0.03 个太阳质量。</p>
+<p>研究团队用韦布的近红外摄谱仪和中红外光谱仪对这片星云做了空间分辨光谱，观测分别在 2025 年 1 月和 2 月进行，星云被分辨到 15 到 25 秒差距的尺度。结果是首次在这颗源周围探测到 [Ne V] 和 [Ne VI]，其中 [Ne V] 在 14.32 微米，[Ne VI] 在 7.65 微米。更关键的是分布，最难电离的气体并没有均匀铺满星云，而是集中在沿东北到西南射电结轴方向、偏离黑洞 17 到 24 秒差距的小团块里，离黑洞 65 光年以上。电离锥的张角随着电离能升高而收窄，氢线覆盖约 136 度，[Ne V] 收窄到约 38 度，[Ne VI] 只剩约 34 度，位置角约 68 度。整幅图景像一支手电筒，最硬的辐射只沿着喷流方向漏出来，照亮了那条轴线上的气体。</p>
+<p>激波的解释也被排除了。全星云的谱线都很窄，和仪器分辨率一致，气体在运动学上是静止的，找不到激波电离应有的高速运动或不对称轮廓。黑洞本身的 X 射线光度在 1 到 30 乘以 10 的 39 次方尔格每秒之间大幅变化，质量估计在 16 到 70 个太阳质量之间，伴星是一颗 B 型超巨星，温度太低，对星云的电离几乎没有贡献。也就是说，这片约 100 秒差距范围内的极端电离，确实是这颗吸积黑洞一手造成的。早期宇宙里的低金属星系常常出现难以解释的氦和高度电离谱线，这项观测给出了一个直接的参照，贫金属环境里的一颗吸积黑洞就能在百秒差距尺度上把周围气体电离到这种程度。</p>
+<hr />
+<p>论文题目：JWST Reveals a Highly Ionized Nebula Powered by an Ultraluminous X-Ray Source with a Massive Black Hole in the Metal-poor Galaxy Holmberg II</p>
+<p>作者：F. A. Fogantini, P. Zeidler, L. M. Oskinova, T. Bao, W.-R. Hamann, P. Marchant, D. M.-A. Meyer, D. Pauli, S. Reyero Serantes, A. A. C. Sander, T. Shenar, R. Soria</p>
+<p>期刊：The Astrophysical Journal Letters（ApJL）</p>
+<p>发表日期：2026-11-04（正式出版，ApJL 1011:L44，2026 年 11 月 10 日刊期）</p>
+<p>原文链接：https://doi.org/10.3847/2041-8213/aeb423（arXiv 全文：https://arxiv.org/abs/2610.20948）</p>]]></description>
+      <content:encoded><![CDATA[<h1>黑洞给星云"充电"：最硬的光只沿喷流方向漏出来</h1>
+<p>有些星系里的气体会被电离到极端程度，氖原子丢掉四五个电子，留下 [Ne V] 和 [Ne VI] 这样的高电离谱线。造出这种谱线需要 97 到 126 电子伏特的能量，普通恒星的光根本够不着，过去天文学家怀疑是超亮 X 射线源在背后供能，却一直拿不出单个天体与整片星云直接对应的证据。韦布望远镜现在给出了第一例。目标是贫金属矮星系 Holmberg II 里的模板超亮 X 射线源 Ho II X-1，它坐落在形状像一只脚的"足部星云"边缘，距离地球约 340 万光年，宿主星系的金属丰度只有太阳的十分之一，恒星形成率每年约 0.03 个太阳质量。</p>
+<p>研究团队用韦布的近红外摄谱仪和中红外光谱仪对这片星云做了空间分辨光谱，观测分别在 2025 年 1 月和 2 月进行，星云被分辨到 15 到 25 秒差距的尺度。结果是首次在这颗源周围探测到 [Ne V] 和 [Ne VI]，其中 [Ne V] 在 14.32 微米，[Ne VI] 在 7.65 微米。更关键的是分布，最难电离的气体并没有均匀铺满星云，而是集中在沿东北到西南射电结轴方向、偏离黑洞 17 到 24 秒差距的小团块里，离黑洞 65 光年以上。电离锥的张角随着电离能升高而收窄，氢线覆盖约 136 度，[Ne V] 收窄到约 38 度，[Ne VI] 只剩约 34 度，位置角约 68 度。整幅图景像一支手电筒，最硬的辐射只沿着喷流方向漏出来，照亮了那条轴线上的气体。</p>
+<p>激波的解释也被排除了。全星云的谱线都很窄，和仪器分辨率一致，气体在运动学上是静止的，找不到激波电离应有的高速运动或不对称轮廓。黑洞本身的 X 射线光度在 1 到 30 乘以 10 的 39 次方尔格每秒之间大幅变化，质量估计在 16 到 70 个太阳质量之间，伴星是一颗 B 型超巨星，温度太低，对星云的电离几乎没有贡献。也就是说，这片约 100 秒差距范围内的极端电离，确实是这颗吸积黑洞一手造成的。早期宇宙里的低金属星系常常出现难以解释的氦和高度电离谱线，这项观测给出了一个直接的参照，贫金属环境里的一颗吸积黑洞就能在百秒差距尺度上把周围气体电离到这种程度。</p>
+<hr />
+<p>论文题目：JWST Reveals a Highly Ionized Nebula Powered by an Ultraluminous X-Ray Source with a Massive Black Hole in the Metal-poor Galaxy Holmberg II</p>
+<p>作者：F. A. Fogantini, P. Zeidler, L. M. Oskinova, T. Bao, W.-R. Hamann, P. Marchant, D. M.-A. Meyer, D. Pauli, S. Reyero Serantes, A. A. C. Sander, T. Shenar, R. Soria</p>
+<p>期刊：The Astrophysical Journal Letters（ApJL）</p>
+<p>发表日期：2026-11-04（正式出版，ApJL 1011:L44，2026 年 11 月 10 日刊期）</p>
+<p>原文链接：https://doi.org/10.3847/2041-8213/aeb423（arXiv 全文：https://arxiv.org/abs/2610.20948）</p>]]></content:encoded>
+    </item>
     <item>
       <title>一颗恒星十四年“假死”二十七次，X 射线终于揭开谜底</title>
       <link>https://123hurray.github.io/digest/astro/2026-11-10-astro.html</link>
