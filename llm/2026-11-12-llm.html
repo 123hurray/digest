@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>别只信记忆，要查出处：给 AI 智能体装上"证据链"之后</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>别只信记忆，要查出处：给 AI 智能体装上"证据链"之后</h1>
+<p>让 AI 智能体从经验里学习，听起来理所当然。做完一个任务，把过程提炼成几条简短的教训存起来，下次遇到类似任务直接参考，越做越熟练。但韩国科学技术院团队发现，记忆也会帮倒忙。智能体有时会在本来不用记忆也能解出的任务上失败，原因常常是它照搬了一条错误的经验，或者把一条正确的经验用错了地方。经验只按任务成败打标签，却不附带它来自哪条原始记录，智能体拿到一条教训，无从核查它到底是怎么来的。</p>
+<p>团队提出的办法叫 WikiTrace，给每条经验挂上证据链。每条经验存成三层链接，一条简短的洞见，加上它所属轨迹成败原因的摘要，再加上原始轨迹本身。做新任务时，智能体先从全部洞见出发，一旦某条洞见缺少行动所需的细节，或者与其他洞见冲突，或者来自一次失败的任务，就顺着链接下钻到原始轨迹里，补全细节或者纠正洞见，然后再行动。整个过程像查案卷，结论后面永远留着出处。</p>
+<p>研究在五个智能体基准、八个测试套件上做了验证，覆盖模拟文字世界和工具使用环境，底座模型是 DeepSeek-v4-flash。WikiTrace 在每个套件上都是最好，比完全不用记忆的智能体平均高出 10.7 个百分点，比只给洞见、不给证据链的基线平均高出 3.2 个百分点。记忆造成的退化，也就是智能体在有记忆时反而做错的任务比例，从 6.5% 降到了 4.5%。智能体在困难任务上更常下钻查证，优势也最大。代价是测试时每个任务的成本约为只给洞见基线的 1.17 倍。换另一个模型底座重新测试，优势仍然存在。</p>
+<p>这个结果指向一个很实际的教训，智能体的记忆不该只是一本教训汇编。教训本身没有对错之外的信息，真正让记忆可靠的，是每条教训背后能不能追溯到它出生的那次具体经历。代码已经公开，方法本身也不依赖特定模型，对需要长期积累经验的智能体来说，这是一条值得借鉴的路。</p>
+<hr />
+<p>论文题目：Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents</p>
+<p>作者：Yukyeong Lee, Yumin Choi, Jinheon Baek, Sung Ju Hwang</p>
+<p>期刊：arXiv（cs.AI）</p>
+<p>发表日期：2026-11-10（预印本，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.14320</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-10</p>
+</main>
+</body>
+</html>
