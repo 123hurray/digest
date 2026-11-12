@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>两种补丁叠在一起，哈勃常数的账算得更顺了</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>两种补丁叠在一起，哈勃常数的账算得更顺了</h1>
+<p>宇宙膨胀到底有多快，这个问题已经僵持了好几年。看早期宇宙的普朗克卫星数据算出来，哈勃常数大约是每秒每百万秒差距 67.4 公里；看晚期宇宙的超新星和造父变星直接测量，答案大约是 73。两边各自的误差都很小，差距却怎么也抹不掉，物理学家把这叫哈勃疑难。多年来人们提出了大量修正方案，几乎每次都只单独检验一种，奥胡斯大学的一个团队这次换了思路，把两种方案叠在一起算了一遍。</p>
+<p>第一种方案是自相互作用中微子，让中微子之间多一种额外的相互作用，改变早期宇宙里辐射的行为。第二种方案是热的新早期暗能量，在宇宙极早期短暂出现一股暗能量成分，然后通过暗辐射与物质退耦的方式退场。两种方案各自都能把哈勃常数往中间拉一点，但单独使用时效果有限。把它们组合起来之后，模型一下子有了 12 个宇宙学参数，中微子自相互作用强度的后验分布还出现双峰，参数空间里有好几个平坦方向，传统方法算起来非常吃力。团队为此用了自研的似然仿真器 CLiENT，每个数据集用大约 30 万次似然评估训练仿真器，所有报告的卡方值最后都用真实似然重新算过。</p>
+<p>检验用了两套数据组合，都可以加或者不加 SH0ES 的本地校准。保守组合是普朗克卫星、DESI 的重子声学振荡和 Pantheon+ 超新星，更激进的组合把小尺度宇宙微波背景谱换成 ACT 和 SPT 的数据。在最激进的组合下，组合模型的拟合效果比单独任一模型好得多，算出的哈勃常数是 70.94 正负 0.60，落在早期值和晚期值之间。相对标准宇宙学模型，组合模型的卡方降低了 27.6，单独用早期暗能量只降 9.9，单独用自相互作用中微子只降 4.0，组合的改善超过了两者之和。即使按赤池信息量准则扣掉多用参数的惩罚，组合模型相对早期暗能量模型仍有负 15.7 的优势。</p>
+<p>这篇论文没有宣布哈勃疑难已经被解决，70.94 这个数字离两端都还有距离，而且这是一篇预印本，还没有经过同行评审。它真正想说明的是另一件事，过去被分开检验的修正方案，叠加之后可能产生超出简单相加的效果。宇宙膨胀的账能不能彻底算平，还要看更多数据和更严格的检验，但至少现在多了一条值得认真走下去的路。</p>
+<hr />
+<p>论文题目：Self-Interacting Neutrinos in NEDE and DRMD Cosmologies: Posteriors, profiles and evidence using CLiENT</p>
+<p>作者：Magnus Uggerhøj, Tobias Johannessen, Jeppe Pagaard Thybo, Steen Hannestad, Thomas Tram</p>
+<p>期刊：arXiv（astro-ph.CO）</p>
+<p>发表日期：2026-11-10（预印本，未经同行评审）</p>
+<p>原文链接：https://arxiv.org/abs/2611.13756</p>
+<p class="meta">每日宇宙学论文科普速递 · 2026-11-10</p>
+</main>
+</body>
+</html>
