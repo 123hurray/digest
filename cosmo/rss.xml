@@ -5,7 +5,35 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 12 Nov 2026 08:52:23 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 08:55:38 +0800</lastBuildDate>
+    <item>
+      <title>暗能量和暗物质，也许是一家人的两副面孔</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-11-13-cosmo.html</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.13567</guid>
+      <pubDate>Fri, 13 Nov 2026 08:55:02 +0800</pubDate>
+      <description><![CDATA[<h1>暗能量和暗物质，也许是一家人的两副面孔</h1>
+<p>宇宙里最让人头疼的两个谜团，一个是让膨胀加速的暗能量，一个是拖住星系不散架的暗物质。它们通常被当作两件互不相干的事来研究。一篇新预印本提出，它们可能出自同一个源头：一个超对称的 SU(3) 暗规范群。群里最轻的粒子是暗能量，较重的束缚态就是暗物质，暗物质在暗规范群凝聚的那一刻以某个速度诞生。</p>
+<p>这个想法的漂亮之处在于参数极少。凝聚能标由规范耦合统一固定，暗能量一侧在标准模型之外不增加自由参数，暗物质一侧只多一个速度。实测的凝聚能标是 43.74 ± 0.11 电子伏特，正好落在统一理论预言的窗口里。暗能量今天的状态参数是负 0.9267，处在缓慢"解冻"的状态，整个历史里始终没有越过负 1 那条幻影分界线，却照样复现了 DESI 的距离数据。常用的 w0waCDM 模型拟合同样数据时，需要暗能量状态一度越过负 1，w0waCDM 是一种允许暗能量状态随时间变化的模型。</p>
+<p>拟合成绩上，它在四个比较模型里对 DESI 第二期重子声学振荡数据的拟合最好，卡方比标准模型低了 20%，比 w0waCDM 还好，卡方是衡量拟合优劣的统计量。把全部数据放在一起看，它与标准模型和 w0waCDM 在统计上等价，但比 w0waCDM 少两个暗能量参数。暗物质一侧，束缚态暗物质比冷暗物质得到中等程度的偏好，主要来自宇宙微波背景数据，束缚速度第一次从两侧都被限定在 0.37 ± 0.14，对应的结构增长幅度是 0.807 ± 0.007。</p>
+<p>作者自己也划清了界限：这目前只是一个有数字支撑的模型，离证实还有距离。高红移数据和莱曼α森林观测将是决定性的检验。想法越漂亮，检验的标准也越高，这篇的价值恰恰在于它给出了可以被证伪的具体数字。</p>
+<hr />
+<p>论文题目：The unified bound dark energy–bound dark matter model confronted with DESI DR2, ACT and SPT-3G, and the Unite supernovae measurements</p>
+<p>作者：Jose Agustin Lozano Torres, Axel de la Macorra</p>
+<p>期刊：arXiv（astro-ph.CO，预印本，未经同行评审）</p>
+<p>发表日期：2026-11-11（arXiv 公告，2026-11-10 提交）</p>
+<p>原文链接：https://arxiv.org/abs/2611.13567</p>]]></description>
+      <content:encoded><![CDATA[<h1>暗能量和暗物质，也许是一家人的两副面孔</h1>
+<p>宇宙里最让人头疼的两个谜团，一个是让膨胀加速的暗能量，一个是拖住星系不散架的暗物质。它们通常被当作两件互不相干的事来研究。一篇新预印本提出，它们可能出自同一个源头：一个超对称的 SU(3) 暗规范群。群里最轻的粒子是暗能量，较重的束缚态就是暗物质，暗物质在暗规范群凝聚的那一刻以某个速度诞生。</p>
+<p>这个想法的漂亮之处在于参数极少。凝聚能标由规范耦合统一固定，暗能量一侧在标准模型之外不增加自由参数，暗物质一侧只多一个速度。实测的凝聚能标是 43.74 ± 0.11 电子伏特，正好落在统一理论预言的窗口里。暗能量今天的状态参数是负 0.9267，处在缓慢"解冻"的状态，整个历史里始终没有越过负 1 那条幻影分界线，却照样复现了 DESI 的距离数据。常用的 w0waCDM 模型拟合同样数据时，需要暗能量状态一度越过负 1，w0waCDM 是一种允许暗能量状态随时间变化的模型。</p>
+<p>拟合成绩上，它在四个比较模型里对 DESI 第二期重子声学振荡数据的拟合最好，卡方比标准模型低了 20%，比 w0waCDM 还好，卡方是衡量拟合优劣的统计量。把全部数据放在一起看，它与标准模型和 w0waCDM 在统计上等价，但比 w0waCDM 少两个暗能量参数。暗物质一侧，束缚态暗物质比冷暗物质得到中等程度的偏好，主要来自宇宙微波背景数据，束缚速度第一次从两侧都被限定在 0.37 ± 0.14，对应的结构增长幅度是 0.807 ± 0.007。</p>
+<p>作者自己也划清了界限：这目前只是一个有数字支撑的模型，离证实还有距离。高红移数据和莱曼α森林观测将是决定性的检验。想法越漂亮，检验的标准也越高，这篇的价值恰恰在于它给出了可以被证伪的具体数字。</p>
+<hr />
+<p>论文题目：The unified bound dark energy–bound dark matter model confronted with DESI DR2, ACT and SPT-3G, and the Unite supernovae measurements</p>
+<p>作者：Jose Agustin Lozano Torres, Axel de la Macorra</p>
+<p>期刊：arXiv（astro-ph.CO，预印本，未经同行评审）</p>
+<p>发表日期：2026-11-11（arXiv 公告，2026-11-10 提交）</p>
+<p>原文链接：https://arxiv.org/abs/2611.13567</p>]]></content:encoded>
+    </item>
     <item>
       <title>两种补丁叠在一起，哈勃常数的账算得更顺了</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-11-12-cosmo.html</link>
