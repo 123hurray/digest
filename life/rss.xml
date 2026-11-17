@@ -5,7 +5,35 @@
     <link>https://123hurray.github.io/digest/life/</link>
     <description>每天从主流生命科学 / 脑神经科学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Nov 2026 09:00:48 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:55:01 +0800</lastBuildDate>
+    <item>
+      <title>疼痛分两条路走，大脑里各有各的开关</title>
+      <link>https://123hurray.github.io/digest/life/2026-11-17-life.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1038/s41593-026-02498-4</guid>
+      <pubDate>Tue, 17 Nov 2026 08:54:44 +0800</pubDate>
+      <description><![CDATA[<h1>疼痛分两条路走，大脑里各有各的开关</h1>
+<p>神经损伤后的慢性疼痛有两个面孔，一个是轻轻一碰就痛，一个是挥之不去的难受和厌恶。它们常常一起出现，临床上却很难分开处理。新发表在《自然·神经科学》上的一项研究在小鼠大脑里找到了分管这两面的两套环路，都藏在前边缘皮层，也就是大脑前部一块和情绪、决策有关的区域。</p>
+<p>团队先给小鼠装上微型透镜，用双光子成像纵向追踪同一批神经元。刺激用 0.16 克轻触、1.0 克伤害性按压和 3 摄氏度冷刺激。神经损伤后，原本对多种感觉都有反应的多模态抑制性神经元变多了，雄性小鼠里从损伤前的 2.8% 升到 21.2%，翻了五倍还多。</p>
+<p>接下来是分工。Prox1 阳性的抑制性神经元压住两群兴奋性神经元向嘴侧前扣带回的投射，管的是疼痛的情绪面。另一群带小白蛋白标记的抑制性神经元压住 5 层另一群神经元向下行调控中枢的投射，管的是机械性触诱发痛，也就是轻轻一碰就痛。Prox1 阳性神经元还有个特别之处，它是唯一在机械超敏、冷超敏和负性情感三方面都起作用的前边缘皮层群体。只操控它就能调节冷超敏，整体操控全部抑制性神经元反而做不到，说明精准比全面更重要。</p>
+<p>冷超敏的慢性期检测在损伤后 28 天做，说明这些改变在损伤一个月后还在，是一次持续的重布线。需要提醒的是，表型主要出现在雄性小鼠身上，后续的功能实验也改用雄性小鼠，这套机制在雌性身上是不是一样还不清楚。从小鼠到人的距离也没有走完。但分路的思路已经很清楚了，治疼痛的情绪面和感觉面可能需要不同的靶点，找对细胞群体是第一步。</p>
+<hr />
+<p>论文题目：Distinct prelimbic microcircuits control sensory and affective dimensions of neuropathic pain</p>
+<p>作者：Zheng Gan、Manfred Josef Oswald、Yannong Dou、Paul Vincent Naser、Lirong Wang、Linette Liqi Tan、Carlo Antonio Beretta、Yuqing Chen、Sanjeev Kaushalya、Ivo Sonntag、Hongwei Zheng、Thomas Kuner、Rohini Kuner</p>
+<p>期刊：Nature Neuroscience</p>
+<p>发表日期：2026-11-16（正式发表，开放获取）</p>
+<p>原文链接：https://doi.org/10.1038/s41593-026-02498-4</p>]]></description>
+      <content:encoded><![CDATA[<h1>疼痛分两条路走，大脑里各有各的开关</h1>
+<p>神经损伤后的慢性疼痛有两个面孔，一个是轻轻一碰就痛，一个是挥之不去的难受和厌恶。它们常常一起出现，临床上却很难分开处理。新发表在《自然·神经科学》上的一项研究在小鼠大脑里找到了分管这两面的两套环路，都藏在前边缘皮层，也就是大脑前部一块和情绪、决策有关的区域。</p>
+<p>团队先给小鼠装上微型透镜，用双光子成像纵向追踪同一批神经元。刺激用 0.16 克轻触、1.0 克伤害性按压和 3 摄氏度冷刺激。神经损伤后，原本对多种感觉都有反应的多模态抑制性神经元变多了，雄性小鼠里从损伤前的 2.8% 升到 21.2%，翻了五倍还多。</p>
+<p>接下来是分工。Prox1 阳性的抑制性神经元压住两群兴奋性神经元向嘴侧前扣带回的投射，管的是疼痛的情绪面。另一群带小白蛋白标记的抑制性神经元压住 5 层另一群神经元向下行调控中枢的投射，管的是机械性触诱发痛，也就是轻轻一碰就痛。Prox1 阳性神经元还有个特别之处，它是唯一在机械超敏、冷超敏和负性情感三方面都起作用的前边缘皮层群体。只操控它就能调节冷超敏，整体操控全部抑制性神经元反而做不到，说明精准比全面更重要。</p>
+<p>冷超敏的慢性期检测在损伤后 28 天做，说明这些改变在损伤一个月后还在，是一次持续的重布线。需要提醒的是，表型主要出现在雄性小鼠身上，后续的功能实验也改用雄性小鼠，这套机制在雌性身上是不是一样还不清楚。从小鼠到人的距离也没有走完。但分路的思路已经很清楚了，治疼痛的情绪面和感觉面可能需要不同的靶点，找对细胞群体是第一步。</p>
+<hr />
+<p>论文题目：Distinct prelimbic microcircuits control sensory and affective dimensions of neuropathic pain</p>
+<p>作者：Zheng Gan、Manfred Josef Oswald、Yannong Dou、Paul Vincent Naser、Lirong Wang、Linette Liqi Tan、Carlo Antonio Beretta、Yuqing Chen、Sanjeev Kaushalya、Ivo Sonntag、Hongwei Zheng、Thomas Kuner、Rohini Kuner</p>
+<p>期刊：Nature Neuroscience</p>
+<p>发表日期：2026-11-16（正式发表，开放获取）</p>
+<p>原文链接：https://doi.org/10.1038/s41593-026-02498-4</p>]]></content:encoded>
+    </item>
     <item>
       <title>血脑屏障会挑着给大脑送货，阿尔茨海默病先断了这条补给线</title>
       <link>https://123hurray.github.io/digest/life/2026-11-16-life.html</link>
