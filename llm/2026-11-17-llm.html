@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>你付的钱买了 Claude，回答的却可能是 DeepSeek</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>你付的钱买了 Claude，回答的却可能是 DeepSeek</h1>
+<p>判断一段文字出自哪个模型，靠的是文本指纹。人们一直默认指纹是模型的固定属性，像笔迹一样跟着模型走。新发表在 arXiv 上的一项预印本研究指出，这个默认并不成立。指纹会传染，一个模型接续另一个模型开头的对话，就会染上对方的指纹。</p>
+<p>这个现象直接戳中了一个现实场景。API 中继商可以先用客户付费的模型接前几轮对话，再悄悄换成更便宜的模型。交接之后，分类器识别替身的准确率大幅下降。用 DeepSeek 替换 Claude Sonnet 时，识别准确率从 0.97 跌到 0.72。同一厂商内部降级，换成 Haiku，准确率从 0.87 跌到 0.54。客户付了贵的钱，拿到的是便宜模型的回答，常规的文本检测还查不出来。</p>
+<p>研究还试了几种常规补救，都不灵。用交接数据重新训练分类器，只能修复训练里见过的替身组合，换个组合又失效。用新鲜对话做主动探测，在长上下文里会把诚实的模型也误判，误报率最高达到 1.00。标准的 MMD 相等性检验更极端，直接拒绝了全部 9 个受测模型。传染的机制被追溯到对对话历史风格的模仿，模型在学前任说话的样子，连带着把指纹也学了过去。</p>
+<p>作者提出了一种叫 Lineup 的检测方法。做法是在同一段对话历史下，让声称的模型自己采样几份参考回复，再按排名检验被审计的那份回复是不是出自它。两个闭源模型上的假阳性率是 0.056，低于预注册时设定的 0.10 上限。审计 4 轮对话后，6 对模型组合里能检出 0.81 的替身会话。这项研究是预注册实验，也还没有经过同行评审。它提醒的是另一件事，模型身份的审计不能只看文字本身，还得看对话是怎么开始的。</p>
+<hr />
+<p>论文题目：Contagious Fingerprints: When LLMs Inherit Another Model's Identity</p>
+<p>作者：Zailong Tian</p>
+<p>来源：arXiv 预印本（未经同行评审）</p>
+<p>公告日期：2026-11-16（提交日期 2026-11-13）</p>
+<p>原文链接：https://arxiv.org/abs/2611.18104</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-16</p>
+</main>
+</body>
+</html>
