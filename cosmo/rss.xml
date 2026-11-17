@@ -5,7 +5,37 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Nov 2026 09:00:48 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:55:01 +0800</lastBuildDate>
+    <item>
+      <title>暴胀刚开始时，宇宙可能炸出过一批超重粒子</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-11-17-cosmo.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1103/x2yb-xwsc</guid>
+      <pubDate>Tue, 17 Nov 2026 08:54:44 +0800</pubDate>
+      <description><![CDATA[<h1>暴胀刚开始时，宇宙可能炸出过一批超重粒子</h1>
+<p>宇宙诞生后极短的一瞬间经历过暴胀，空间在不到一眨眼的时间里膨胀了难以想象的倍数。暴胀由一种叫暴胀子的场驱动，理论上它还可以和其他粒子场耦合。如果耦合的对象是一种极重的粒子，质量达到暴胀时期哈勃尺度的 100 倍以上，暴胀进行到某个时刻会突然炸出一批这样的粒子，在宇宙里留下一个局域的印记。</p>
+<p>新发表在《物理评论 D》上的研究算出了这个印记在宇宙微波背景里应该长什么样。团队算的是完整的温度与偏振两点关联函数，然后拿普朗克卫星和阿塔卡马宇宙学望远镜的实测功率谱去对照。阿塔卡马的数据补上了更小角尺度的信息，这是普朗克单独做不到的。</p>
+<p>对照的结果是一条微弱的线索。在 3 到 10 兆秒差距的尺度上，联合数据里出现大约 2 倍标准差的信号迹象。可单看普朗克或者单看阿塔卡马，这条迹象都达不到统计显著的水平。研究者写得很克制，这条迹象还够不上发现的标准。Fisher 预报说，如果信号是真的，正在建设的 Simons Observatory 应该能以 3 到 5 倍标准差的水平看到它。</p>
+<p>这项工作的另一半价值在方法上。对比较轻的粒子，也就是质量不到暴胀哈勃尺度 200 倍的那些，功率谱方法给出的约束比之前用的匹配滤波方法紧了一个数量级以上。粒子更重、产生更稀少的时候，匹配滤波仍然更强。两种方法各管一段，拼起来才能把暴胀时期可能产生的粒子查得更全。</p>
+<hr />
+<p>论文题目：Probing inflationary particle production with the CMB power spectrum</p>
+<p>作者：Hidde T. Jense、Luca H. Abu El-Haj、J. Colin Hill、Oliver H. E. Philcox</p>
+<p>期刊：Physical Review D，114 卷 103525</p>
+<p>发表日期：2026-11-16（正式出版，开放获取）</p>
+<p>原文链接：https://doi.org/10.1103/x2yb-xwsc</p>
+<p>预印本：https://arxiv.org/abs/2606.26823</p>]]></description>
+      <content:encoded><![CDATA[<h1>暴胀刚开始时，宇宙可能炸出过一批超重粒子</h1>
+<p>宇宙诞生后极短的一瞬间经历过暴胀，空间在不到一眨眼的时间里膨胀了难以想象的倍数。暴胀由一种叫暴胀子的场驱动，理论上它还可以和其他粒子场耦合。如果耦合的对象是一种极重的粒子，质量达到暴胀时期哈勃尺度的 100 倍以上，暴胀进行到某个时刻会突然炸出一批这样的粒子，在宇宙里留下一个局域的印记。</p>
+<p>新发表在《物理评论 D》上的研究算出了这个印记在宇宙微波背景里应该长什么样。团队算的是完整的温度与偏振两点关联函数，然后拿普朗克卫星和阿塔卡马宇宙学望远镜的实测功率谱去对照。阿塔卡马的数据补上了更小角尺度的信息，这是普朗克单独做不到的。</p>
+<p>对照的结果是一条微弱的线索。在 3 到 10 兆秒差距的尺度上，联合数据里出现大约 2 倍标准差的信号迹象。可单看普朗克或者单看阿塔卡马，这条迹象都达不到统计显著的水平。研究者写得很克制，这条迹象还够不上发现的标准。Fisher 预报说，如果信号是真的，正在建设的 Simons Observatory 应该能以 3 到 5 倍标准差的水平看到它。</p>
+<p>这项工作的另一半价值在方法上。对比较轻的粒子，也就是质量不到暴胀哈勃尺度 200 倍的那些，功率谱方法给出的约束比之前用的匹配滤波方法紧了一个数量级以上。粒子更重、产生更稀少的时候，匹配滤波仍然更强。两种方法各管一段，拼起来才能把暴胀时期可能产生的粒子查得更全。</p>
+<hr />
+<p>论文题目：Probing inflationary particle production with the CMB power spectrum</p>
+<p>作者：Hidde T. Jense、Luca H. Abu El-Haj、J. Colin Hill、Oliver H. E. Philcox</p>
+<p>期刊：Physical Review D，114 卷 103525</p>
+<p>发表日期：2026-11-16（正式出版，开放获取）</p>
+<p>原文链接：https://doi.org/10.1103/x2yb-xwsc</p>
+<p>预印本：https://arxiv.org/abs/2606.26823</p>]]></content:encoded>
+    </item>
     <item>
       <title>快射电暴联手三类观测，两个宇宙难题有望一起测到 1%</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-11-16-cosmo.html</link>
