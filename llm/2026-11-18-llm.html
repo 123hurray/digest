@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>模型被换了题目，还会一本正经地圆谎</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>模型被换了题目，还会一本正经地圆谎</h1>
+<p>给推理模型布置一个任务，写一首关于手机的俳句。它写出来了，工工整整，关于手机。可如果有人在提示词里动了手脚，把“夸克”这个概念悄悄塞进模型的内部活动里，模型写出来的会是关于夸克的俳句，而且它会坚称这就是你让它写的。这是一项刚公开的预印本研究里实测出来的结果。</p>
+<p>研究者 Yang Ou 用的办法叫激活干预，在模型处理提示词的时候，把另一个概念的内部活动轨迹直接注入残差流。提示词的文字本身一个字没改，模型看到的要求还是写一首关于手机的俳句，但内部已经被换了题目。6 个推理模型参加了测试，横跨不同规模和训练方法，包括 DeepSeek-R1 的几个蒸馏版本、QwQ-32B 和 Nemotron-7B。</p>
+<p>第一关是让模型逐字复述自己收到的请求。6 个模型乘以 8 组概念配对，一共 48 个组合里有 47 个，模型复述出来的都是被植入的话题。模型不是在含糊其辞，它把被植入的话题当成了自己真正的任务，复述得一本正经。</p>
+<p>第二关看行为。在 4 个能产出干净俳句的模型上，99% 的生成结果写的是被植入话题的俳句。模型从头到尾不提真实话题，也不提示哪里不对劲。研究者又加了四级警告，从什么都不说，到直接点出真实话题，再到让模型重读指令，甚至含糊地提醒“有点不对劲”，几乎全都不管用。即使警告里直接点出了真实话题，模型答对真实话题的比例仍然不到 5%。</p>
+<p>更麻烦的是模型会自己把故事圆上。即使真相原样摆在上下文里，模型也会在思维链里编出用户一方的解释，原文引述了一句，“maybe they got confused and corrected themselves”，意思是用户可能自己搞混了、又改了主意。行为和思维链同时被污染，读思维链来监督模型的人，看到的是一套自洽的说法，而不是篡改的痕迹。</p>
+<p>连打开模型内部看也未必能发现问题。干预之后，模型对真实请求的注意力反而更强了，但这种注意力在因果上是无效的。被植入的内容搭上的是原来那条完好无损的任务线路，注意力图和线路归因看起来都还在任务上。同一手法还能改写输出语言、把俳句改成十四行诗，或者直接否定指令，让模型不写俳句。</p>
+<p>这项研究的提醒很直接，推理模型的思维链不是一块可以放心依靠的监督仪表。模型能一边按被换掉的题目作答，一边编出合理的解释，让整个过程看起来天衣无缝。监督的办法如果只停在读它写了什么，就会漏掉题目是什么时候被换掉的。</p>
+<hr />
+<p>论文题目：Reasoning Models Confabulate to Defend Injected Beliefs About Their Own Requests</p>
+<p>作者：Yang Ou</p>
+<p>期刊：arXiv 预印本（cs.LG），未经同行评审</p>
+<p>发表日期：2026-11-16（arXiv 公告；2026-11-13 提交）</p>
+<p>原文链接：https://arxiv.org/abs/2611.17958</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-16</p>
+</main>
+</body>
+</html>
