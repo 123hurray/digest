@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>手写神经网络权重，大模型选了查表</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>手写神经网络权重，大模型选了查表</h1>
+<p>Transformer 之所以成为标准结构，是因为它用梯度下降训得动，在 GPU 上跑得快。换一个前提会怎么样。如果不许用梯度训练，让大模型直接手写神经网络的权重，Transformer 还是最好的选择吗。浦项科技大学的两位研究者做了这个实验。</p>
+<p>实验只给写权重的大模型 10 道带标签的例题，科学选择题里简单题和难题各 5 道，再加一个代码沙箱。评测用 ARC 科学选择题测试集，一共 3530 道四选一题目。三位写作者是 Claude Opus 5.5、GPT-6.1 Sol 和 GPT-6 Astra。放手让它们自己设计结构，三者不约而同地抛弃了 Transformer，改用一张稀疏事实表加固定查表程序。纯文本事实编进表里，答题时按程序查表，不用注意力，不用多层感知机，也不用稠密词向量。</p>
+<p>成绩最好的是 Claude Opus 5.5 的第五代自设计模型，335 万参数，ARC 总准确率 54.4%，简单题 62.6%，难题 37.8%。第一代只有 94 万参数，准确率 50.8%。同一位大模型手写权重的已发布 Transformer 里最准的是 17.2 亿参数的 Qwen3-1.7B，准确率 48.7%，查表模型只用约 1800 分之一的参数就超过了它。同为约 333 万参数的两层 Transformer，同一位大模型手写权重只有 29.8%。梯度训练的已发布小架构里最好的是 1.3 亿参数的 Mamba-2，24.6%。</p>
+<p>查表还有一个好处，每道题的答案都能追溯到表里的一行。只保留每个选项最匹配的一条事实，准确率还有 49.1%，接近完整模型的 50.8%。删掉任意一行，平均只改变 0.5 到 1.8 道题的答案。手写的 Transformer 删一行，平均改变 4.8 道题。错了能定位，改了影响有限，这正是查表胜过黑箱的地方。作者据此提出的联想记忆模型，在 GPU 上比同尺寸 Transformer 最快 17 倍，准确率只低约 3 个百分点以内。</p>
+<p>这个结论要小心理解。论文比较的是手写权重的前提下该选什么结构，查表模型并没有全面超过预训练大模型。微调后的 Qwen3.5-0.8B 在 ARC 上有 82.1%，比查表模型高出一大截。预训练仍然强得多，改变的是前提。训练方式一换，最优结构也跟着换了。</p>
+<hr />
+<p>论文题目：Weight-Space Programming Doesn't Need Transformers</p>
+<p>作者：Hyunjong Ok、Jaeho Lee</p>
+<p>期刊：arXiv 预印本（未经同行评审）</p>
+<p>发表日期：2026-11-17</p>
+<p>原文链接：https://arxiv.org/abs/2611.22055</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-17</p>
+</main>
+</body>
+</html>
