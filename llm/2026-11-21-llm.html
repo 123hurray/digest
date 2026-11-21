@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>只给一段文字，AI 就能认出作者是谁</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>只给一段文字，AI 就能认出作者是谁</h1>
+<p>匿名在网上发一段文字，你以为没人知道是你写的。前沿大模型现在能认出来，而且只需要这一段文字，不用联网，不用工具，不给候选名单，也不给你的任何写作样本。研究团队只用一个简单的零样本提示问模型，这段文字是谁写的。问题分三层，一层比一层具体，先问是人写的还是 AI 写的，再问如果是 AI 出自哪个实验室，最后问如果是人写的，具体是哪一位。</p>
+<p>结果比多数人预想的要强。Opus 5.5 面对 Anthropic、OpenAI 和 Google 三家模型生成的文本，正确认出所属实验室的比例达到 98%。Fable 5.2 认人更进一步，2026 年 10 到 11 月公开的同行评审意见，它能正确说出 39% 的作者是谁，在《自然》杂志的评审子集上这个比例高达 78%。换到社交平台也一样，对过去一年发帖超过 500 条的活跃 Reddit 用户，它能认出 69% 的评论背后是哪个用户名。参与测试的最新模型包括 Claude Fable 5.2、GPT-6.1 Sol 和 Gemini 4 Carbon，表现与 Pangram 这类专业检测器相当，还能用自然语言解释自己是凭什么判断的。</p>
+<p>模型认人的本事来自它读过的东西。识别准确率取决于这名作者的文字在预训练数据里的曝光度，写得越多、流传越广，越容易被认出来，也取决于模型愿意花多少推理力气。论文里有个简单的验证办法，直接问模型你对这个人有多熟悉，答案就能预测它能不能认出此人。这说明作者归属不是模型在瞎猜风格，而是在调用它对具体作者的记忆。</p>
+<p>这篇论文的警示很直接，对网上发表过足够多文字的人来说，匿名比普遍认为的更脆弱。匿名评审、同行评议里的盲审、化名发帖，靠的都是文字与身份之间的那层隔离，而前沿模型正在把这层隔离磨薄。防御手段有限，改写措辞能降低识别率，但代价是文字本身的自然程度。论文没有给出万全的解决办法，它只是把现状摆出来，在网上写过足够多字的人，名字其实就贴在文字上。</p>
+<p>论文：Frontier models need only one text to unmask its human or AI author</p>
+<p>作者：Atrey Desai、Deniz Böloni-Turgut、Ty Brassington、Minjoon Choi、Jenna Russell、Rishanth Rajendhran、Bradley Emi、Hila Gonen、Hal Daumé III、John Wieting、Marzena Karpinska、Mohit Iyyer（Pangram Labs、Google DeepMind、马里兰大学）</p>
+<p>发表：arXiv 预印本，2026 年 11 月 19 日提交，未经同行评审</p>
+<p>原文：https://arxiv.org/abs/2611.26216</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-19</p>
+</main>
+</body>
+</html>
