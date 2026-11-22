@@ -5,7 +5,31 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Nov 2026 09:01:40 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 08:56:16 +0800</lastBuildDate>
+    <item>
+      <title>恒星形成中的盘星系，也会顺着宇宙潮汐场排队</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-11-22-cosmo.html</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.26593</guid>
+      <pubDate>Sun, 22 Nov 2026 08:55:54 +0800</pubDate>
+      <description><![CDATA[<h1>恒星形成中的盘星系，也会顺着宇宙潮汐场排队</h1>
+<p>星系的朝向不是随机的。红色椭圆星系早就被发现会朝着邻近的大质量结构径向排列，像被潮汐力拉长的样子。恒星形成中的蓝色盘星系却一直没有找到排列的证据，这次终于有了，而且方向正好反过来，盘星系是切向排列的。</p>
+<p>数据规模是这次突破的关键。团队把 SPHEREx 光谱巡天的测光数据和 DESI Legacy 成像巡天拼在一起，建成一个覆盖全天、带精确红移的 7100 万个星系星表。按颜色和形态分组后，信号浮现出来，蓝色盘星系的切向排列达到 22.5σ，红色椭球星系的径向排列达到 65σ。</p>
+<p>关键的一步在环境依赖。团队把排列信号按星系周围是超密区还是低密区分开测量，两类排列的尺度依赖和环境依赖都符合对宇宙潮汐场的线性响应。经典潮汐扭矩理论预言的纯二次响应被排除了，星系朝向的形成机制需要重新理解。</p>
+<p>这个结果首先服务于弱引力透镜测量。透镜巡天通过星系形状的微小扭曲推断暗物质分布，星系自身的本征排列是最麻烦的系统误差之一。蓝色盘星系的排列一直是个未知数，这次把它定量测了出来，后续巡天做改正有了依据。另一方面，排列本身也是星系形成的探针，一个星系长成什么朝向，记录了它长大过程中感受到的潮汐环境。</p>
+<p>论文：Star-forming disc galaxies align tangentially with the cosmic tidal field</p>
+<p>作者：Calum Murray、Roman Paviot、Martin Kilbinger、Cail Daley、Ken Ganga、Michael J. Hudson</p>
+<p>发表：arXiv 预印本，2026 年 11 月 19 日提交，未经同行评审</p>
+<p>原文：https://arxiv.org/abs/2611.26593</p>]]></description>
+      <content:encoded><![CDATA[<h1>恒星形成中的盘星系，也会顺着宇宙潮汐场排队</h1>
+<p>星系的朝向不是随机的。红色椭圆星系早就被发现会朝着邻近的大质量结构径向排列，像被潮汐力拉长的样子。恒星形成中的蓝色盘星系却一直没有找到排列的证据，这次终于有了，而且方向正好反过来，盘星系是切向排列的。</p>
+<p>数据规模是这次突破的关键。团队把 SPHEREx 光谱巡天的测光数据和 DESI Legacy 成像巡天拼在一起，建成一个覆盖全天、带精确红移的 7100 万个星系星表。按颜色和形态分组后，信号浮现出来，蓝色盘星系的切向排列达到 22.5σ，红色椭球星系的径向排列达到 65σ。</p>
+<p>关键的一步在环境依赖。团队把排列信号按星系周围是超密区还是低密区分开测量，两类排列的尺度依赖和环境依赖都符合对宇宙潮汐场的线性响应。经典潮汐扭矩理论预言的纯二次响应被排除了，星系朝向的形成机制需要重新理解。</p>
+<p>这个结果首先服务于弱引力透镜测量。透镜巡天通过星系形状的微小扭曲推断暗物质分布，星系自身的本征排列是最麻烦的系统误差之一。蓝色盘星系的排列一直是个未知数，这次把它定量测了出来，后续巡天做改正有了依据。另一方面，排列本身也是星系形成的探针，一个星系长成什么朝向，记录了它长大过程中感受到的潮汐环境。</p>
+<p>论文：Star-forming disc galaxies align tangentially with the cosmic tidal field</p>
+<p>作者：Calum Murray、Roman Paviot、Martin Kilbinger、Cail Daley、Ken Ganga、Michael J. Hudson</p>
+<p>发表：arXiv 预印本，2026 年 11 月 19 日提交，未经同行评审</p>
+<p>原文：https://arxiv.org/abs/2611.26593</p>]]></content:encoded>
+    </item>
     <item>
       <title>韦布的“小红点”，可能是宇宙诞生瞬间留下的黑洞</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-11-21-cosmo.html</link>
