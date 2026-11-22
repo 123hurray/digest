@@ -5,7 +5,33 @@
     <link>https://123hurray.github.io/digest/life/</link>
     <description>每天从主流生命科学 / 脑神经科学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 21 Nov 2026 09:01:40 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 08:56:16 +0800</lastBuildDate>
+    <item>
+      <title>一个蛋白复合体卡住错折叠蛋白，松开它能同时治肾和眼</title>
+      <link>https://123hurray.github.io/digest/life/2026-11-22-life.html</link>
+      <guid isPermaLink="true">https://www.cell.com/neuron/abstract/S0896-6273(26)00819-6</guid>
+      <pubDate>Sun, 22 Nov 2026 08:55:54 +0800</pubDate>
+      <description><![CDATA[<h1>一个蛋白复合体卡住错折叠蛋白，松开它能同时治肾和眼</h1>
+<p>五十多种遗传病背后是同一个毛病。变异蛋白折叠出错，在细胞里越积越多，最后把细胞拖死。肾和眼睛都可能遭殃，肝和脑也不例外，病名各不相同，病根却长得一样。Broad 研究所的团队找到一个共同的卡点，一个由四个 TMED 蛋白组成的复合体，专门在分泌通路早期把错折叠的蛋白扣住。</p>
+<p>TMED 蛋白本来是细胞质检系统的一部分。2019 年，同一个团队发现 TMED9 会在 MUC1 肾病里被错折叠蛋白压垮，蛋白堵在分泌通路里，细胞的整个生产和质检系统跟着停摆。这次他们把九种 TMED 蛋白逐个排查，发现其中四种会组装成一个复合体，成员是 TMED7 和 TMED9，以及 TMED2、TMED10。复合体里 TMED7 抓住高尔基体蛋白 GRASP55，把整个扣留机制固定下来。它扣住的蛋白五花八门，结构和功能各不相同，共同点只有一个，折叠错了。</p>
+<p>松开这个扣子，病就好转。基因敲除 TMED7 后，MUC1 肾病小鼠的肾脏病理标志逆转。在视网膜色素变性小鼠模型里，敲除 TMED9 后，变异视紫红质 RHO-P23H 被清除，正常视紫红质不受影响，视网膜电图 b 波幅度明显高于对照组，光学相干断层扫描显示视网膜层次得以保留。敲掉 TMED7 没有破坏 TMED 蛋白的正常功能，其他 TMED 蛋白继续稳定工作。</p>
+<p>基因敲除做不到病人身上，小分子可以。团队开发的 BRD7635 能拆开这个复合体，细胞实验里它按剂量清除变异的 semaphorin 4A，对正常版本秋毫无犯。每天口服给药的视网膜色素变性小鼠，从出生后 21 天到 32 天，视网膜电图 b 波只下降 13%，未给药组下降 28%，失明进展风险大约减半。</p>
+<p>一个节点管多种疾病，通讯作者 Anna Greka 把这个思路叫做节点生物学。五十多种蛋白病各自罕见，凑在一起却能影响数百万病人，针对 TMED7 的药物现在正在开发，团队也在向肝和脑的疾病推进。当然这还是小鼠和细胞的结果，走到人身上还有很长的路。</p>
+<p>论文：Disrupting a cargo receptor entrapment complex is a therapeutic node for distinct proteinopathies</p>
+<p>作者：Magdalena Riedl Khursigara、Alissa C. Goss 等（Broad 研究所，通讯作者 Anna Greka）</p>
+<p>发表：Neuron，2026 年 11 月 19 日，Advance Article</p>
+<p>原文：https://www.cell.com/neuron/abstract/S0896-6273(26)00819-6</p>]]></description>
+      <content:encoded><![CDATA[<h1>一个蛋白复合体卡住错折叠蛋白，松开它能同时治肾和眼</h1>
+<p>五十多种遗传病背后是同一个毛病。变异蛋白折叠出错，在细胞里越积越多，最后把细胞拖死。肾和眼睛都可能遭殃，肝和脑也不例外，病名各不相同，病根却长得一样。Broad 研究所的团队找到一个共同的卡点，一个由四个 TMED 蛋白组成的复合体，专门在分泌通路早期把错折叠的蛋白扣住。</p>
+<p>TMED 蛋白本来是细胞质检系统的一部分。2019 年，同一个团队发现 TMED9 会在 MUC1 肾病里被错折叠蛋白压垮，蛋白堵在分泌通路里，细胞的整个生产和质检系统跟着停摆。这次他们把九种 TMED 蛋白逐个排查，发现其中四种会组装成一个复合体，成员是 TMED7 和 TMED9，以及 TMED2、TMED10。复合体里 TMED7 抓住高尔基体蛋白 GRASP55，把整个扣留机制固定下来。它扣住的蛋白五花八门，结构和功能各不相同，共同点只有一个，折叠错了。</p>
+<p>松开这个扣子，病就好转。基因敲除 TMED7 后，MUC1 肾病小鼠的肾脏病理标志逆转。在视网膜色素变性小鼠模型里，敲除 TMED9 后，变异视紫红质 RHO-P23H 被清除，正常视紫红质不受影响，视网膜电图 b 波幅度明显高于对照组，光学相干断层扫描显示视网膜层次得以保留。敲掉 TMED7 没有破坏 TMED 蛋白的正常功能，其他 TMED 蛋白继续稳定工作。</p>
+<p>基因敲除做不到病人身上，小分子可以。团队开发的 BRD7635 能拆开这个复合体，细胞实验里它按剂量清除变异的 semaphorin 4A，对正常版本秋毫无犯。每天口服给药的视网膜色素变性小鼠，从出生后 21 天到 32 天，视网膜电图 b 波只下降 13%，未给药组下降 28%，失明进展风险大约减半。</p>
+<p>一个节点管多种疾病，通讯作者 Anna Greka 把这个思路叫做节点生物学。五十多种蛋白病各自罕见，凑在一起却能影响数百万病人，针对 TMED7 的药物现在正在开发，团队也在向肝和脑的疾病推进。当然这还是小鼠和细胞的结果，走到人身上还有很长的路。</p>
+<p>论文：Disrupting a cargo receptor entrapment complex is a therapeutic node for distinct proteinopathies</p>
+<p>作者：Magdalena Riedl Khursigara、Alissa C. Goss 等（Broad 研究所，通讯作者 Anna Greka）</p>
+<p>发表：Neuron，2026 年 11 月 19 日，Advance Article</p>
+<p>原文：https://www.cell.com/neuron/abstract/S0896-6273(26)00819-6</p>]]></content:encoded>
+    </item>
     <item>
       <title>CAR-T 疗法第一次真正打进了多发性硬化患者的大脑</title>
       <link>https://123hurray.github.io/digest/life/2026-11-21-life.html</link>
