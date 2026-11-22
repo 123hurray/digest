@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>模型心里明白，嘴上却说错</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>模型心里明白，嘴上却说错</h1>
+<p>大模型心里装着答案，嘴上却说不出来，这种情况比想象中常见。一项新研究拿六个开源基座模型和它们经过后训练的版本做对比，用线性探针直接读模型内部表征，再和模型自己给出的答案对照。探针能分清的，答案未必能。</p>
+<p>任务是判断一段德语文本出自人手还是 AI。探针和词频分类器分得干脆利落，模型自己的回答却常常颠倒黑白，把 AI 写的判成人写的。后训练之后，回答的分辨力平均下降，d' 值在不同模型家族间平均降低 0.34，三种提示词下平均降低 0.29。探针读得出的结论，答案给不出来。</p>
+<p>先验概率的用法也变了。告诉模型某类文本出现的基准比例，基座模型调整答案的幅度跟不上给定的比例变化，后训练过的模型大多调过头。两个有分阶段检查点的模型显示，这个变化发生在监督微调阶段。拼接实验进一步定位，早期层参与其中，从中间层往后，起作用的是文本之后位置的内部状态，而不是文本本身位置的状态。</p>
+<p>另一组公开数据上的实验方向正好相反。判断否定句真假时，所有模型的探针都能接近满分读出真假，几个基座模型的答案却用不上这份知识，后训练把它修好了，修好的位置同样在陈述句之后的中层状态里。两种任务一正一反，指向同一个结论，后训练动的不是知识本身，是知识怎么被读出来变成答案。</p>
+<p>最后的训练实验说明这股力量可以被引导。往微调数据里加 2000 条正确标注的新闻文本作者归属判断，模型在报纸和教科书文本上的回答变好了，但在聊天记录上反而颠倒过来，跟着基座模型里那个按新闻训练的探针走。小样本训练信号就能定方向，代价是方向可能只对一部分文本管用。评估模型知道什么的时候，只看它嘴上说什么会低估它，探针和答案得分开看。</p>
+<p>论文：Represented but misread: Post-training changes how language models read out what they represent</p>
+<p>作者：Jochen Laubrock</p>
+<p>发表：arXiv 预印本，2026 年 11 月 19 日提交，未经同行评审</p>
+<p>原文：https://arxiv.org/abs/2611.26584</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-19</p>
+</main>
+</body>
+</html>
