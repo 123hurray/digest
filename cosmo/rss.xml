@@ -5,7 +5,35 @@
     <link>https://123hurray.github.io/digest/cosmo/</link>
     <description>每天从主流宇宙学期刊新论文中挑选 1 篇，写成中文科普博文。事实以原论文核实，区分正式出版与预印状态。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Nov 2026 08:56:16 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 08:52:05 +0800</lastBuildDate>
+    <item>
+      <title>一条从今天通到宇宙黎明的哈勃图</title>
+      <link>https://123hurray.github.io/digest/cosmo/2026-11-23-cosmo.html</link>
+      <guid isPermaLink="true">https://doi.org/10.1093/mnras/stag2225</guid>
+      <pubDate>Mon, 23 Nov 2026 08:51:34 +0800</pubDate>
+      <description><![CDATA[<h1>一条从今天通到宇宙黎明的哈勃图</h1>
+<p>测量宇宙膨胀史的标准工具就那么几样：Ia 型超新星、重子声学振荡、宇宙微波背景。它们各自有各自的红移覆盖范围，像几把长短不一的尺子。现在一把新的尺子被磨到了够得着宇宙黎明的长度，一端还站在今天。</p>
+<p>这把尺子是电离氢区星系，简称 H II 星系。年轻的大质量恒星发出强烈的紫外辐射，把周围的氢气电离，形成发光的电离氢区。氢的 Hβ 发射线越亮，电离气体的速度弥散就越大，这条 L(Hβ)−σ 关系一旦定标，就能从一条谱线推出星系的距离。它的好处是亮，在很远的地方也能看见。</p>
+<p>这项研究把样本攒到了 243 个天体，红移从今天附近一直覆盖到约 14，也就是大爆炸后头几亿年。样本里有本地带直接距离测量的锚定系统，有已发表的中低红移 H II 星系，有韦布望远镜近红外光谱仪的新观测，还有一批韦布发现的极高红移 H II 星系，最高红移的几个由 ALMA 和韦布联合观测。红移最高的那几个天体，本身的亮度还要先扣掉引力透镜放大的影响，团队用对数正态放大率形式做了这个修正。</p>
+<p>关键的检验是这条 L−σ 关系会不会随红移漂移。结果是没有，在整个红移范围内它保持一致，即使在目前可及的最高红移处也没有显著演化的证据。这条关系站得住，距离量出来才可信。</p>
+<p>量出的宇宙学参数落在熟悉的位置上。平坦 ΛCDM 模型下，锚定样本与 H II 星系联合给出约化哈勃常数 h = 0.725±0.040，物质密度 Ω_m = 0.308。暗能量状态方程常数 w 模型给出 w₀ = −0.96，CPL 参数化给出 w₀ = −0.92、w_a = −0.48，都在误差范围内与标准宇宙学模型一致，没有偏离的迹象。</p>
+<p>这组数字本身没有颠覆什么，它的价值在于独立。H II 星系这条探针不依赖超新星定标，也不依赖重子声学振荡，一路从今天量到再电离之前。膨胀史的每一段多一条独立的测量，标准模型就多一处经得起交叉检验的支撑。</p>
+<p>论文：Charting the expansion of the Universe from z∼0 to z∼14 with HII galaxies</p>
+<p>作者：R. Chávez、R. Terlevich、A. L. González-Morán、S. Zamora、E. Terlevich、D. Fernández-Arenas、F. Bresolin、M. Plionis、S. Basilakos、R. Amorín、M. Llerena、F. D'Eugenio、X. Ji、J. Zavala、J. Rivera、N. Gómez-Cruz、L. Corral-Bustamante</p>
+<p>发表：Monthly Notices of the Royal Astronomical Society（MNRAS）Advance Article，2026 年 11 月 19 日上线</p>
+<p>原文：https://doi.org/10.1093/mnras/stag2225</p>]]></description>
+      <content:encoded><![CDATA[<h1>一条从今天通到宇宙黎明的哈勃图</h1>
+<p>测量宇宙膨胀史的标准工具就那么几样：Ia 型超新星、重子声学振荡、宇宙微波背景。它们各自有各自的红移覆盖范围，像几把长短不一的尺子。现在一把新的尺子被磨到了够得着宇宙黎明的长度，一端还站在今天。</p>
+<p>这把尺子是电离氢区星系，简称 H II 星系。年轻的大质量恒星发出强烈的紫外辐射，把周围的氢气电离，形成发光的电离氢区。氢的 Hβ 发射线越亮，电离气体的速度弥散就越大，这条 L(Hβ)−σ 关系一旦定标，就能从一条谱线推出星系的距离。它的好处是亮，在很远的地方也能看见。</p>
+<p>这项研究把样本攒到了 243 个天体，红移从今天附近一直覆盖到约 14，也就是大爆炸后头几亿年。样本里有本地带直接距离测量的锚定系统，有已发表的中低红移 H II 星系，有韦布望远镜近红外光谱仪的新观测，还有一批韦布发现的极高红移 H II 星系，最高红移的几个由 ALMA 和韦布联合观测。红移最高的那几个天体，本身的亮度还要先扣掉引力透镜放大的影响，团队用对数正态放大率形式做了这个修正。</p>
+<p>关键的检验是这条 L−σ 关系会不会随红移漂移。结果是没有，在整个红移范围内它保持一致，即使在目前可及的最高红移处也没有显著演化的证据。这条关系站得住，距离量出来才可信。</p>
+<p>量出的宇宙学参数落在熟悉的位置上。平坦 ΛCDM 模型下，锚定样本与 H II 星系联合给出约化哈勃常数 h = 0.725±0.040，物质密度 Ω_m = 0.308。暗能量状态方程常数 w 模型给出 w₀ = −0.96，CPL 参数化给出 w₀ = −0.92、w_a = −0.48，都在误差范围内与标准宇宙学模型一致，没有偏离的迹象。</p>
+<p>这组数字本身没有颠覆什么，它的价值在于独立。H II 星系这条探针不依赖超新星定标，也不依赖重子声学振荡，一路从今天量到再电离之前。膨胀史的每一段多一条独立的测量，标准模型就多一处经得起交叉检验的支撑。</p>
+<p>论文：Charting the expansion of the Universe from z∼0 to z∼14 with HII galaxies</p>
+<p>作者：R. Chávez、R. Terlevich、A. L. González-Morán、S. Zamora、E. Terlevich、D. Fernández-Arenas、F. Bresolin、M. Plionis、S. Basilakos、R. Amorín、M. Llerena、F. D'Eugenio、X. Ji、J. Zavala、J. Rivera、N. Gómez-Cruz、L. Corral-Bustamante</p>
+<p>发表：Monthly Notices of the Royal Astronomical Society（MNRAS）Advance Article，2026 年 11 月 19 日上线</p>
+<p>原文：https://doi.org/10.1093/mnras/stag2225</p>]]></content:encoded>
+    </item>
     <item>
       <title>恒星形成中的盘星系，也会顺着宇宙潮汐场排队</title>
       <link>https://123hurray.github.io/digest/cosmo/2026-11-22-cosmo.html</link>
