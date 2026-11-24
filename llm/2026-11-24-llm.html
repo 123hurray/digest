@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>模型把自己编的答案当真记住了</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>模型把自己编的答案当真记住了</h1>
+<p>大模型的后训练配方大多是从推理任务上搬来的。数学和代码任务里行之有效的做法包括按最终结果给奖励，以及在推理链里先提出假设再回溯纠错。这篇论文问的是，把同一套配方直接搬到知识问答上会发生什么。推理链很长，模型在链条里随口编出的错误事实，会不会被训练本身刻进记忆。</p>
+<p>团队用标准后训练流程训练了 6 个开源模型，横跨 Qwen 和 OLMo 两个家族、稠密和混合专家两种架构，包括 Qwen3-4B、Qwen3-8B、Qwen3-14B、Qwen3-30B-A3B、Olmo-3-7B-Think 和 OLMoE-1B-7B。训练任务是 TriviaQA 和 QuALITY 两套知识问答，每套 3609 道训练题。团队把模型在强化学习推理链里自己生成的幻觉抽出来，在训练全程追踪它们被记住的程度。</p>
+<p>结果是奖励起了决定作用。训练中被奖励过的幻觉，模型事后回忆起来的比例平均上升 4.83%，而同样是自己生成、但没有得到训练信号的幻觉只上升 0.17%。更值得留意的是，模型连那些在推理中立刻自己推翻的错误事实也记住了。先提假设再回溯的模板是从推理训练里继承来的，对知识回忆毫无益处，反而把错答案刻了进去。记忆效应在最难的训练题上最强，而且被奖励过的幻觉还会让模型之后更不愿认错，遇到同一错误事实时拒绝回答的概率平均下降 7.23%。</p>
+<p>这条路径此前没有被系统研究过。推理能力越强的训练配方，在知识任务上反而可能以幻觉的形式留下副作用，而副作用的源头正是训练奖励本身。</p>
+<p>论文：LLMs Memorize Their Own Hallucinations During Post-Training</p>
+<p>作者：Anirudh Atmakuru、Tanya Goyal</p>
+<p>发表：arXiv 预印本，2026 年 11 月 23 日公告（11 月 19 日提交），未经同行评审</p>
+<p>原文：https://arxiv.org/abs/2611.26863</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-19</p>
+</main>
+</body>
+</html>
