@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 编程助手多改的那几行代码，到底有没有用？</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.9; color: #222; margin: 0; padding: 0; background: #fafafa; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 20px 60px; background: #fff; }
+h1 { font-size: 1.5rem; line-height: 1.5; }
+h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #1a73e8; padding-left: 10px; }
+img { max-width: 100%; }
+ul, ol { padding-left: 1.2em; margin: 0.8em 0; }
+li { margin-bottom: 0.5em; }
+.meta { color: #888; font-size: 0.85rem; }
+a { color: #1a73e8; }
+</style>
+</head>
+<body>
+<main>
+<h1>AI 编程助手多改的那几行代码，到底有没有用？</h1>
+<p>用过 AI 编程助手的人都有一个印象：让它修一个 bug，它交回来的补丁总比人写的长。改动的文件多，行数多，顺手还动了几处没要求它动的地方。这种印象一直有个没解开的疑问，补丁变大就等于多改了吗？多出来的那些编辑，到底是必要的，还是纯粹的手滑？只看行数回答不了这个问题，因为一行代码有没有用，要看把它删掉之后测试还过不过。</p>
+<p>微软研究院的三位研究者做了一件很较真的事。他们设计了一个叫 DRA 的方法，全称 Delta Residue Attribution。做法是把智能体的完整操作轨迹重放一遍，把最终补丁里的每一个代码块追溯到写下它的那一步，再逐个撤销这些代码块，重新跑任务测试。撤销之后测试还过，这个代码块就是多余的，撤销之后测试挂了，它就是必要的。用这个办法，他们分析了 7660 条已经解决问题的 GitHub Copilot CLI 轨迹，覆盖 18 个前沿模型，任务来自 SWE-bench Verified 的 6728 道题和 DeepSWE 的 932 道题，开发者的补丁也用同样的方法打分。</p>
+<p>结果先说结论，智能体确实改得更多，但多出来的部分没有想象中那么浪费。在 SWE-bench Verified 上，智能体比开发者多出的编辑里，61% 是加测试，13% 是写文档，到了 DeepSWE 上，多出的编辑里 58% 是代码。只看代码的部分，智能体的代码必要性平均分是 0.887，开发者是 0.864，智能体反而略高，18 个模型里有 11 个留下的无用代码比开发者还少。DeepSWE 上也是同样的方向，0.797 对 0.785。这么看，补丁大不等于乱改，智能体多写的那部分很多是测试和文档，代码本身的必要程度并不输给人。</p>
+<p>当然也不是没有问题。平均下来，智能体补丁里仍有 11% 的代码单元是多余的，而且这些多余单元里 89% 会改变程序行为，不是改改格式或注释那种无害的动作。追溯来源发现，调试步骤几乎不产生无用代码，问题出在某些工具调用本身，写下的编辑对完成任务没有贡献。不同模型之间的差异也很大，代码必要性高低和任务解决率在 SWE-bench 上没有关系，在 DeepSWE 上甚至是负相关，相关系数 −0.59，意思是有些模型靠多改代码才多解出几道题，而不是改得更好。</p>
+<p>团队还试了两种修剪办法。用 DRA 加上智能体自己能看到的测试去剪，能去掉大部分无用代码，但也会误伤一部分有用的，召回率 67%，精确率 46%，修剪之后 89% 的补丁仍然能通过任务。让智能体自己审查 diff 的办法更精确，精确率 66%，但效果弱一些，召回率只有 36%。两种办法都不完美，研究者的建议是，以后的评测除了报告解决率，也应该同时报告代码必要性，过度编辑的问题要从模型训练和工具层面解决，而不是只靠事后修剪。</p>
+<p>这项研究纠正了一个流传很广的直觉。AI 编程助手的补丁比人长是真的，但长出来的部分大半是测试和文档，代码本身并不比人更浪费。真正的毛病藏在细节里，一成左右的代码改了也是白改，而且改的还是会改变行为的部分，审 diff 的时候值得多看一眼。</p>
+<hr />
+<p>论文：How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches</p>
+<p>作者：Aakash Goel、Benjamin Steenhoek、Yu Hu（微软研究院）</p>
+<p>发表：2026年11月25日提交，2026年11月26日上线，arXiv 预印本（未经同行评审）</p>
+<p>原文：https://arxiv.org/abs/2611.34875</p>
+<p class="meta">每日大模型论文科普速递 · 2026-11-25</p>
+</main>
+</body>
+</html>
